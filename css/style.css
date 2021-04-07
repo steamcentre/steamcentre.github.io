@@ -1,0 +1,394 @@
+#menu__toggle {
+    opacity: 0;
+}
+  
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+/* #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+} */
+  
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+  
+    width: 26px;
+    height: 26px;
+  
+    cursor: pointer;
+    z-index: 1;
+}
+  
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+  
+    background-color: #00f;
+  
+    transition-duration: .25s;
+}
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+  
+  /* .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+  
+    width: 300px;
+    height: 100%;
+  
+    margin: 0;
+    padding: 80px 0;
+  
+    list-style: none;
+  
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  
+    transition-duration: .25s;
+} */
+.menu__btn{
+    visibility: hidden;
+}
+/* END BURGER */
+
+@font-face{
+    font-family: Primus; /* Имя шрифта */
+    src: url(fonts/Primus.otf); /* Путь к файлу со шрифтом */
+}
+body{
+    font-family: Primus;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+p{
+    font-size: 1.4em;
+    margin: 0;
+}
+a{
+    color: #fff;
+}
+.wraper{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+/* MENU */
+nav{
+    position: fixed;
+    /* width: 100%; */
+    padding: 0 10px !important;
+    max-width: 1200px;
+    width: 100%;
+    left: calc((100% - 1200px) / 2);
+    z-index: 1000;
+}
+.row{
+    background-color: #f3c039;
+    margin: 0;
+    padding: 10px;
+}
+.logo{
+    padding: 0 10px;
+    margin: auto 0;
+}
+.logo_link{
+    
+}
+.logo_img{
+    margin: auto;
+    padding: 6px 0;
+}
+.menu{
+    /* margin: auto; */
+    margin: 0;
+}
+.menu_item{
+    display: inline-block;
+    /* padding: 15px 10px; */
+    position: relative;
+}
+.menu_link{
+    display: inline-block;
+    padding: 15px 10px;
+}
+.menu_link,
+.sub_menu_link
+{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    font-size: 1.1em;
+}
+
+.menu_item:hover{
+    background-color: #555;
+    transition-duration: .45s;
+}
+.menu_item:hover .sub_menu{
+    display: block;
+}
+.sub_menu{
+    display: none;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    list-style-type: none;
+    background-color: #555;
+    left: 0;
+    top: 56px;
+    width: 220%;
+}
+.sub_menu_item:hover{
+    background-color: #777;
+    transition-duration: .45s;
+}
+.sub_menu_item{
+    /* padding: 5px 10px; */
+}
+.sub_menu_link{
+    padding: 5px 10px;
+    display: inline-block;
+}
+/* HEADER */
+.heder{
+    /* width: 100%; */
+}
+.heder_canvas{
+    width: 100%;
+}
+.main{
+
+}
+.description{
+    background-color: #413ada;
+}
+.description_img{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.description_text{
+    padding: 20px 60px 80px 60px;
+    text-align: center;
+}
+.abrivation{
+    padding: 0;
+}
+/* width < 62em */
+.m-left{
+    margin-left: 0;
+}
+.abrivation_item{
+    width: 100%;
+    min-height: 300px;
+}
+.abrivation_content{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+.abrivation_heading{
+   
+}
+.abrivation_text{
+
+}
+.science{
+    background: url(../img/steam/mini_science.svg) 100% 100% no-repeat;
+}
+.technology{
+    background: url(../img/steam/mini_technology.svg) 100% 100% no-repeat;
+}
+.engeneering{
+    background: url(../img/steam/mini_engeneering.svg) 100% 100% no-repeat;
+}
+.math{
+    background: url(../img/steam/mini_math.svg) 100% 100% no-repeat;
+}
+.art{
+    background: url(../img/steam/mini_art.svg) 100% 100% no-repeat;
+    width: 100%;
+}
+
+
+.center-block{
+    margin: 0 auto;
+}
+/* .abrivation_content,
+.abrivation_heading,
+.abrivation_text{
+    background-image: none !important;
+} */
+
+.activity{
+    color: #413bda;
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+}
+.activity_heading{
+
+}
+.activity_text{
+    padding: 0 20px 60px 20px;
+}
+.google_map{
+
+}
+.google_map iframe{
+    width: 100%;
+    height: 450px;
+}
+.footer{}
+.footerConteoner{
+    background-color: #f7c851;
+    padding: 40px 20px;
+    font-size: 1.4em;
+}
+.footerList,
+.other_link{
+    margin: 0;
+    list-style-type: none;
+}
+.footerList_h{
+    margin-bottom: 10px;
+}
+.footerList{
+
+}
+.footerList_item{}
+.cfooterList_link{}
+.other_link{
+
+}
+.social_network{
+
+}
+.socialNetwork{}
+.socialNetwork_icon{}
+.socialNetwork_link{
+    margin-right: 10px;
+}
+.socialNetwork_img{
+    width: 40px;
+}
+.footerEnd{
+    /* height: 60px; */
+    background-color: #f3c039;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+@media only screen and (max-width: 1200px) {
+    nav{
+        left: 0;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    .menu__btn{
+        visibility: visible;
+    }
+    #menu__toggle:checked ~ .menu {
+        visibility: visible;
+        /* display: none; */
+        right: 0;
+    }
+    .menu{
+        visibility: hidden;
+        /* display: none; */
+    }
+    .menu {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: -100%;
+    
+        width: 230px;
+        height: 100%;
+    
+        margin: 0;
+        padding: 40px 0;
+    
+        /* list-style: none; */
+    
+        background-color: #f56e00;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    
+        transition-duration: .25s;
+    }
+    .menu_item{
+        display: block;
+    }
+    .sub_menu{
+        display: block;
+        position: static;
+        background-color: #f59600;
+    }
+    .sub_menu_link{
+        padding-left: 20px;
+    }
+}
+@media only screen and (min-width: 62em) {
+    /* .science,
+    .technology,
+    .engeneering,
+    .math{
+       
+    } */
+    .science{
+        background: url(../img/steam/science.svg) 100% 100% no-repeat;
+    }
+    .technology{
+        background: url(../img/steam/technology.svg) 100% 100% no-repeat;
+    }
+    .engeneering{
+        background: url(../img/steam/engeneering.svg) 100% 100% no-repeat;
+    }
+    .math{
+        background: url(../img/steam/math.svg) 100% 100% no-repeat;
+    }
+    .art{
+        background: url(../img/steam/art.svg) 100% 100% no-repeat;
+        width: 100%;
+    }
+    .abrivation_item{
+        min-height: 400px;
+    }
+    .abrivation_content{
+        width: 50%;
+    }
+    .m-left {
+        margin-left: 50%;
+    }
+    
+}
