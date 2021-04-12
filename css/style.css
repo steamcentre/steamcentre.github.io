@@ -90,7 +90,7 @@ body{
     color: #fff;
 }
 p{
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 0;
 }
 a{
@@ -189,6 +189,7 @@ nav{
 }
 .description{
     background-color: #413ada;
+    padding: 20px 40px 60px 40px;
 }
 .description_img{
     text-align: center;
@@ -196,7 +197,7 @@ nav{
     padding-bottom: 0;
 }
 .description_text{
-    padding: 20px 60px 80px 60px;
+    padding-top: 20px;
     text-align: center;
 }
 .abrivation{
@@ -238,7 +239,13 @@ nav{
     background: url(../img/steam/mini_art.svg) 100% 100% no-repeat;
     width: 100%;
 }
-
+.science,
+.technology,
+.engeneering,
+.math,
+.art{
+    padding: 0 40px;       
+}
 
 .center-block{
     margin: 0 auto;
@@ -252,15 +259,14 @@ nav{
 .activity{
     color: #413bda;
     text-align: center;
-    padding: 20px;
-    padding-top: 100px;
+}
+.activity_content{
+    padding: 80px 40px 60px 40px;
 }
 .activity_heading{
 
 }
-.activity_text{
-    padding: 0 20px 60px 20px;
-}
+.activity_text{}
 .google_map{
 
 }
@@ -274,26 +280,22 @@ nav{
     padding: 40px 20px;
     font-size: 1.4em;
 }
-.footerList,
-.other_link{
+.footerList {
     margin: 0;
+    margin-bottom: 30px;
     list-style-type: none;
 }
 .footerList_h{
     margin-bottom: 10px;
-}
-.footerList{
-
 }
 .footerList_item{}
 .cfooterList_link{}
 .other_link{
 
 }
-.social_network{
-
+.socialNetwork{
+    padding-left: 30px;
 }
-.socialNetwork{}
 .socialNetwork_icon{}
 .socialNetwork_link{
     margin-right: 10px;
@@ -314,6 +316,9 @@ nav{
     }
 }
 @media only screen and (max-width: 1020px) {
+    .heder_canvas{
+        margin-top: 30px;
+    }
     .menu__btn{
         visibility: visible;
     }
