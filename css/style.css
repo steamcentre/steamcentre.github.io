@@ -355,13 +355,14 @@ nav{
         display: block;
     }
     .sub_menu{
-        display: block;
+        display: none;
         position: static;
         background-color: #f59600;
     }
     .sub_menu_link{
         padding-left: 20px;
     }
+    
 }
 @media only screen and (min-width: 62em) {
     /* .science,
@@ -395,5 +396,5 @@ nav{
     .m-left {
         margin-left: 50%;
     }
-    
+
 }
