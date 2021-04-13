@@ -139,6 +139,7 @@ nav{
     display: inline-block;
     padding: 15px 10px;
 }
+
 .menu_link,
 .sub_menu_link
 {
@@ -154,6 +155,7 @@ nav{
 }
 .menu_item:hover .sub_menu{
     display: block;
+    transition-duration: .25s;
 }
 .sub_menu{
     display: none;
@@ -163,7 +165,7 @@ nav{
     list-style-type: none;
     background-color: #555;
     left: 0;
-    top: 56px;
+    top: 100%;
     width: 220%;
 }
 .sub_menu_item:hover{
@@ -362,8 +364,20 @@ nav{
     .sub_menu_link{
         padding-left: 20px;
     }
-    
+    .sub_menu_headline::after{
+        content: " \25BC";
+    }
+    /* .menu_item:hover .sub_menu{
+        background: #f4f;
+
+    } */
 }
+
+/* @media only screen and (min-width: 1020px) {
+    .menu_item:hover .sub_menu{
+        display: block;
+    }
+} */
 @media only screen and (min-width: 62em) {
     /* .science,
     .technology,
