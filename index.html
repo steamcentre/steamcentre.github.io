@@ -49,9 +49,6 @@
             <li class="menu_item"><a class="menu_link" href="#">галерея</a></li>
          
         </menu>
-
-        
-        <!-- <div class="menu col-md-2 col-lg-2"></div> -->
     </nav>
 
 
@@ -230,14 +227,23 @@
                     </div>
                 </div>
             </div>
-            <p class="footerEnd">2020 - </p>
+            <p class="footerEnd" id="year">2020 - </p>
         </footer>
     <script src="js/uikit.js"></script>
     <!-- <script src="js/uikit-icons.js"></script> -->
     <script>
-        let footerEnd = document.getElementsByClassName('footerEnd');
+        let footerEnd = document.getElementById('year');
         let date = new Date();
-        footerEnd[0].innerText = '2020 - ' + date.getFullYear().toString();
+        footerEnd.innerText = '2020 - ' + date.getFullYear().toString();
+        
+        let subMenuHeadline = document.getElementsByClassName('sub_menu_headline');
+        console.log(subMenuHeadline);
+
+        for (let el of subMenuHeadline){
+            el.onclick = function(){
+                el.nextElementSibling.classList.toggle('visible');             
+            };
+        }
     </script>
 </body>
 </html>
