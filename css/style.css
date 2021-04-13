@@ -154,8 +154,7 @@ nav{
     transition-duration: .45s;
 }
 .menu_item:hover .sub_menu{
-    display: block;
-    transition-duration: .25s;
+    /* display: block; */
 }
 .sub_menu{
     display: none;
@@ -371,13 +370,16 @@ nav{
         background: #f4f;
 
     } */
+    .visible{
+        display: block;
+    }
 }
 
-/* @media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1020px) {
     .menu_item:hover .sub_menu{
         display: block;
     }
-} */
+}
 @media only screen and (min-width: 62em) {
     /* .science,
     .technology,
