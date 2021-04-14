@@ -81,7 +81,7 @@
 
 @font-face{
     font-family: Primus; /* Имя шрифта */
-    src: url(fonts/Primus.otf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Primus.otf); /* Путь к файлу со шрифтом */
 }
 body{
     font-family: Primus;
