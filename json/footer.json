@@ -1,0 +1,48 @@
+let footer = `
+<div class="footerConteoner row">
+<ul class="footerList col-md-4 col-lg-4">
+    <li class="footerList_item footerList_h"><strong>КУРСИ</strong></li>
+    <li class="footerList_item"><a class="footerList_link" href="#">Робототехніка</a></li>
+    <li class="footerList_item"><a class="footerList_link" href="#">3D моделювання</a></li>
+    <li class="footerList_item"><a class="footerList_link" href="#">і таке інше</a></li>
+    <li class="footerList_item"><a class="footerList_link" href="#">і таке інше</a></li>
+    <li class="footerList_item"><a class="footerList_link" href="#">і таке інше</a></li>
+    <li class="footerList_item"><a class="footerList_link" href="#">і таке інше</a></li>
+    <li class="footerList_item"><a class="footerList_link" href="#">і таке інше</a></li>
+</ul>
+<ul class="footerList col-md-4 col-lg-4">
+    <li class="courses_item footerList_h"><strong>ЗАГАЛЬНІ ПОСИЛАННЯ</strong></li>
+    <li class="courses_item"><a class="courses_link" href="#">в процесі</a></li>
+    <li class="courses_item"><a class="courses_link" href="#">і таке інше</a></li>
+    <li class="courses_item"><a class="courses_link" href="#">і таке інше</a></li>
+    <li class="courses_item"><a class="courses_link" href="#">і таке інше</a></li>
+    <li class="courses_item"><a class="courses_link" href="#">і таке інше</a></li>
+</ul>
+<div class="socialNetwork col-md-4 col-lg-4">
+    <div class="footerList_h"><strong>ПРИЄДНУЙСЯ ДО НАС</strong></div>
+    <div class="socialNetwork_icon">
+        <a class="socialNetwork_link" href="https://new.edmodo.com/school/STEAM1150904" target="_blank">
+            <img class="socialNetwork_img" src="img/icon/edmodo.svg" alt="">
+        </a>
+        <a class="socialNetwork_link" href="https://www.instagram.com/steam_center.poltava/" target="_blank">
+            <img class="socialNetwork_img" src="img/icon/instagram.svg" alt="">
+        </a>
+        <a class="socialNetwork_link" href="https://www.facebook.com/steam.center.poltava" target="_blank">
+            <img class="socialNetwork_img" src="img/icon/facebook.svg" alt="">
+        </a>
+        <a class="socialNetwork_link" href="https://www.youtube.com/channel/UCd5xI_z84ldJszVIHBdY5oA" target="_blank">
+            <img class="socialNetwork_img" src="img/icon/youtube.svg" alt="">
+        </a>
+    </div>
+    <div class="about" id="about">
+        <div class="about_tel"><span uk-icon="icon: receiver"></span> 095 925 7980</div>  
+        <div class="about_email"><span uk-icon="icon: mail"></span> pl.steam.center@gmail.com</div>  
+        <div class="about_map">
+            <span uk-icon="icon: home"></span> м.Полтава,<br>
+            вул.Нечуя-Левицького, 4
+        </div>  
+    </div>
+</div>
+</div>
+<p class="footerEnd" id="year">2020 - </p>
+`
