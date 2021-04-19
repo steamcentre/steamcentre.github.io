@@ -1,7 +1,7 @@
 let footer = `
 <div class="footerConteoner row">
 <ul class="footerList col-md-4 col-lg-4">
-    <li class="footerList_item footerList_h"><strong>КУРСИ</strong></li>
+    <li class="footerList_item footerList_h">КУРСИ</li>
     <li class="footerList_item"><a class="footerList_link" href="#">Робототехніка</a></li>
     <li class="footerList_item"><a class="footerList_link" href="#">3D моделювання</a></li>
     <li class="footerList_item"><a class="footerList_link" href="#">і таке інше</a></li>
@@ -11,7 +11,7 @@ let footer = `
     <li class="footerList_item"><a class="footerList_link" href="#">і таке інше</a></li>
 </ul>
 <ul class="footerList col-md-4 col-lg-4">
-    <li class="courses_item footerList_h"><strong>ЗАГАЛЬНІ ПОСИЛАННЯ</strong></li>
+    <li class="courses_item footerList_h">ЗАГАЛЬНІ ПОСИЛАННЯ</li>
     <li class="courses_item"><a class="courses_link" href="#">в процесі</a></li>
     <li class="courses_item"><a class="courses_link" href="#">і таке інше</a></li>
     <li class="courses_item"><a class="courses_link" href="#">і таке інше</a></li>
@@ -19,7 +19,7 @@ let footer = `
     <li class="courses_item"><a class="courses_link" href="#">і таке інше</a></li>
 </ul>
 <div class="socialNetwork col-md-4 col-lg-4">
-    <div class="footerList_h"><strong>ПРИЄДНУЙСЯ ДО НАС</strong></div>
+    <div class="footerList_h">ПРИЄДНУЙСЯ ДО НАС</div>
     <div class="socialNetwork_icon">
         <a class="socialNetwork_link" href="https://new.edmodo.com/school/STEAM1150904" target="_blank">
             <img class="socialNetwork_img" src="img/icon/edmodo.svg" alt="">

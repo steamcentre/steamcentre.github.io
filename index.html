@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,10 @@
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/uikit.css">
     <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>STEAM Center</title>
 </head>
 <body>
@@ -15,8 +18,8 @@
     <nav class="row" id="mainMenu"></nav>
     <div class="wraper">
         <header class="heder">
-            <img class="heder_canvas" src="img/heder.svg" alt="">
-        </header>  
+            <img class="heder_canvas" src="img/header/heder_main.svg" alt="">
+        </header>
         <main class="main">
             <div class="description">
                 <div class="description_img">
@@ -34,13 +37,13 @@
                 <img class="photo" src="img/children.webp" alt="">
             </div>
             <div class="abrivation row">
-                <div class="abrivation_item science col-md-6 col-lg-6">
+                <div class="abrivation_item science col-md-6 col-lg-6" uk-scrollspy="cls: uk-animation-slide-left; delay: 200">
                     <div class="abrivation_content m-left">
                         <h2 class="abrivation_heading">Science</h2>
                         <p class="abrivation_text">До будьякої проблеми потрібно підходити з наукової точки зору, аналізувати проблеми минулого та їх вирішення проблеми, шукати подібності.</p>
                     </div>
                 </div>
-                <div class="abrivation_item technology col-md-6 col-lg-6">
+                <div class="abrivation_item technology col-md-6 col-lg-6" uk-scrollspy="cls: uk-animation-slide-right; delay: 300">
                     <div class="abrivation_content m-left">
                         <h2 class="abrivation_heading">Technology</h2>
                         <p class="abrivation_text">Підхід до створення будь-чого покроково не пропускаючи етапи виробництва.</p>
@@ -48,13 +51,13 @@
                 </div>
             </div>
             <div class="abrivation row">
-                <div class="abrivation_item engeneering col-md-6 col-lg-6">
+                <div class="abrivation_item engeneering col-md-6 col-lg-6" uk-scrollspy="cls: uk-animation-slide-left; delay: 300">
                     <div class="abrivation_content">
                         <h2 class="abrivation_heading">Engeneering</h2>
                         <p class="abrivation_text">Точне створення об'єктів завдяки його моделювання та початкового обрахунку ймовірних результатів основаних на законах фізики, створення прототипів.</p>
                     </div>
                 </div>
-                <div class="abrivation_item art col-md-6 col-lg-6">
+                <div class="abrivation_item art col-md-6 col-lg-6" uk-scrollspy="cls: uk-animation-slide-right; delay: 200">
                     <div class="abrivation_content">
                         <h2 class="abrivation_heading ">Art</h2>
                         <p class="abrivation_text">Творча та презентабельна складова яка не пряму впливає на кінцевий результат створеного продукту. Велику роль відіграє при популяризації продукту або під-час продажу.</p>
@@ -62,7 +65,7 @@
                 </div>
             </div>
             <div class="abrivation row">
-                <div class="abrivation_item math">
+                <div class="abrivation_item math" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 200">
                     <div class="abrivation_content center-block">
                         <h2 class="abrivation_heading">Math</h2>
                         <p class="abrivation_text">Математичний обрахунок поставлених задач, витрат ресурсі, результатів, обрахунок найбільш оптимальних шляхів вирішення і рентабельності.</p>
@@ -70,7 +73,7 @@
                 </div>
             </div>
             <div class="activity">
-                <div class="activity_content">
+                <div class="activity_content" uk-scrollspy="cls: uk-animation-fade; delay: 300">
                     <h2 class="activity_heading">Коротко про гуртки та школи</h2>
                     <p class="activity_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel labore earum facilis laboriosam rerum culpa? Ipsum hic reiciendis quibusdam, eos illo dolores quos debitis optio impedit fugiat asperiores cumque aliquid.</p>
                 </div>
@@ -144,7 +147,7 @@
                 </div>
                 <!-- end slider -->
             </div>
-            <div class="description">
+            <div class="description" uk-scrollspy="cls: uk-animation-fade;">
                 <div class="description_img">
                     <img src="img/map_icon.svg" alt="">
                 </div>
@@ -155,8 +158,8 @@
             </div>
         </main>
         <footer class="footer" id="mainFooter"></footer>
-        <!-- <a href="" uk-totop></a> -->
-    </div>
+        <!--<a href="" uk-totop></a>-->
+
     <script src="json/menu.json"></script>
     <script src="json/footer.json"></script>
     <script>

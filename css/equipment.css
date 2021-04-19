@@ -1,0 +1,72 @@
+body{
+    /* background-color: #555; */
+}
+.main{
+    color: #666;
+}
+.lab_headline{
+    font-size: 2em;
+    color: #fff;
+}
+.lab_content{
+    padding-bottom: 20px;
+}
+.lab_img
+{
+    width: 33%;
+}
+@media only screen and (max-width: 640px) {
+    .lab_img{
+        width: 100%;
+    }
+}
+.lab_text{
+    padding: 10px 40px 10px 40px;
+    text-align: justify;
+    /* margin: 20px; */
+}
+.lab_textfirst{
+    padding-top: 30px;
+}
+.resource{
+    padding-bottom: 20px;
+}
+.resource_top{
+    position: relative;
+}
+.resource_number{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 1.2em;
+
+    border: 2px solid 0b65b0;
+    border-radius: 50%;
+
+    color:#fff;
+    background-color: #0b65b0;
+
+    min-width: 30px;
+    min-height: 30px;
+    
+}
+.vr{
+    background-color: #0b65b0;
+}
+.uk-modal-header
+{
+    color: #333;
+}
+.uk-modal-dialog{
+    color: #666;
+    width: 1000px;
+}
+.resource_body{
+    position: relative;
+}
+.resource-click{
+    width: 20px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}

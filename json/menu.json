@@ -24,7 +24,7 @@ let menu = `
     <li class="menu_item">
         <a class="menu_link sub_menu_headline">рсурси</a>
         <ul class="sub_menu">
-            <li class="sub_menu_item"><a class="sub_menu_link" href="#">обладнання</a></li>
+            <li class="sub_menu_item"><a class="sub_menu_link" href="equipment.html">обладнання</a></li>
             <li class="sub_menu_item"><a class="sub_menu_link" href="#">матеріали</a></li>
         </ul>
     </li>
