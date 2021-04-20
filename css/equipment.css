@@ -36,7 +36,7 @@ body{
 }
 .resource_number{
     position: absolute;
-    bottom: 15px;
+    top: 15px;
     right: 15px;
     font-size: 1.2em;
 
@@ -52,6 +52,15 @@ body{
 }
 .vr{
     background-color: #0b65b0;
+}
+.robo_junior{
+    background-color: #4bb5ab;
+}
+.robo_lab{
+    background-color: #ff749e;
+}
+.robo_arena{
+    background-color: #7eba30;
 }
 .uk-modal-header
 {
