@@ -1,0 +1,414 @@
+labs = [
+    {
+        "name": "VR and AR LAB",
+        "cssClass": "vr",
+        "srcImg": "img/labs/vr.png",
+        "content": [
+            "Ресурси Лабораторії можна використовувати в класі при вивченні будь-якої теми, яка для наочності дозволяє застосувати технологію віртуальної реальності. Використання окулярів може бути як стаціонарно, так і в складі пересувної лабораторії.",
+            "Шолом OculusQuest дозволяє організувати максимальне занурення у віртуальний світ, що може бути застосовано при вивченні Історії, Географії, Астрономії, Образотворчого мистецтва, Біології та ін. шкільних предметів.",
+            "На базі лабораторії розгорнуто 3D кінозалу із використанням поляризаційних окулярів. На відміну від анагліфічних окулярів, поляризаційні можуть без шкоди здоров’ю дитини дозволяти перегляд тривимірного навчального медіа-контенту."
+        ],
+        "products":[
+            {
+                "name": "Huawei",
+                "id": "huawei",
+                "srcImg": "img/resource/vr/huawei.jpg",
+                "number": 15,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/huawei.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="http://www.bobovr.com/product/bobovrz4/">ofsite</a>
+                `
+            },
+            {
+                "name": "BOBOVR Z4",
+                "id": "bobovr",
+                "srcImg": "img/resource/vr/bobo.jpg",
+                "number": 15,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/bobo.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="http://www.bobovr.com/product/bobovrz4/">ofsite</a>
+                `
+            },
+            {
+                "name": "OculusQuest",
+                "id": "OculusQuest",
+                "srcImg": "img/resource/vr/oculus.jpg",
+                "number": 1,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/oculus.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="http://www.bobovr.com/product/bobovrz4/">ofsite</a>
+                `
+            },
+            {
+                "name": "projector",
+                "id": "projector",
+                "srcImg": "img/resource/vr/projector.jpg",
+                "number": 15,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/projector.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="http://www.bobovr.com/product/bobovrz4/">ofsite</a>
+                `
+            }
+        ]
+    },
+    {
+        "name": "ROBO JUNIOR",
+        "cssClass": "robo_junior",
+        "srcImg": "img/labs/ROBO_JUNIOR.png",
+        "content": [
+            "Лабораторія робототехніки складається з трьох частин: RoboJunior – для проведення занять з вивчення основ робототехніки дітьми молодшої вікової групи (дошкілля та початкові класи). Технічний ресурс може бути використаний в складі пересувної лабораторії під час формування у дітей основ алгоритмічного мислення та вивчення сходинок до інформатики.",
+            "RoboLab – для проведення занять з вивчення робототехніки дітьми середнього та старшого шкільного віку. Ресурсну базу лабораторіїможна використовуват для підготовки до змагань команди шкіл міста.",
+            "RoboArena – для відпрацювання командами етапів фестивалів робототехніки."
+        ],
+        "products":[
+            {
+                "name": "MATATA LAB",
+                "id": "matata",
+                "srcImg": "img/resource/junior/matata.jpg",
+                "number": 3,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/matata.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="http://matatalab.ru/">ofsite</a>
+                `
+            },
+            {
+                "name": "mTiny",
+                "id": "mTiny",
+                "srcImg": "img/resource/junior/mTiny.jpg",
+                "number": 3,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/mTiny.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="https://www.makeblock.com/mtiny">ofsite</a>
+                `
+            },
+            {
+                "name": "codey rocky",
+                "id": "codeyrocky",
+                "srcImg": "img/resource/junior/codeyrocky.jpg",
+                "number": 5,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/codeyrocky.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            },
+            {
+                "name": "Neiron",
+                "id": "neiron",
+                "srcImg": "img/resource/junior/neiron.jpg",
+                "number": 3,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/neiron.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            },
+            {
+                "name": "Neiron Resurs",
+                "id": "neiron_r",
+                "srcImg": "img/resource/junior/neiron_r.jpg",
+                "number": 3,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/neiron_r.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            }
+        ]
+    },
+    {
+        "name": "ROBO LAB",
+        "cssClass": "robo_lab",
+        "srcImg": "img/labs/robo_lab.png",
+        "content": [
+            "Лабораторія робототехніки складається з трьох частин: RoboJunior – для проведення занять з вивчення основ робототехніки дітьми молодшої вікової групи (дошкілля та початкові класи). Технічний ресурс може бути використаний в складі пересувної лабораторії під час формування у дітей основ алгоритмічного мислення та вивчення сходинок до інформатики.",
+            "RoboLab – для проведення занять з вивчення робототехніки дітьми середнього та старшого шкільного віку. Ресурсну базу лабораторіїможна використовуват для підготовки до змагань команди шкіл міста.",
+            "RoboArena – для відпрацювання командами етапів фестивалів робототехніки."
+        ],
+        "products":[
+            {
+                "name": "Halocode",
+                "id": "halocode",
+                "srcImg": "img/resource/robo/halocode.jpg",
+                "number": 7,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/halocode.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            },
+            {
+                "name": "spike lego",
+                "id": "spike",
+                "srcImg": "img/resource/robo/spike.jpg",
+                "number": 5,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/spike.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            },
+            {
+                "name": "EVE 3",
+                "id": "eve3",
+                "srcImg": "img/resource/robo/eve3.jpg",
+                "number": 5,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/eve3.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            }
+        ]
+    },
+    {
+        "name": "ROBO AREANA",
+        "cssClass": "robo_arena",
+        "srcImg": "img/labs/erana.jpg",
+        "content": [
+            "Лабораторія робототехніки складається з трьох частин: RoboJunior – для проведення занять з вивчення основ робототехніки дітьми молодшої вікової групи (дошкілля та початкові класи). Технічний ресурс може бути використаний в складі пересувної лабораторії під час формування у дітей основ алгоритмічного мислення та вивчення сходинок до інформатики.",
+            "RoboLab – для проведення занять з вивчення робототехніки дітьми середнього та старшого шкільного віку. Ресурсну базу лабораторіїможна використовуват для підготовки до змагань команди шкіл міста.",
+            "RoboArena – для відпрацювання командами етапів фестивалів робототехніки."
+        ],
+        "products":[
+            {
+                "name": "TETRIX",
+                "id": "tetrix",
+                "srcImg": "img/resource/arena/tetrix.jpg",
+                "number": 1,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/tetrix.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            },
+            {
+                "name": "TETRIX R",
+                "id": "tetrix_r",
+                "srcImg": "img/resource/arena/tetrix_r.jpg",
+                "number": 15,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/tetrix_r.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            },
+            {
+                "name": "UNIMATE",
+                "id": "m_unimate",
+                "srcImg": "img/resource/arena/unimate.jpg",
+                "number": 1,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/unimate.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            }
+        ]
+    },
+    {
+        "name": "3D LAB",
+        "cssClass": "lab_3d",
+        "srcImg": "img/labs/lab3d.png",
+        "content": [
+            "Лабораторія 3D графіки дозволять поглиблено вивчати курс тривимірної графіки із можливістю виведенням моделей на друк.",
+            "Ресурс лабораторії може використовуватися також в робототехніці для виготовлення елементних частин роботів та кіберфізичних пристроїв для участі команд міста у Всеукраїнських та Міжнародних змаганнях.",
+            "Для молодшої вікової групи лабораторія має 3D ручки з гарячим та холодним режимами друку. 3D ручки можуть використовуватися в складі пересувної лабораторії."
+        ],
+        "products":[
+            {
+                "name": "Pen 3d",
+                "id": "pen3d",
+                "srcImg": "img/resource/lab3d/pen3d.jpg",
+                "number": 15,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/pen3d.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="https://www.xyzprinting.com/ru-RU/product-level/EXPLORER/3d-pen-series">ofsite</a>
+                `
+            },
+            {
+                "name": "print",
+                "id": "print_one",
+                "srcImg": "img/resource/lab3d/print3d.jpg",
+                "number": 15,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/print3d.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="https://www.xyzprinting.com/ru-RU/product/da-vinci-pro">ofsite</a>
+                `
+            },
+            {
+                "name": "print 3 in 1",
+                "id": "print_3in1",
+                "srcImg": "img/resource/lab3d/print3d3in1.jpg",
+                "number": 1,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/print3d3in1.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="https://www.xyzprinting.com/ru-RU/product/da-vinci-1-0-pro-3-in-1">ofsite</a>
+                `
+            }
+        ]
+    },
+    {
+        "name": "MAKESPACE",
+        "cssClass": "makespace",
+        "srcImg": "img/labs/makespace.png",
+        "content": [
+            "Це відкрите творче середовище, ресурс якої є стаціонарним і може бути використаний дітьми при підготовці науково-дослідницьких робіт МАН.",
+            "Крім того ресурс лабораторії може бути використаний вчителями праці для професійного зростання.",
+        ],
+        "products":[
+            {
+                "name": "Lasebox",
+                "id": "laserbox",
+                "srcImg": "img/resource/makespace/laserbox.jpg",
+                "number": 1,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/laserbox.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            },
+            {
+                "name": "minerva",
+                "id": "minerva",
+                "srcImg": "img/resource/makespace/minerva.jpg",
+                "number": 1,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/minerva.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            },
+            {
+                "name": "unimate",
+                "id": "unimate",
+                "srcImg": "img/resource/makespace/unimate.jpg",
+                "number": 1,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/unimate.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            }
+        ]
+    },
+    {
+        "name": "mediastudio",
+        "cssClass": "mediastudio",
+        "srcImg": "img/labs/media.png",
+        "content": [
+            "Медіа-лабораторія – складається з фото-студії та телевізійної студії. Обладнання лабораторії може використовуватися школами для підготовки високоякісної медіа-продукції для участі в конкурсах, організації роботи учнівського телебачення.",
+            "Ресурс лабораторії може застосовуватися мобільною знімальною групою центру для підготовки відео-контенту з міських заходів.",
+        ],
+        "products":[
+            {
+                "name": "name",
+                "id": "id_1",
+                "srcImg": "img/resource/q.jpg",
+                "number": 15,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p>laborum.</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id_2",
+                "srcImg": "img/resource/q.jpg",
+                "number": 15,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p>laborum.</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id_3",
+                "srcImg": "img/resource/q.jpg",
+                "number": 1,
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p>laborum.</p>
+                `
+            }
+        ]
+    },
+    // {
+    //     "name": "VR",
+    //     "cssClass": "vr",
+    //     "srcImg": "img/labs/",
+    //     "content": [
+    //         "",
+    //         "",
+    //         ""
+    //     ],
+    //     "products":[
+    //         {
+    //             "name": "",
+    //             "id": "",
+    //             "srcImg": "",
+    //             "number": 15,
+    //             "modalHtml": `
+
+    //             `
+    //         },
+    //         {
+    //             "name": "",
+    //             "id": "",
+    //             "srcImg": "",
+    //             "number": 15,
+    //             "modalHtml": `
+
+    //             `
+    //         },
+    //         {
+    //             "name": "",
+    //             "id": "",
+    //             "srcImg": "",
+    //             "number": 1,
+    //             "modalHtml": `
+
+    //             `
+    //         }
+    //     ]
+    // }
+]

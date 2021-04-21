@@ -23,9 +23,8 @@ body{
 
 
 .lab_text{
-    padding: 10px 40px 10px 40px;
+    padding: 30px 40px 0 40px;
     text-align: justify;
-    /* margin: 20px; */
 }
 .lab_textfirst{
     padding-top: 30px;
@@ -61,9 +60,6 @@ body{
     .uk-card:hover{
         box-shadow: 0 0 10px rgba(11,101,176,0.5);
     }
-    /* .uk-card:hover{
-        box-shadow: 0 0 10px rgba(11,101,176,0.5);
-    } */
 }
 .vr{
     background-color: #0b65b0;
