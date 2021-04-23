@@ -41,13 +41,21 @@
             labGoots.className = "resource uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center" 
             labGoots.setAttribute('uk-grid', "")
             lab.products.forEach(product => {
+                let forYear = ''
+                if (product.year){
+                    forYear = `<p><span class="uk-text-italic">Розрахований на дітей</span> від ${product.year} років.</p>`
+                }
+                let offSite = ''
+                if (product.offsiteName){
+                    offSite = `<p><span class="uk-text-italic">Офіційний сайт: </span><a href="${product.offsiteProtocol}://${product.offsiteName}" target="_blank">${product.offsiteName}</a></p>`
+                }
                 labGoots.innerHTML += `
                 <div>
                     <a href="#${product.id}" uk-toggle>
                         <div class="uk-card uk-card-default">
                             <div class="uk-card-media-top resource_top">
                                 <img src="${product.srcImg}" alt="${product.name}">
-                                <div class="resource_number ${lab.cssClass}">${product.number}</div>
+                                <div class="resource_count ${lab.cssClass}">${product.count}</div>
                             </div>
                             <div class="uk-card-body">
                                 <h3 class="resource_body uk-card-title">${product.name}</h3>
@@ -63,6 +71,10 @@
                             </div>
                             <div class="uk-modal-body" uk-overflow-auto>
                                 ${product.modalHtml}
+                                <hr>
+                                ${forYear}
+                                <p><span class="uk-text-italic">Кількість – </span>${product.count}</p>
+                                ${offSite}
                             </div>
                         </div>
                     </div>
@@ -73,7 +85,6 @@
             main.append(labGoots)
         });
     </script>
-
     <script src="json/menu.json"></script>
     <script src="json/footer.json"></script>
     <script>
@@ -86,5 +97,38 @@
 
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.js"></script>
+
+    <!-- text -->
+    <!-- <style>
+        .del{
+            color: #000;
+            max-width: 1000px;
+            padding: 40px;
+        }
+    </style>
+    <a href="" target="_blank"></a>
+    <div class="del wraper">
+        <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/matata.jpg"  alt="Example image">
+        
+        <p class="modal_p"></p>
+
+        <hr>
+        <ul class="uk-list uk-list-disc uk-list-muted content">
+            <li>двостороння карта місцевості;</li>
+            <li>3 книги із завданнями;</li>
+            <li>прапорці та перепони;</li>
+            <li>кабель USB.</li>
+        </ul>
+        
+        <hr>
+        <p class="modal_p uk-text-bold uk-text-center">Доповнення до основного набору</p>
+        <hr>
+        <img class="uk-align-right uk-margin-remove-adjacent lab_img" src="img/resource/junior/description/matata_art.jpg"  alt="Example image">
+        <p class="modal_p">Набір Matatalab Musician Add-on розширює можливості набору MatataLab Coding Set, дозволяє вивчати ноти і створювати з них улюблені пісні та мелодії. Діти розвивають музичний слух, навчаються нотній грамоті в ігровій формі, експериментують із звуками.</p>
+        <hr>
+        <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/description/matata_music.jpg"  alt="Example image">
+        <p class="modal_p">Набір MatataLab Artist Add-on дозволяє запрограмувати робота на малювання різних геометричних фігур, розвиваючи просторове мислення і формуючи в дітей математичні поняття кутових величин.</p>
+    </div> -->
+
 </body>
 </html>

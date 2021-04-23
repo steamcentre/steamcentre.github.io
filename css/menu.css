@@ -93,12 +93,13 @@ nav{
 }
 
 .menu_link,
+.sub_menu,
 .sub_menu_link
 {
     color: #fff;
     text-transform: uppercase;
     text-decoration-line: none;
-    font-size: 1.1em;
+    font-size: 1.1em !important;
 }
 
 .menu_item:hover{

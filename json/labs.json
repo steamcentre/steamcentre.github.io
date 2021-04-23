@@ -13,7 +13,7 @@ labs = [
                 "name": "Huawei",
                 "id": "huawei",
                 "srcImg": "img/resource/vr/huawei.jpg",
-                "number": 15,
+                "count": 15,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/huawei.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -26,7 +26,7 @@ labs = [
                 "name": "BOBOVR Z4",
                 "id": "bobovr",
                 "srcImg": "img/resource/vr/bobo.jpg",
-                "number": 15,
+                "count": 15,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/bobo.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -39,7 +39,7 @@ labs = [
                 "name": "OculusQuest",
                 "id": "OculusQuest",
                 "srcImg": "img/resource/vr/oculus.jpg",
-                "number": 1,
+                "count": 1,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/oculus.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -52,7 +52,7 @@ labs = [
                 "name": "projector",
                 "id": "projector",
                 "srcImg": "img/resource/vr/projector.jpg",
-                "number": 15,
+                "count": 15,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/projector.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -74,65 +74,168 @@ labs = [
         ],
         "products":[
             {
-                "name": "MATATA LAB",
+                "name": "MATATALAB + доповнення",
                 "id": "matata",
                 "srcImg": "img/resource/junior/matata.jpg",
-                "number": 3,
+                "count": 5,
+                "year": "4 до 12",
+                "offsiteName": "matatalab.com",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/matata.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="http://matatalab.ru/">ofsite</a>
+                <p class="modal_p">MatataLab Coding Set –  це набір для вивчення основ алгоритмізації та програмування, який призначений для формування когнітивних навичок та розвитку логічного мислення.</p>
+                <p class="modal_p">Діти найефективніше засвоюють необхідні навички та знання в процесі ігрової діяльності, використовуючи основні органи чуття (свої руки, глаза та вуха). Особливістю Matatalab є те, що програмування відбувається без використання комп’ютера чи мобільного пристрою.</p>
+                <hr>
+                <p>До комплекту Matatalab Coding Set також входять:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>двостороння карта місцевості;</li>
+                    <li>3 книги із завданнями;</li>
+                    <li>прапорці та перепони;</li>
+                    <li>кабель USB.</li>
+                </ul>
+                <hr>
+                <p class="modal_p uk-text-bold uk-text-center">Доповнення до основного набору</p>
+                <hr>
+                <img class="uk-align-right uk-margin-remove-adjacent lab_img" src="img/resource/junior/description/matata_art.jpg"  alt="Example image">
+                <p class="modal_p">Набір <span class="uk-text-italic">Matatalab Musician Add-on</span> розширює можливості набору MatataLab Coding Set, дозволяє вивчати ноти і створювати з них улюблені пісні та мелодії. Діти розвивають музичний слух, навчаються нотній грамоті в ігровій формі, експериментують із звуками.</p>
+                <hr>
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/description/matata_music.jpg"  alt="Example image">
+                <p class="modal_p">Набір <span class="uk-text-italic">MatataLab Artist Add-on</span> дозволяє запрограмувати робота на малювання різних геометричних фігур, розвиваючи просторове мислення і формуючи в дітей математичні поняття кутових величин.</p>
                 `
             },
             {
                 "name": "mTiny",
                 "id": "mTiny",
                 "srcImg": "img/resource/junior/mTiny.jpg",
-                "number": 3,
+                "count": 5,
+                "year": "4 до 12",
+                "offsiteName": "www.makeblock.com/mtiny",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/mTiny.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="https://www.makeblock.com/mtiny">ofsite</a>
+                <p class="modal_p">Це робот-панда призначений для раннього розвитку дітей, що ростуть в епоху цифрових технологій. Він може працювати 2,5 години без підзарядки.</p>
+                <hr>
+                <p>В набір також входять:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>cенсорний контролер (на акумуляторі);</li>
+                    <li>36 карточок для кодування;</li>
+                    <li>24 тематичних блоків для ігрового поля;</li>
+                    <li>збірник казок;</li>
+                    <li>ігрові картки;</li>
+                    <li>та різні доповнення для зміни образу.</li>
+                </ul>
+                <p class="modal_p">MTiny не потребує підключення до інших пристроїв, як наслідок, відсутність дисплею зменшує навантаження на очі.</p>
                 `
             },
             {
-                "name": "codey rocky",
+                "name": "Codey Rocky",
                 "id": "codeyrocky",
                 "srcImg": "img/resource/junior/codeyrocky.jpg",
-                "number": 5,
+                "count": 5,
+                "year": 6,
+                "offsiteName": "www.makeblock.com/steam-kits/codey-rocky",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/codeyrocky.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Це навчальний конструктор компанії Makeblock, який дозволяє дітям дізнатись про програмування під час гри.</p>
+                <hr>
+                <p>До комплекту Codey Rocky входять:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>контролер Codey (контролер з різними датчиками, дисплеєм і кнопками. Його можна використовувати окремо для виконання різних завдань та навчання);</li>
+                    <li>колісна база Rocky (вміє не тільки рухатись по лінії та кружляти, а ще й оминати перешкоди);</li>
+                    <li>USB дріт;</li>
+                    <li>Ремінець;</li>
+                    <li>Різнокольорові картки.</li>
+                </ul>
+                <p class="modal_p">Програмування здійснюється у зрозумілому графічному інтерфейсі mBlock 5. Також є можливість програмування за допомогою мови Python.</p>
+                <p class="modal_p">Використовувати Codey Rocky доцільно на уроках програмування (для наочності процесу), фізики та математики, мистецтва і т.д.</p>
                 `
             },
             {
-                "name": "Neiron",
+                "name": "Neuron Inventor Kit",
                 "id": "neiron",
                 "srcImg": "img/resource/junior/neiron.jpg",
-                "number": 3,
+                "count": 3,
+                "year": 6,
+                "offsiteName": "www.makeblock.com/steam-kits/neuron",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/neiron.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Makeblock Neuron - це програмована електронна платформа будівельних блоків для навчання STEAM. Він містить десятки різних електронних модулів. За допомогою простих комбінацій можна створити різні творчі винаходи.</p>
+                <hr>
+                <p>До комплекту Inventor Kit входять:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>модулі енергії та комунікації (блок живлення та bluetooth);</li>
+                    <li>модулі виведення (зумер, серводвигун з драйвером та світлодіодна панель);</li>
+                    <li>модулі введення  (гіроскоп, датчик дотику);</li>
+                    <li>проводи та кабель USB;</li>
+                    <li>9 LEGO-поверхонь;</li>
+                    <li>36 з'єднувачів;</li>
+                    <li>картонні заготовки для проєктів;</li>
+                    <li>20 резинових кілець;</li>
+                </ul>
+                <p class="modal_p">Блоки Neuron підключаються один з одним за допомогою магнітних роз’ємів. Цікаві гаджети можна побудувати з використанням програмування або без нього. За допомогою програм Neuron або mBlock можна задати код та умови для кожного окремого блоку, створюючи унікальні інтерактивні пристрої та веселі ігри.</p>
                 `
             },
             {
-                "name": "Neiron Resurs",
-                "id": "neiron_r",
+                "name": "Neuron Creative<br>Lab Kit 2.0",
+                "id": "neiron_lab",
                 "srcImg": "img/resource/junior/neiron_r.jpg",
-                "number": 3,
+                "count": 3,
+                "year": 6,
+                "offsiteName": "",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/neiron_r.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Makeblock Neuron - це серія програмованих електронних модулів для навчання STEAM.</p>
+                <p>Neuron Inventor Kit  та Creative Lab Kit 2.0 відрізняються тим, що в другому наборі є набагато більше модулів для створення різних інноваційних гаджетів.</p>
+                <hr>
+                <p>Комплектація:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content uk-column-1-2@s uk-column-divider">
+                    <li>Модуль живлення × 2</li>
+                    <li>Bluetooth × 1</li>
+                    <li>Бездротовий передавач × 1</li>
+                    <li>Джойстик × 1</li>
+                    <li>Кнопка × 2</li>
+                    <li>Ручка × 2</li>
+                    <li>Датчик дотику × 1</li>
+                    <li>Перемикач × 1</li>
+                    <li>Провід «Земля» × 1</li>
+                    <li>Датчик світла × 1</li>
+                    <li>Подвійний ІК-детектор × 1</li>
+                    <li>Датчик дальності × 1</li>
+                    <li>Ультразвуковий датчик × 1</li>
+                    <li>Датчик кольору × 1</li>
+                    <li>Картки різного кольору × 8</li>
+                    <li>Гироскоп × 1</li>
+                    <li>Датчик температури × 1</li>
+                    <li>Температурний зонд × 1</li>
+                    <li>Датчик вологості × 1</li>
+                    <li>Датчик вологості грунту × 1</li>
+                    <li>Датчик звуку × 1</li>
+                    <li>ІК-датчик × 1</li>
+                    <li>Драйвер двигуна постійного струму × 2</li>
+                    <li>Подвійний серво драйвер × 2</li>
+                    <li>Світлодіодна панель × 2</li>
+                    <li>RGB світлодіод × 1</li>
+                    <li>Драйвер світлодіодної смуги × 2</li>
+                    <li>Зумер × 1</li>
+                    <li>Дисплей × 1</li>
+                    <li>Світлодіодна стрічка × 2</li>
+                    <li>Водяний насос × 1</li>
+                    <li>Силіконова трубка × 1</li>
+                    <li>N30 Набір аксесуарів для мотор-редуктора × 4</li>
+                    <li>Перехресний з'єднувач вала × 4</li>
+                    <li>Міні допоміжне колесо × 4</li>
+                    <li>Шина Lego 49,5 * 20мм × 4</li>
+                    <li>Комплект аксесуарів для сервоприводів × 4</li>
+                    <li>Поверхня з металевою основою × 12</li>
+                    <li>Пластиковий з'єднувач Lego × 72</li>
+                    <li>Провід з магнітними коннекторами (10 см)<br> × 3</li>
+                    <li>Провід з магнітними коннекторами (20 см)<br> × 3</li>
+                    <li>Гелева наклейка × 6</li>
+                    <li>USB-кабель × 2</li>
+                </ul>
                 `
             }
         ]
@@ -151,7 +254,7 @@ labs = [
                 "name": "Halocode",
                 "id": "halocode",
                 "srcImg": "img/resource/robo/halocode.jpg",
-                "number": 7,
+                "count": 7,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/halocode.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -163,7 +266,7 @@ labs = [
                 "name": "spike lego",
                 "id": "spike",
                 "srcImg": "img/resource/robo/spike.jpg",
-                "number": 5,
+                "count": 5,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/spike.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -175,7 +278,7 @@ labs = [
                 "name": "EVE 3",
                 "id": "eve3",
                 "srcImg": "img/resource/robo/eve3.jpg",
-                "number": 5,
+                "count": 5,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/eve3.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -196,39 +299,79 @@ labs = [
         ],
         "products":[
             {
-                "name": "TETRIX",
+                "name": "TETRIX MAX R/C",
                 "id": "tetrix",
-                "srcImg": "img/resource/arena/tetrix.jpg",
-                "number": 1,
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/tetrix.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                `
-            },
-            {
-                "name": "TETRIX R",
-                "id": "tetrix_r",
-                "srcImg": "img/resource/arena/tetrix_r.jpg",
-                "number": 15,
+                "srcImg": "img/resource/arena/tetrix_r.jpg ",
+                "count": 1,
+                "year": 14,
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/tetrix_r.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Це набір середнього рівня складності для створення радіокерованих моделей. Розроблений спеціально для занять в гуртках робототехніки або в школах.</p>
+                <p class="modal_p">Набір дозволяє зібрати робототехнічні моделі, схожі на ті, що встановлені у виробничих цехах, справжні прототипи, що володіють силою й інтелектом, які виконуватимуть автоматизовані операції, спрямовані на досягнення цілей навчання науково-технічним дисциплінам.</p>
+                <hr>
+                <p>До набору TETRIX MAX R/C входить:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>679 деталей (структурні, рухомі і апаратні елементи, перемикачі колес, шестерні, балки, рейки, з’єднувальні елементи, вставки та багато іншого);</li>
+                    <li>безпровідний контролер + 4-канальний ресивер;</li>
+                    <li>контролер двигунів постійного струму + монтажний комплект;</li>
+                    <li>2 двигуни постійного струму (12 В)</li>
+                    <li>2 стандартних сервомотори з кутом повороту 180 градусів;</li>
+                    <li>з’єднувальні кабелі;</li>
+                    <li>акумулятор і зарядний пристрій;</li>
+                    <li>вимикач і монтажні елементи.</li>
+                </ul>
                 `
             },
             {
-                "name": "UNIMATE",
+                "name": "TETRIX MAX Expansion Set",
+                "id": "tetrix_r",
+                "srcImg": "img/resource/arena/tetrix.jpg",
+                "count": 1,
+                "year": 14,
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/tetrix.jpg"  alt="Example image">
+                <p class="modal_p">Набір розширення використовується для побудови більш складних механізмів і багатофункціональних роботів на радіоуправлінні, а також для підготовки до змагань FTC, WRO та інших.</p>
+                <hr>
+                <p>Набір включає 637 деталей, тим самим розширюючи елементну базу набору TETRIX MAX:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>різноманітні з'єднувальні елементи, пластини та балки, які не входять до стандартних наборів з робототехніки,</li>
+                    <li>гусеничні протектори, ланцюгові (зубчасті) колеса, всенаправлені колеса та конвеєрні лопаті;</li>
+                    <li>додаткові 40-, 80- та 120-зубчасті передачі, а також набір напрявляючих рейок та шестерней;</li>
+                    <li>серводвигун безперервного обертання;</li>
+                    <li>вісі, втулки, опори та з'єднувальне обладнання.</li>
+                </ul>
+                <p>Містить інструкції з ефективного використання нових функцій.</p>
+                `
+            },
+            {
+                "name": "Makeblock Ultimate 2.0 Robot Kit",
                 "id": "m_unimate",
                 "srcImg": "img/resource/arena/unimate.jpg",
-                "number": 1,
+                "count": 1,
+                "year": 14,
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/unimate.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Навчальний конструктор Ultimate ідеально підходить для розвитку творчого потенціалу, фантазії, уяви дитини. Його сумісність з Arduino і Raspberry Pi робить конструктор ідеальним пристроєм для прихильників робототехніки, які хочуть дізнатися про механічний дизайн, електроніку та програмування</p>
+                <p class="modal_p">Програмується у зрозумілому графічному інтерфейсі mBlock 5.</p>
+                <hr>
+                <p>Основні елементи, які входять в комплектацію конструктора:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>потужна та надійна у роботі материнська плата MegaPi;</li>
+                    <li>двигуни;</li>
+                    <li>ряд датчиків;</li>
+                    <li>механічні частини алюмінієвих деталей;</li>
+                    <li>модулі;</li>
+                    <li>модуль Bluetooth;</li>
+                    <li>3-осьовий акселерометр і датчик гіроскопа;</li>
+                    <li>адаптер RJ25.</li>
+                </ul>
+                <p>Містить інструкції з ефективного використання нових функцій.</p>
                 `
             }
         ]
@@ -247,7 +390,7 @@ labs = [
                 "name": "Pen 3d",
                 "id": "pen3d",
                 "srcImg": "img/resource/lab3d/pen3d.jpg",
-                "number": 15,
+                "count": 15,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/pen3d.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -260,7 +403,7 @@ labs = [
                 "name": "print",
                 "id": "print_one",
                 "srcImg": "img/resource/lab3d/print3d.jpg",
-                "number": 15,
+                "count": 15,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/print3d.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -273,7 +416,7 @@ labs = [
                 "name": "print 3 in 1",
                 "id": "print_3in1",
                 "srcImg": "img/resource/lab3d/print3d3in1.jpg",
-                "number": 1,
+                "count": 1,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/print3d3in1.jpg"  alt="Example image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -294,39 +437,78 @@ labs = [
         ],
         "products":[
             {
-                "name": "Lasebox",
+                "name": "LaserBox Pro",
                 "id": "laserbox",
                 "srcImg": "img/resource/makespace/laserbox.jpg",
-                "number": 1,
+                "count": 1,
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/laserbox.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Спеціально розроблений для освітніх цілей і мейкерства, LaserBox переосмислює і перевизначає функціонал лазера за допомогою ультра-ширококутної камери високої роздільної здатності разом з візуальним алгоритмом AI. Машина може автоматично ідентифікувати будь-який матеріал і відповідно налаштувати параметри гравіювання або вирізки. Будучи революційним лазером, LaserBox розпізнає зображення, намальовані вручну і робить процес створення моделей легкими і веселим!</p>
                 `
             },
             {
                 "name": "minerva",
                 "id": "minerva",
                 "srcImg": "img/resource/makespace/minerva.jpg",
-                "number": 1,
+                "count": 1,
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/minerva.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Шиття та вишивка: підготовка до вибору професії</p>
+                <p class="modal_p">Сучасні швейні та швейно-вишивальні машини Minerva побутового призначення допоможуть власноруч створювати великий асортимент виробів із тканини: від одягу та домашнього текстилю до незвичайних предметів повсякденного вжитку.</p>
+                <p class="modal_p">Моделі швейно-вишивальних машин Minerva якнайкраще підходять для засвоєння основ сучасної машинної вишивки. У докладній інструкції наведено усі необхідні дані для приємного та легкого процесу вивчення конструкції та всіх функцій машини. Після її вивчення учень зможе поступово перейти до приємного творчого процесу безпосередньої практики.</p>
+                <p class="modal_p">Під час розроблення асортименту швейно-вишивальних машин бренд Minerva подбав про те, щоби моделі були максимально простими у використанні, багатофункціональними, якісними з погляду конструкції та матеріалів і могли задовольнити потреби найвибагливіших користувачів, втілюючи в життя все нові і нові творчі проєкти та ідеї сучасних молодих майстрів.</p>
+                <p class="modal_p">Моделі машин бренда Minerva виготовлено із високоякісних матеріалів, вони мають максимально ергономічну форму для комфортного використання навіть тривалий час, їхня конструкція функціональна, а меню продумане з урахуванням різного ступеня підготовки користувачів. Тому швейно-вишивальні машини Minerva стануть у пригоді як професіоналам у сфері вишивки, так і аматорам, що тільки починають знайомитися з мистецтвом машинної вишивки.</p>
+                <p class="modal_p">Для безперервної роботи машин Minerva в навчальних класах необхідно передбачити доступ до мережі електричного струму, а також наявність зручних столів або парт, висота яких відповідатиме висоті стільця та середньому зросту учня, аби забезпечити зручний доступ до корпусу самої машини. Для моделі швейно-вишивальної машини Minerva MC550W також буде необхідний доступ до мережі через Wi-Fi, оскільки її робота напряму пов’язана з активною точкою інтернету, а всі операції виконують завдяки цьому зв’язку.</p>
+                <p class="modal_p"></p>
                 `
             },
             {
-                "name": "unimate",
+                "name": "Unimate 1 CLASSIC",
                 "id": "unimate",
                 "srcImg": "img/resource/makespace/unimate.jpg",
-                "number": 1,
+                "count": 1,
+                "year": 99999,
+                "offsiteName": "thecooltool.com/produkte/unimat1-classic",
+                "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/unimate.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">В основу комплекту Unimat 1 закладений модульний принцип, що дозволяє перебудовувати один верстат в інший за короткий час - від 30 секунд до 5 хвилин.</p>
+                <p class="modal_p">Набір UNIMAT 1 CLASSIC містить всі необхідні деталі і компоненти для того, щоб зібрати повнофункціональні варіанти верстатів:</p>
+                
+                
+                <hr>
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/description/u2.jpg"  alt="Example image">
+                <p class="modal_p uk-text-bold">Токарний верстат для металообробка</p>
+                <p class="modal_p">Оптимальна робота верстата забезпечується за рахунок поздовжніх і поперечних пересувних платформ з масштабованими маховиками.</p>
+                <p class="modal_p">На ньому можна виготовити деталі або вироби конусоподібної і циліндричної форми, підрізати або виточити торці, а також виконати осьовий свердління.</p>
+                
+                <hr>
+                <img class="uk-align-right uk-margin-remove-adjacent lab_img" src="img/resource/makespace/description/u4.jpg"  alt="Example image">
+                <p class="modal_p uk-text-bold">Вертикальний свердлильно-фрезерний верстат</p>
+                <p class="modal_p">Цей верстат забезпечує точне свердління під будь-яким кутом. Завдяки трьом поворотним санчатах (дві з яких повертаються на 360 градусів), обробний центр переміщається по осях: Х, Y і Z.</p>
+                
+                <hr>
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/description/u3.jpg"  alt="Example image">
+                <p class="modal_p uk-text-bold">Гогизонтальний фрезерний верстат</p>
+                <p class="modal_p">На верстаті можна створювати різні деталі і елементи шліцьових, шпонкових і інших з'єднань. Похилі напрямні дозволяють фрезерувати під різними кутами.</p>
+                <p class="modal_p">Також для оптимальної роботи фрезерного верстата, передбачена можливість використання різних насадок діаметром хвостовій частині від 1 мм до 6 мм.</p>
+
+                <hr>
+                <img class="uk-align-right uk-margin-remove-adjacent lab_img" src="img/resource/makespace/description/u1.jpg"  alt="Example image">
+                <p class="modal_p uk-text-bold">Токарний верстат</p>
+                <p class="modal_p">Цей верстат дозволяє виготовляти такі модельні об'єкти як гармати, щогли, осі, ободи, колеса для транспорту та інші дрібні вироби.</p>
+                
+                <p class="modal_p uk-text-bold">Електролобзік</p>
+                <p class="modal_p">Для роботи на електролобзику можна використовувати фанеру до 12 мм і тверду деревину до 8 мм.</p>
+                
+                <p class="modal_p uk-text-bold">Шліфувальний станок</p>
+                <p class="modal_p">Використовується для шліфування поверхонь виробів з різних матеріалів, для полірування кромки, а також для заточування робочих інструментів (різців, стамесок, свердел, ножів, ножиць).</p>
+                <p class="modal_p uk-text-bold">Ручна міні-дрель і шліфувальна машинка</p>
+                <p class="modal_p">Для зручності роботи у важкодоступних місцях, а також зі складними деталями, виробами або предметами, можна використовувати ручний міні-інструмент.</p>
+                <p class="modal_p">Міні-станочки UNIMAT збираються за допомогою з'єднання електродвигуна з кожухом приводного ременя і шпиндельної бабкою, де за допомогою цанг можна закріпити: свердла, фрези, абразивні, алмазні і повстяні насадки, а також інші аксесуари діаметром хвостовій частині від 0,5 до 6 мм.</p>
                 `
             }
         ]
@@ -344,7 +526,7 @@ labs = [
                 "name": "name",
                 "id": "id_1",
                 "srcImg": "img/resource/q.jpg",
-                "number": 15,
+                "count": 15,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
                 <p>laborum.</p>
@@ -354,7 +536,7 @@ labs = [
                 "name": "name",
                 "id": "id_2",
                 "srcImg": "img/resource/q.jpg",
-                "number": 15,
+                "count": 15,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
                 <p>laborum.</p>
@@ -364,7 +546,7 @@ labs = [
                 "name": "name",
                 "id": "id_3",
                 "srcImg": "img/resource/q.jpg",
-                "number": 1,
+                "count": 1,
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
                 <p>laborum.</p>
@@ -386,7 +568,7 @@ labs = [
     //             "name": "",
     //             "id": "",
     //             "srcImg": "",
-    //             "number": 15,
+    //             "count": 15,
     //             "modalHtml": `
 
     //             `
@@ -395,7 +577,7 @@ labs = [
     //             "name": "",
     //             "id": "",
     //             "srcImg": "",
-    //             "number": 15,
+    //             "count": 15,
     //             "modalHtml": `
 
     //             `
@@ -404,7 +586,7 @@ labs = [
     //             "name": "",
     //             "id": "",
     //             "srcImg": "",
-    //             "number": 1,
+    //             "count": 1,
     //             "modalHtml": `
 
     //             `
