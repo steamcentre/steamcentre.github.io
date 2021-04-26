@@ -1,19 +1,8 @@
 //render menu
-let mainMenu = document.getElementById('mainMenu')
-mainMenu.innerHTML = menu
-
-let subMenuHeadline = document.getElementsByClassName('sub_menu_headline')
-for (let el of subMenuHeadline){
-    el.onclick = function(){
-        el.nextElementSibling.classList.toggle('visible')
-    }
-}
+document.getElementById('mainMenu').innerHTML = menu
 
 //render footer
-let mainFooter = document.getElementById('mainFooter')
-mainFooter.innerHTML = footer
-
-
+document.getElementById('mainFooter').innerHTML = footer
 
 //render scrollUp
 document.getElementById('body').innerHTML += `
@@ -46,3 +35,11 @@ function renderYear() {
     footerEnd.innerText = '2020 - ' + date.getFullYear().toString();
 }
 renderYear()
+
+//menu
+let subMenuHeadline = document.getElementsByClassName('sub_menu_headline')
+for (let el of subMenuHeadline){
+    el.onclick = function(){
+        el.nextElementSibling.classList.toggle('visible')
+    }
+}

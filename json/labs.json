@@ -33,10 +33,10 @@ labs = [
                 <p class="modal_p uk-text-bold uk-text-center">Доповнення до основного набору</p>
                 <hr>
                 <img class="uk-align-right uk-margin-remove-adjacent lab_img" src="img/resource/junior/description/matata_art.jpg"  alt="Example image">
-                <p class="modal_p">Набір <span class="uk-text-italic">Matatalab Musician Add-on</span> розширює можливості набору MatataLab Coding Set, дозволяє вивчати ноти і створювати з них улюблені пісні та мелодії. Діти розвивають музичний слух, навчаються нотній грамоті в ігровій формі, експериментують із звуками.</p>
+                <p class="modal_p">Набір <span class="uk-text-italic">MatataLab Artist Add-on</span> дозволяє запрограмувати робота на малювання різних геометричних фігур, розвиваючи просторове мислення і формуючи в дітей математичні поняття кутових величин.</p>
                 <hr>
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/description/matata_music.jpg"  alt="Example image">
-                <p class="modal_p">Набір <span class="uk-text-italic">MatataLab Artist Add-on</span> дозволяє запрограмувати робота на малювання різних геометричних фігур, розвиваючи просторове мислення і формуючи в дітей математичні поняття кутових величин.</p>
+                <p class="modal_p">Набір <span class="uk-text-italic">Matatalab Musician Add-on</span> розширює можливості набору MatataLab Coding Set, дозволяє вивчати ноти і створювати з них улюблені пісні та мелодії. Діти розвивають музичний слух, навчаються нотній грамоті в ігровій формі, експериментують із звуками.</p>
                 `
             },
             {
@@ -245,9 +245,10 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/eve3.jpg"  alt="Example image">
-                <p class="modal_p">LEGO MINDSTORMS Education EV3 - це практичне робототехнічне міжпредметне навчальне рішення.</p>
-                <p>До комплекту MINDSTORMS входять:</p>
+                <p class="modal_p">Це практичне робототехнічне міжпредметне навчальне рішення.</p>
+                <p class="modal_p">Рішення MINDSTORMS EV3 легко адаптується для будь-якого навчального середовища, надає можливості для розвитку в учнів впевненості в собі в процесі всебічних досліджень і готує їх до подальшого вивчення інформатики, інженерного мистецтва та інших суміжних наук.</p>
                 <hr>
+                <p>До комплекту MINDSTORMS входять:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>мікрокомп'ютер EV3;</li>
                     <li>3 сервомотора;</li>
@@ -256,7 +257,6 @@ labs = [
                     <li>сполучні кабелі;</li>
                     <li>більше 500 деталей LEGO.</li>
                 </ul>
-                <p class="modal_p">Рішення MINDSTORMS EV3 легко адаптується для будь-якого навчального середовища, надає можливості для розвитку в учнів впевненості в собі в процесі всебічних досліджень і готує їх до подальшого вивчення інформатики, інженерного мистецтва та інших суміжних наук.</p>
                 `
             }
         ]
@@ -479,6 +479,130 @@ labs = [
         ]
     },
     {
+        "name": "GameDev + LEGO-Art",
+        "cssClass": "gamedev",
+        "srcImg": "img/labs/gamedev2.png",
+        "content": [
+            "Лабораторія містить обладнання для вивчення курсу розробки комп’ютерних ігор, мобільних навчальних додатків та іншого програмного забезпечення навчального призначення. Ресурс може бути використаний стаціонарно і має широкопрофільне спрямування. Крім того в лабораторії розміщені LEGO-столи для роботи з молодшою віковою групою та творчої роботи вчителів, які беруть участь в проектах LEGO Foundation.",
+        ],
+        "products":[
+            {
+                "name": "STEM Архітектурний набір: Ейфелева вежа та<br>Сіднейський міст",
+                "id": "steamset01",
+                "srcImg": "img/resource/gamedev/steamset01.jpg",
+                "count": 1,
+                "year": "8 до 16",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset01.jpg"  alt="Example image">
+                <p class="modal_p">Набір будівель парку розваг навчає молодих інженерів фізиці побудови улюблених атракціонів парку атракціонів: колеса чортового огляду, лондонського ока.</p>
+                <hr>
+                <p>Технічні характеристики</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>Можливість побудувати 2 моделі атракціонів</li>
+                    <li>Зручне підключення в будь-якому напрямку та куті.</li>
+                    <li>Інструмент витяжки для легкого розбирання.</li>
+                    <li>Прості в дотриманні інструкції з будівництва.</li>
+                    <li>Усі деталі нетоксичні і довгої тривалості. Яскраві кольорові деталі.</li>
+                    <li>Друкована інструкція.</li>
+                    <li>Цей набір включає в себе 3В двигун з акумулятором, що має подвійний перемикач напрямку обертання.</li>
+                    <li>Матеріал продукту: ABS пластик, TPE & нейлон</li>
+                </ul>
+                `
+            },
+            {
+                "name": "STEM набір Парк розваг: Чортове колесо і<br>Око Лондона",
+                "id": "steamset02",
+                "srcImg": "img/resource/gamedev/steamset02.jpg",
+                "count": 1,
+                "year": "8 до 16",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset02.jpg"  alt="Example image">
+                <p class="modal_p">За допомогою набору можна створити дві негабаритні моделі всесвітньо відомої Ейфелевої вежі у Франції та міст Сідней-Харбор в Австралії!</p>
+                <p class="modal_p">Модель Ейфелевої вежі має висоту 150 см (59 дюймів), а міст Сіднейського гавані - 142 см (56 дюймів) в довжину! Набір поставляється у зручній пластиковій коробці для зберігання з кришкою для зручного зберігання.</p>
+                <p class="modal_p">Набір архітектурних будівель навчить молодих інженерів усьому, що потрібно знати про фізику великих будівель та мостів, включаючи сили, навантаження та матеріали. Також дізнаються, як інженери протистоять законам гравітації та тримають важкі мости, стоячи за допомогою тріангуляції, дуг та опор для кабелів. Детальні пояснення кожного наукового принципу, пов'язані з цікавими фактами та історією.</p>
+                <hr>
+                <p class="uk-text-bold">Технічні характеристики</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>Модель Ейфелевої вежі має висоту не менше ніж 150 см, а міст Сіднейського гавані - не менше ніж 142 см в довжину</li>
+                    <li>Побудова не менше ніж 9 моделей</li>
+                    <li>Зручне підключення в будь-якому напрямку та куті.</li>
+                    <li>Інструмент витяжки для легкого розбирання.</li>
+                    <li>Прості в дотриманні інструкції з будівництва.</li>
+                    <li>Усі деталі нетоксичні і виготовлені до тривалості. Яскраві кольорові деталі.</li>
+                    <li>Друкована інструкція включена</li>
+                </ul>
+                `
+            },
+            {
+                "name": "Engino Green House",
+                "id": "steamset03",
+                "srcImg": "img/resource/gamedev/steamset03.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset03.jpg"  alt="Example image">
+                <p class="modal_p">Діти одягають свої каски і глибоко занурюються у світ машинобудування, щоб з’ясувати науку, що стоїть за 4 найпопулярнішими визначними пам'ятками парку розваг у світі. Працюючи самостійно або з батьками, молоді учні створюють і експериментують із власними копіями колеса огляду, Лондонським оком, каруселлю та підсилювачем!</p>
+                `
+            },
+        ]
+    },
+    {
+        "name": "ArduinoLab",
+        "cssClass": "arduinolan",
+        "srcImg": "img/labs/arduino.png",
+        "content": [
+            "Лабораторія «ArduinoLab» – містить обладнання, яке може використовується при вивченні основ електроніки, електрики та робототехніки (старша вікова категорія). Лабораторія дозволяє створювати складні проекти для наукових робіт МАН, які потребують макетування, паяння та програмування.",
+        ],
+        "products":[
+            {
+                "name": "name",
+                "id": "id_1",
+                "srcImg": "img/resource/q.jpg",
+                "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p>laborum.</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id_2",
+                "srcImg": "img/resource/q.jpg",
+                "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p>laborum.</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id_3",
+                "srcImg": "img/resource/q.jpg",
+                "count": 1,
+                "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p>laborum.</p>
+                `
+            }
+        ]
+    },
+    {
         "name": "MAKESPACE",
         "cssClass": "makespace",
         "srcImg": "img/labs/makespace.png",
@@ -610,130 +734,6 @@ labs = [
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
                 <p class="modal_p" class="modal_p">laborum.</p>
-                `
-            }
-        ]
-    },
-    {
-        "name": "GameDev + LEGO-Art",
-        "cssClass": "gamedev",
-        "srcImg": "img/labs/gamedev2.png",
-        "content": [
-            "Лабораторія містить обладнання для вивчення курсу розробки комп’ютерних ігор, мобільних навчальних додатків та іншого програмного забезпечення навчального призначення. Ресурс може бути використаний стаціонарно і має широкопрофільне спрямування. Крім того в лабораторії розміщені LEGO-столи для роботи з молодшою віковою групою та творчої роботи вчителів, які беруть участь в проектах LEGO Foundation.",
-        ],
-        "products":[
-            {
-                "name": "STEM Архітектурний набір: Ейфелева вежа та<br>Сіднейський міст",
-                "id": "steamset01",
-                "srcImg": "img/resource/gamedev/steamset01.jpg",
-                "count": 1,
-                "year": "8 до 16",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset01.jpg"  alt="Example image">
-                <p class="modal_p">Набір будівель парку розваг навчає молодих інженерів фізиці побудови улюблених атракціонів парку атракціонів: колеса чортового огляду, лондонського ока.</p>
-                <hr>
-                <p>Технічні характеристики</p>
-                <ul class="uk-list uk-list-disc uk-list-muted content">
-                    <li>Можливість побудувати 2 моделі атракціонів</li>
-                    <li>Зручне підключення в будь-якому напрямку та куті.</li>
-                    <li>Інструмент витяжки для легкого розбирання.</li>
-                    <li>Прості в дотриманні інструкції з будівництва.</li>
-                    <li>Усі деталі нетоксичні і довгої тривалості. Яскраві кольорові деталі.</li>
-                    <li>Друкована інструкція.</li>
-                    <li>Цей набір включає в себе 3В двигун з акумулятором, що має подвійний перемикач напрямку обертання.</li>
-                    <li>Матеріал продукту: ABS пластик, TPE & нейлон</li>
-                </ul>
-                `
-            },
-            {
-                "name": "STEM набір Парк розваг: Чортове колесо і<br>Око Лондона",
-                "id": "steamset02",
-                "srcImg": "img/resource/gamedev/steamset02.jpg",
-                "count": 1,
-                "year": "8 до 16",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset02.jpg"  alt="Example image">
-                <p class="modal_p">За допомогою набору можна створити дві негабаритні моделі всесвітньо відомої Ейфелевої вежі у Франції та міст Сідней-Харбор в Австралії!</p>
-                <p class="modal_p">Модель Ейфелевої вежі має висоту 150 см (59 дюймів), а міст Сіднейського гавані - 142 см (56 дюймів) в довжину! Набір поставляється у зручній пластиковій коробці для зберігання з кришкою для зручного зберігання.</p>
-                <p class="modal_p">Набір архітектурних будівель навчить молодих інженерів усьому, що потрібно знати про фізику великих будівель та мостів, включаючи сили, навантаження та матеріали. Також дізнаються, як інженери протистоять законам гравітації та тримають важкі мости, стоячи за допомогою тріангуляції, дуг та опор для кабелів. Детальні пояснення кожного наукового принципу, пов'язані з цікавими фактами та історією.</p>
-                <hr>
-                <p class="uk-text-bold">Технічні характеристики</p>
-                <ul class="uk-list uk-list-disc uk-list-muted content">
-                    <li>Модель Ейфелевої вежі має висоту не менше ніж 150 см, а міст Сіднейського гавані - не менше ніж 142 см в довжину</li>
-                    <li>Побудова не менше ніж 9 моделей</li>
-                    <li>Зручне підключення в будь-якому напрямку та куті.</li>
-                    <li>Інструмент витяжки для легкого розбирання.</li>
-                    <li>Прості в дотриманні інструкції з будівництва.</li>
-                    <li>Усі деталі нетоксичні і виготовлені до тривалості. Яскраві кольорові деталі.</li>
-                    <li>Друкована інструкція включена</li>
-                </ul>
-                `
-            },
-            {
-                "name": "Engino Green House",
-                "id": "steamset03",
-                "srcImg": "img/resource/gamedev/steamset03.jpg",
-                "count": 1,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset03.jpg"  alt="Example image">
-                <p class="modal_p">Діти одягають свої каски і глибоко занурюються у світ машинобудування, щоб з’ясувати науку, що стоїть за 4 найпопулярнішими визначними пам'ятками парку розваг у світі. Працюючи самостійно або з батьками, молоді учні створюють і експериментують із власними копіями колеса огляду, Лондонським оком, каруселлю та підсилювачем!</p>
-                `
-            },
-        ]
-    },
-    {
-        "name": "ArduinoLab",
-        "cssClass": "arduinolan",
-        "srcImg": "img/labs/arduino.png",
-        "content": [
-            "Лабораторія «ArduinoLab» – містить обладнання, яке може використовується при вивченні основ електроніки, електрики та робототехніки (старша вікова категорія). Лабораторія дозволяє створювати складні проекти для наукових робіт МАН, які потребують макетування, паяння та програмування.",
-        ],
-        "products":[
-            {
-                "name": "name",
-                "id": "id_1",
-                "srcImg": "img/resource/q.jpg",
-                "count": 15,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
-                <p>laborum.</p>
-                `
-            },
-            {
-                "name": "name",
-                "id": "id_2",
-                "srcImg": "img/resource/q.jpg",
-                "count": 15,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
-                <p>laborum.</p>
-                `
-            },
-            {
-                "name": "name",
-                "id": "id_3",
-                "srcImg": "img/resource/q.jpg",
-                "count": 1,
-                "count": 15,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
-                <p>laborum.</p>
                 `
             }
         ]
