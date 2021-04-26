@@ -9,6 +9,7 @@ let menu = `
     <span></span>
 </label>
 <menu class="menu">
+    
     <li class="menu_item">
         <a class="menu_link" href="https://www.facebook.com/steam.center.poltava" target="_blank">новини</a>
     </li>
@@ -22,7 +23,7 @@ let menu = `
     </li>
     <li class="menu_item"><a class="menu_link" href="#">курси</a></li>
     <li class="menu_item">
-        <a class="menu_link sub_menu_headline">рсурси</a>
+        <a class="menu_link sub_menu_headline">ресурси</a>
         <ul class="sub_menu">
             <li class="sub_menu_item"><a class="sub_menu_link" href="equipment.html">обладнання</a></li>
             <li class="sub_menu_item"><a class="sub_menu_link" href="#">матеріали</a></li>

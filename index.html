@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <title>STEAM Center</title>
 </head>
-<body>
-
+<body id="body">
     <nav class="row" id="mainMenu"></nav>
     <div class="wraper">
         <header class="heder">
@@ -162,15 +161,12 @@
 
     <script src="json/menu.json"></script>
     <script src="json/footer.json"></script>
-    <script>
-        let mainMenu = document.getElementById('mainMenu')
-        mainMenu.innerHTML = menu
-        let mainFooter = document.getElementById('mainFooter')
-        mainFooter.innerHTML = footer
-    </script>
-    <script src="js/get_year.js"></script>
 
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.js"></script>
+    
+    <script src="js/main.js"></script>
+
+
 </body>
 </html>

@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <title>STEAM Center | Обладнання</title>
 </head>
-<body>
+<body id="body">
     <nav class="row" id="mainMenu"></nav>
     <div class="wraper">
-        <header class="heder">
+        <header class="heder" id="header">
             <img class="heder_canvas" src="img/header/heder_equipment.svg" alt="">
         </header>
         <main class="main" id="main"></main>
@@ -87,16 +87,11 @@
     </script>
     <script src="json/menu.json"></script>
     <script src="json/footer.json"></script>
-    <script>
-        let mainMenu = document.getElementById('mainMenu')
-        mainMenu.innerHTML = menu
-        let mainFooter = document.getElementById('mainFooter')
-        mainFooter.innerHTML = footer
-    </script>
-    <script src="js/get_year.js"></script>
 
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.js"></script>
+
+    <script src="js/main.js"></script>
 
     <!-- text -->
     <!-- <style>
