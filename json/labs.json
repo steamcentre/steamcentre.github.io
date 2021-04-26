@@ -1,69 +1,5 @@
 labs = [
     {
-        "name": "VR and AR LAB",
-        "cssClass": "vr",
-        "srcImg": "img/labs/vr.png",
-        "content": [
-            "Ресурси Лабораторії можна використовувати в класі при вивченні будь-якої теми, яка для наочності дозволяє застосувати технологію віртуальної реальності. Використання окулярів може бути як стаціонарно, так і в складі пересувної лабораторії.",
-            "Шолом OculusQuest дозволяє організувати максимальне занурення у віртуальний світ, що може бути застосовано при вивченні Історії, Географії, Астрономії, Образотворчого мистецтва, Біології та ін. шкільних предметів.",
-            "На базі лабораторії розгорнуто 3D кінозалу із використанням поляризаційних окулярів. На відміну від анагліфічних окулярів, поляризаційні можуть без шкоди здоров’ю дитини дозволяти перегляд тривимірного навчального медіа-контенту."
-        ],
-        "products":[
-            {
-                "name": "Huawei",
-                "id": "huawei",
-                "srcImg": "img/resource/vr/huawei.jpg",
-                "count": 15,
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/huawei.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="http://www.bobovr.com/product/bobovrz4/">ofsite</a>
-                `
-            },
-            {
-                "name": "BOBOVR Z4",
-                "id": "bobovr",
-                "srcImg": "img/resource/vr/bobo.jpg",
-                "count": 15,
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/bobo.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="http://www.bobovr.com/product/bobovrz4/">ofsite</a>
-                `
-            },
-            {
-                "name": "OculusQuest",
-                "id": "OculusQuest",
-                "srcImg": "img/resource/vr/oculus.jpg",
-                "count": 1,
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/oculus.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="http://www.bobovr.com/product/bobovrz4/">ofsite</a>
-                `
-            },
-            {
-                "name": "projector",
-                "id": "projector",
-                "srcImg": "img/resource/vr/projector.jpg",
-                "count": 15,
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/projector.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="http://www.bobovr.com/product/bobovrz4/">ofsite</a>
-                `
-            }
-        ]
-    },
-    {
         "name": "ROBO JUNIOR",
         "cssClass": "robo_junior",
         "srcImg": "img/labs/ROBO_JUNIOR.png",
@@ -183,7 +119,7 @@ labs = [
                 "srcImg": "img/resource/junior/neiron_r.jpg",
                 "count": 3,
                 "year": 6,
-                "offsiteName": "",
+                "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/neiron_r.jpg"  alt="Example image">
@@ -251,39 +187,76 @@ labs = [
         ],
         "products":[
             {
-                "name": "Halocode",
+                "name": "HaloCode standard kit",
                 "id": "halocode",
                 "srcImg": "img/resource/robo/halocode.jpg",
                 "count": 7,
+                "year": 10,
+                "offsiteName": "www.makeblock.com/steam-kits/halocode",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/halocode.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Це бездротовий одноплатний комп'ютер із вбудованим Wi-Fi. Його компактна конструкція, призначена для навчання програмуванню, включає широкий вибір електронних модулів.</p>
+                <hr>
+                <p>До комплекту Halocode входять:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>одноплатний комп'ютер HaloCode;</li>
+                    <li>micro-USB кабель;</li>
+                    <li>короткий посібник;</li>
+                    <li>ремінець;</li>
+                    <li>контейнер для батарейок;</li>
+                    <li>4 × чорна текстильна застібка;</li>
+                    <li>4 × біла текстильна застібка;</li>
+                    <li>4 × різнокольорові затискачі.</li>
+                </ul>
+                <p class="modal_p">Розроблений спеціально для навчання кодуванню, Halocode ідеально працює з програмним забезпеченням mBlock. З програмою mBlock 5 учні можуть легко створювати інтерактивні програми. Наприклад, повноцінну гру, для якої плата Halocode буде джойстиком. За допомогою вбудованих анімацій можна також створювати оригінальні інтерактивні історії або сюжетні ігри.</p>
                 `
             },
             {
-                "name": "spike lego",
+                "name": "LEGO Education SPIKE Prime",
                 "id": "spike",
                 "srcImg": "img/resource/robo/spike.jpg",
                 "count": 5,
+                "year": "8 до 12",
+                "offsiteName": "education.lego.com/en-us/products/lego-education-spike-prime-set/45678",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/spike.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Це практично-орієнтоване освітнє рішення для STEAM навчання. онних модулів.</p>
+                <p>В комплект SPIKE Prime входять:</p>
+                <hr>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>три двигуни;</li>
+                    <li>три датчики (кольору, натиску, відстані);</li>
+                    <li>блок Smart Hub з шістьма портами, динаміком, світловою матрицею 5×5, 6-осьовим гіроскопом, акамулятором;</li>
+                    <li>більше 500 яскравих деталей LEGO Technic.</li>
+                </ul>
+                <p class="modal_p">Програмне забезпечення LEGO Education SPIKE можна завантажити на сайті LEGO Education. Програма створена на базі Scratch. Вона складається з набору команд, кожна з яких являє собою графічний блок визначеної форми і кольору з певними параметрами, які можна змінювати вручну, наприклад, швидкість та відстань, кут повороту і т.д.</p>
+                <p  class="modal_p">Програмне забезпечення містить 4 курси для дітей, загалом це понад 30 уроків з планом заняття та готовими інструкціями. Також за допомогою програмного забезпечення можна вивчати мікро Python.</p>
                 `
             },
             {
-                "name": "EVE 3",
+                "name": "LEGO MINDSTORMS Education EV3",
                 "id": "eve3",
                 "srcImg": "img/resource/robo/eve3.jpg",
                 "count": 5,
+                "year": 10,
+                "offsiteName": "education.lego.com/en-us/products/lego-mindstorms-education-ev3-core-set/5003400",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/eve3.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">LEGO MINDSTORMS Education EV3 - це практичне робототехнічне міжпредметне навчальне рішення.</p>
+                <p>До комплекту MINDSTORMS входять:</p>
+                <hr>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>мікрокомп'ютер EV3;</li>
+                    <li>3 сервомотора;</li>
+                    <li>5 датчиків (гіроскопічний, ультразвуковий, датчик кольору і 2 датчика дотику);</li>
+                    <li>акумулятор;</li>
+                    <li>сполучні кабелі;</li>
+                    <li>більше 500 деталей LEGO.</li>
+                </ul>
+                <p class="modal_p">Рішення MINDSTORMS EV3 легко адаптується для будь-якого навчального середовища, надає можливості для розвитку в учнів впевненості в собі в процесі всебічних досліджень і готує їх до подальшого вивчення інформатики, інженерного мистецтва та інших суміжних наук.</p>
                 `
             }
         ]
@@ -428,6 +401,78 @@ labs = [
         ]
     },
     {
+        "name": "VR and AR LAB",
+        "cssClass": "vr",
+        "srcImg": "img/labs/vr.png",
+        "content": [
+            "Ресурси Лабораторії можна використовувати в класі при вивченні будь-якої теми, яка для наочності дозволяє застосувати технологію віртуальної реальності. Використання окулярів може бути як стаціонарно, так і в складі пересувної лабораторії.",
+            "Шолом OculusQuest дозволяє організувати максимальне занурення у віртуальний світ, що може бути застосовано при вивченні Історії, Географії, Астрономії, Образотворчого мистецтва, Біології та ін. шкільних предметів.",
+            "На базі лабораторії розгорнуто 3D кінозалу із використанням поляризаційних окулярів. На відміну від анагліфічних окулярів, поляризаційні можуть без шкоди здоров’ю дитини дозволяти перегляд тривимірного навчального медіа-контенту."
+        ],
+        "products":[
+            
+            {
+                "name": "OculusQuest",
+                "id": "OculusQuest",
+                "srcImg": "img/resource/vr/oculus.jpg",
+                "count": 1,
+                "year": "13",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/oculus.jpg"  alt="Example image">
+                <p class="modal_p">Це ігрова система "все в одному", створена спеціально для віртуальної реальності. За допомогою шолома можна повністю занурюватись у світ віртуальної реальності практично де завгодно. Все, що потрібно, — це гарнітура та контролери VR. Завдяки контролерам можна взаємодіяти з предметами. Даний шолом можна використовувати для демонстрації цікавих процесів в житті. Є змога транслювати на великий екран все, що баче один учень.</p>
+                `
+            },
+            {
+                "name": "BOBO VR Z4",
+                "id": "bobovr",
+                "srcImg": "img/resource/vr/bobo.jpg",
+                "count": 15,
+                "year": "",
+                "offsiteName": "www.bobovr.com/product/bobovrz4",
+                "offsiteProtocol": "http",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/bobo.jpg"  alt="Example image">
+                <p class="modal_p">Окуляри віртуальної компактні і прості в експлуатації, дозволяють отримати неймовірні емоції у віртуальному світі. </p>
+                <p class="modal_p">Віртуальна реальність є потужною технологією, що дає змогу зробити уроки цікавішими та насиченішими сучасним змістом, а також ефективнішими та продуктивними як для вчителя, так і для учнів. Застосування на уроках віртуальної реальності дає змогу одночасно спостерігати за об’єктом (або процесом), який вивчається, взаємодіяти із ним та слухати коментарі вчителя.</p>
+                <p class="modal_p">Таким чином, запам’ятовування відбувається із залученням декількох органів чуття, а також емоційно і цікаво для дітей.</p>
+                <p class="modal_p">Використовуються пересувною лабораторією для проведення цікавих уроків в школах.</p>
+                `
+            },
+            {
+                "name": "Смартфон NUU G3",
+                "id": "huawei",
+                "srcImg": "img/resource/vr/huawei.jpg",
+                "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/huawei.jpg"  alt="Example image">
+                <p class="modal_p">Смартфони необхідні для використання разом з окулярами віртуальної реальності. На них завантажуються всі необхідні програми та відео. За розмірами ідеально підходять до окулярів Bobo VR Z4.</p>
+                <p class="modal_p">Дуже зручно використовувати смартфони для цікавих уроків з доповненою реальністю під час роботи пересувних лабораторій.</p>
+                <p class="modal_p">оповнена реальність в освіті може допомогти вчителям мотивувати учнів до навчання, візуалізувати детальніше наш 3Д простір. Те, чого неможливо досягти за допомогою традиційної педагогіки, можна зробити за допомогою технології доповненої реальності.</p>
+                `
+            },
+            {
+                "name": "projector",
+                "id": "projector",
+                "srcImg": "img/resource/vr/projector.jpg",
+                "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/projector.jpg"  alt="Example image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                `
+            }
+        ]
+    },
+    {
         "name": "MAKESPACE",
         "cssClass": "makespace",
         "srcImg": "img/labs/makespace.png",
@@ -514,12 +559,135 @@ labs = [
         ]
     },
     {
-        "name": "mediastudio",
+        "name": "MEDIA STUDIO",
         "cssClass": "mediastudio",
         "srcImg": "img/labs/media.png",
         "content": [
-            "Медіа-лабораторія – складається з фото-студії та телевізійної студії. Обладнання лабораторії може використовуватися школами для підготовки високоякісної медіа-продукції для участі в конкурсах, організації роботи учнівського телебачення.",
+            "Лабораторія складається з фото-студії та телевізійної студії. Обладнання лабораторії може використовуватися школами для підготовки високоякісної медіа-продукції для участі в конкурсах, організації роботи учнівського телебачення.",
             "Ресурс лабораторії може застосовуватися мобільною знімальною групою центру для підготовки відео-контенту з міських заходів.",
+        ],
+        "products":[
+            {
+                "name": "Canon EOS 90D",
+                "id": "photocam",
+                "srcImg": "img/resource/mediastudio/photocam.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/mediastudio/photocam.jpg"  alt="Example image">
+                <p class="modal_p">Дзеркальна Фотокамера Canon EOS 90D + 18-135</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id_2",
+                "srcImg": "img/resource/q.jpg",
+                "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p class="modal_p" class="modal_p">laborum.</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id_3",
+                "srcImg": "img/resource/q.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p class="modal_p" class="modal_p">laborum.</p>
+                `
+            }
+        ]
+    },
+    {
+        "name": "GameDev + LEGO-Art",
+        "cssClass": "gamedev",
+        "srcImg": "img/labs/media.png",
+        "content": [
+            "Лабораторія містить обладнання для вивчення курсу розробки комп’ютерних ігор, мобільних навчальних додатків та іншого програмного забезпечення навчального призначення. Ресурс може бути використаний стаціонарно і має широкопрофільне спрямування. Крім того в лабораторії розміщені LEGO-столи для роботи з молодшою віковою групою та творчої роботи вчителів, які беруть участь в проектах LEGO Foundation.",
+        ],
+        "products":[
+            {
+                "name": "STEM Архітектурний набір: Ейфелева вежа та<br>Сіднейський міст",
+                "id": "steamset01",
+                "srcImg": "img/resource/gamedev/steamset01.jpg",
+                "count": 1,
+                "year": "8 до 16",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset01.jpg"  alt="Example image">
+                <p class="modal_p">Набір будівель парку розваг навчає молодих інженерів фізиці побудови улюблених атракціонів парку атракціонів: колеса чортового огляду, лондонського ока.</p>
+                <hr>
+                <p>Технічні характеристики</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>Можливість побудувати 2 моделі атракціонів</li>
+                    <li>Зручне підключення в будь-якому напрямку та куті.</li>
+                    <li>Інструмент витяжки для легкого розбирання.</li>
+                    <li>Прості в дотриманні інструкції з будівництва.</li>
+                    <li>Усі деталі нетоксичні і довгої тривалості. Яскраві кольорові деталі.</li>
+                    <li>Друкована інструкція.</li>
+                    <li>Цей набір включає в себе 3В двигун з акумулятором, що має подвійний перемикач напрямку обертання.</li>
+                    <li>Матеріал продукту: ABS пластик, TPE & нейлон</li>
+                </ul>
+                `
+            },
+            {
+                "name": "STEM набір Парк розваг: Чортове колесо і<br>Око Лондона",
+                "id": "steamset02",
+                "srcImg": "img/resource/gamedev/steamset02.jpg",
+                "count": 1,
+                "year": "8 до 16",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset02.jpg"  alt="Example image">
+                <p class="modal_p">За допомогою набору можна створити дві негабаритні моделі всесвітньо відомої Ейфелевої вежі у Франції та міст Сідней-Харбор в Австралії!</p>
+                <p class="modal_p">Модель Ейфелевої вежі має висоту 150 см (59 дюймів), а міст Сіднейського гавані - 142 см (56 дюймів) в довжину! Набір поставляється у зручній пластиковій коробці для зберігання з кришкою для зручного зберігання.</p>
+                <p class="modal_p">Набір архітектурних будівель навчить молодих інженерів усьому, що потрібно знати про фізику великих будівель та мостів, включаючи сили, навантаження та матеріали. Також дізнаються, як інженери протистоять законам гравітації та тримають важкі мости, стоячи за допомогою тріангуляції, дуг та опор для кабелів. Детальні пояснення кожного наукового принципу, пов'язані з цікавими фактами та історією.</p>
+                <hr>
+                <p class="uk-text-bold">Технічні характеристики</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>Модель Ейфелевої вежі має висоту не менше ніж 150 см, а міст Сіднейського гавані - не менше ніж 142 см в довжину</li>
+                    <li>Побудова не менше ніж 9 моделей</li>
+                    <li>Зручне підключення в будь-якому напрямку та куті.</li>
+                    <li>Інструмент витяжки для легкого розбирання.</li>
+                    <li>Прості в дотриманні інструкції з будівництва.</li>
+                    <li>Усі деталі нетоксичні і виготовлені до тривалості. Яскраві кольорові деталі.</li>
+                    <li>Друкована інструкція включена</li>
+                </ul>
+                `
+            },
+            {
+                "name": "Engino Green House",
+                "id": "steamset03",
+                "srcImg": "img/resource/gamedev/steamset03.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset03.jpg"  alt="Example image">
+                <p class="modal_p">Діти одягають свої каски і глибоко занурюються у світ машинобудування, щоб з’ясувати науку, що стоїть за 4 найпопулярнішими визначними пам'ятками парку розваг у світі. Працюючи самостійно або з батьками, молоді учні створюють і експериментують із власними копіями колеса огляду, Лондонським оком, каруселлю та підсилювачем!</p>
+                `
+            },
+        ]
+    },
+    {
+        "name": "ArduinoLab",
+        "cssClass": "arduinolan",
+        "srcImg": "img/labs/media.png",
+        "content": [
+            "Лабораторія «ArduinoLab» – містить обладнання, яке може використовується при вивченні основ електроніки, електрики та робототехніки (старша вікова категорія). Лабораторія дозволяє створювати складні проекти для наукових робіт МАН, які потребують макетування, паяння та програмування.",
         ],
         "products":[
             {
@@ -527,6 +695,9 @@ labs = [
                 "id": "id_1",
                 "srcImg": "img/resource/q.jpg",
                 "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
                 <p>laborum.</p>
@@ -537,6 +708,9 @@ labs = [
                 "id": "id_2",
                 "srcImg": "img/resource/q.jpg",
                 "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
                 <p>laborum.</p>
@@ -547,6 +721,10 @@ labs = [
                 "id": "id_3",
                 "srcImg": "img/resource/q.jpg",
                 "count": 1,
+                "count": 15,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
                 <p>laborum.</p>
@@ -557,40 +735,105 @@ labs = [
     // {
     //     "name": "VR",
     //     "cssClass": "vr",
-    //     "srcImg": "img/labs/",
+    //     "srcImg": "img/labs/media.png",
     //     "content": [
-    //         "",
-    //         "",
-    //         ""
+    //         "text",
+    //         "text",
+    //         "text"
     //     ],
     //     "products":[
     //         {
-    //             "name": "",
-    //             "id": "",
-    //             "srcImg": "",
+    //             "name": "name",
+    //             "id": "id_1",
+    //             "srcImg": "img/resource/q.jpg",
     //             "count": 15,
+    //             "year": "",
+    //             "offsiteName": "www",
+    //             "offsiteProtocol": "https",
     //             "modalHtml": `
-
+    //             <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+    //             <p>laborum.</p>
     //             `
     //         },
     //         {
-    //             "name": "",
-    //             "id": "",
-    //             "srcImg": "",
+    //             "name": "name",
+    //             "id": "id_2",
+    //             "srcImg": "img/resource/q.jpg",
     //             "count": 15,
+    //             "year": "",
+    //             "offsiteName": "www",
+    //             "offsiteProtocol": "https",
     //             "modalHtml": `
-
+    //             <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+    //             <p>laborum.</p>
     //             `
     //         },
     //         {
-    //             "name": "",
-    //             "id": "",
-    //             "srcImg": "",
+    //             "name": "name",
+    //             "id": "id_3",
+    //             "srcImg": "img/resource/q.jpg",
     //             "count": 1,
+    //             "count": 15,
+    //             "year": "",
+    //             "offsiteName": "www",
+    //             "offsiteProtocol": "https",
     //             "modalHtml": `
-
+    //             <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+    //             <p>laborum.</p>
     //             `
     //         }
     //     ]
-    // }
+    // },
+    // {
+    //     "name": "VR",
+    //     "cssClass": "vr",
+    //     "srcImg": "img/labs/media.png",
+    //     "content": [
+    //         "text",
+    //         "text",
+    //         "text"
+    //     ],
+    //     "products":[
+    //         {
+    //             "name": "name",
+    //             "id": "id_1",
+    //             "srcImg": "img/resource/q.jpg",
+    //             "count": 15,
+    //             "year": "",
+    //             "offsiteName": "www",
+    //             "offsiteProtocol": "https",
+    //             "modalHtml": `
+    //             <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+    //             <p>laborum.</p>
+    //             `
+    //         },
+    //         {
+    //             "name": "name",
+    //             "id": "id_2",
+    //             "srcImg": "img/resource/q.jpg",
+    //             "count": 15,
+    //             "year": "",
+    //             "offsiteName": "www",
+    //             "offsiteProtocol": "https",
+    //             "modalHtml": `
+    //             <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+    //             <p>laborum.</p>
+    //             `
+    //         },
+    //         {
+    //             "name": "name",
+    //             "id": "id_3",
+    //             "srcImg": "img/resource/q.jpg",
+    //             "count": 1,
+    //             "count": 15,
+    //             "year": "",
+    //             "offsiteName": "www",
+    //             "offsiteProtocol": "https",
+    //             "modalHtml": `
+    //             <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+    //             <p>laborum.</p>
+    //             `
+    //         }
+    //     ]
+    // },
 ]
