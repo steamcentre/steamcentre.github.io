@@ -29,7 +29,7 @@ let menu = `
             <li class="sub_menu_item"><a class="sub_menu_link" href="#">матеріали</a></li>
         </ul>
     </li>
-    <li class="menu_item"><a class="menu_link" href="#">faq</a></li>
+    <li class="menu_item"><a class="menu_link" href="faq.html">faq</a></li>
     <li class="menu_item"><a class="menu_link" href="#">галерея</a></li>
  
 </menu>

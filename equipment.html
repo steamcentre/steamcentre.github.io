@@ -20,7 +20,7 @@
             <img class="heder_canvas" src="img/header/heder_equipment.svg" alt="">
         </header>
         <main class="main" id="main"></main>
-    <footer class="footer" id="mainFooter"></footer>
+        <footer class="footer" id="mainFooter"></footer>
     </div>
     
     <script src="json/labs.json"></script>
@@ -37,9 +37,9 @@
             })
             main.append(labContent)
             
-            let labGoots = document.createElement('div');
-            labGoots.className = "resource uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center" 
-            labGoots.setAttribute('uk-grid', "")
+            let labProducts = document.createElement('div');
+            labProducts.className = "resource uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center" 
+            labProducts.setAttribute('uk-grid', "")
             lab.products.forEach(product => {
                 let forYear = ''
                 if (product.year){
@@ -49,7 +49,7 @@
                 if (product.offsiteName){
                     offSite = `<p><span class="uk-text-italic">Офіційний сайт: </span><a href="${product.offsiteProtocol}://${product.offsiteName}" target="_blank">${product.offsiteName}</a></p>`
                 }
-                labGoots.innerHTML += `
+                labProducts.innerHTML += `
                 <div>
                     <a href="#${product.id}" uk-toggle>
                         <div class="uk-card uk-card-default">
@@ -82,7 +82,7 @@
                 `
             })
             i++
-            main.append(labGoots)
+            main.append(labProducts)
         });
     </script>
     <script src="json/menu.json"></script>
@@ -93,6 +93,7 @@
 
     <!-- main -->
     <script src="js/main.js"></script>
+    
     <!-- text -->
     <!-- <style>
         .del{
@@ -105,9 +106,12 @@
     <div class="del wraper">
         <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/matata.jpg"  alt="Example image">
         <p class="modal_p"></p>
+        <p class="uk-text-bold"></p>
         
-        <p>До комплекту MINDSTORMS входять:</p>
         
+        
+
+
 
         <ul class="uk-list uk-list-disc uk-list-muted content">
             <li>мікрокомп'ютер EV3;</li>

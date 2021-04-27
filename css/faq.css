@@ -1,0 +1,48 @@
+.faq{
+    background-color: #413ada;
+    padding: 20px 40px 60px 40px;
+}
+.faq_img{
+
+}
+.faq_headline{
+    margin: 40px 10px 20px 10px;
+}
+.faq_mete{
+    color: white;
+}
+.dialog{
+    padding: 20px 30px;
+    background-image: url(../img/faq/bg_message5.jpg);
+}
+.dialog_wraper{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.dialog_blok{
+
+}   
+.massage_we{
+
+}
+.dialog_text{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+.dialog_person{
+    background-color: #9a5edb;
+    margin-right: 30px;
+    border-top-left-radius: 0;
+}
+.dialog_we{
+    background-color: #423bdb;
+    margin-left: 30px;
+    border-top-right-radius: 0;
+}
+.dialog_link{
+    color: wheat;
+    text-decoration: underline;
+}

@@ -22,7 +22,7 @@ labs = [
                 <p class="modal_p">MatataLab Coding Set –  це набір для вивчення основ алгоритмізації та програмування, який призначений для формування когнітивних навичок та розвитку логічного мислення.</p>
                 <p class="modal_p">Діти найефективніше засвоюють необхідні навички та знання в процесі ігрової діяльності, використовуючи основні органи чуття (свої руки, глаза та вуха). Особливістю Matatalab є те, що програмування відбувається без використання комп’ютера чи мобільного пристрою.</p>
                 <hr>
-                <p>До комплекту Matatalab Coding Set також входять:</p>
+                <p class="uk-text-bold">До комплекту Matatalab Coding Set також входять:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>двостороння карта місцевості;</li>
                     <li>3 книги із завданнями;</li>
@@ -50,8 +50,9 @@ labs = [
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/mTiny.jpg"  alt="Example image">
                 <p class="modal_p">Це робот-панда призначений для раннього розвитку дітей, що ростуть в епоху цифрових технологій. Він може працювати 2,5 години без підзарядки.</p>
+                <p class="modal_p">MTiny не потребує підключення до інших пристроїв, як наслідок, відсутність дисплею зменшує навантаження на очі.</p>
                 <hr>
-                <p>В набір також входять:</p>
+                <p class="uk-text-bold">В набір також входять:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>cенсорний контролер (на акумуляторі);</li>
                     <li>36 карточок для кодування;</li>
@@ -60,7 +61,6 @@ labs = [
                     <li>ігрові картки;</li>
                     <li>та різні доповнення для зміни образу.</li>
                 </ul>
-                <p class="modal_p">MTiny не потребує підключення до інших пристроїв, як наслідок, відсутність дисплею зменшує навантаження на очі.</p>
                 `
             },
             {
@@ -74,8 +74,10 @@ labs = [
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/codeyrocky.jpg"  alt="Example image">
                 <p class="modal_p">Це навчальний конструктор компанії Makeblock, який дозволяє дітям дізнатись про програмування під час гри.</p>
+                <p class="modal_p">Програмування здійснюється у зрозумілому графічному інтерфейсі mBlock 5. Також є можливість програмування за допомогою мови Python.</p>
+                <p class="modal_p">Використовувати Codey Rocky доцільно на уроках програмування (для наочності процесу), фізики та математики, мистецтва і т.д.</p>
                 <hr>
-                <p>До комплекту Codey Rocky входять:</p>
+                <p class="uk-text-bold">До комплекту Codey Rocky входять:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>контролер Codey (контролер з різними датчиками, дисплеєм і кнопками. Його можна використовувати окремо для виконання різних завдань та навчання);</li>
                     <li>колісна база Rocky (вміє не тільки рухатись по лінії та кружляти, а ще й оминати перешкоди);</li>
@@ -83,8 +85,6 @@ labs = [
                     <li>Ремінець;</li>
                     <li>Різнокольорові картки.</li>
                 </ul>
-                <p class="modal_p">Програмування здійснюється у зрозумілому графічному інтерфейсі mBlock 5. Також є можливість програмування за допомогою мови Python.</p>
-                <p class="modal_p">Використовувати Codey Rocky доцільно на уроках програмування (для наочності процесу), фізики та математики, мистецтва і т.д.</p>
                 `
             },
             {
@@ -98,8 +98,9 @@ labs = [
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/neiron.jpg"  alt="Example image">
                 <p class="modal_p">Makeblock Neuron - це програмована електронна платформа будівельних блоків для навчання STEAM. Він містить десятки різних електронних модулів. За допомогою простих комбінацій можна створити різні творчі винаходи.</p>
+                <p class="modal_p">Блоки Neuron підключаються один з одним за допомогою магнітних роз’ємів. Цікаві гаджети можна побудувати з використанням програмування або без нього. За допомогою програм Neuron або mBlock можна задати код та умови для кожного окремого блоку, створюючи унікальні інтерактивні пристрої та веселі ігри.</p>
                 <hr>
-                <p>До комплекту Inventor Kit входять:</p>
+                <p class="uk-text-bold">До комплекту Inventor Kit входять:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>модулі енергії та комунікації (блок живлення та bluetooth);</li>
                     <li>модулі виведення (зумер, серводвигун з драйвером та світлодіодна панель);</li>
@@ -110,7 +111,6 @@ labs = [
                     <li>картонні заготовки для проєктів;</li>
                     <li>20 резинових кілець;</li>
                 </ul>
-                <p class="modal_p">Блоки Neuron підключаються один з одним за допомогою магнітних роз’ємів. Цікаві гаджети можна побудувати з використанням програмування або без нього. За допомогою програм Neuron або mBlock можна задати код та умови для кожного окремого блоку, створюючи унікальні інтерактивні пристрої та веселі ігри.</p>
                 `
             },
             {
@@ -124,9 +124,9 @@ labs = [
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/junior/neiron_r.jpg"  alt="Example image">
                 <p class="modal_p">Makeblock Neuron - це серія програмованих електронних модулів для навчання STEAM.</p>
-                <p>Neuron Inventor Kit  та Creative Lab Kit 2.0 відрізняються тим, що в другому наборі є набагато більше модулів для створення різних інноваційних гаджетів.</p>
+                <p class="modal_p">Neuron Inventor Kit  та Creative Lab Kit 2.0 відрізняються тим, що в другому наборі є набагато більше модулів для створення різних інноваційних гаджетів.</p>
                 <hr>
-                <p>Комплектація:</p>
+                <p class="uk-text-bold">Комплектація:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content uk-column-1-2@s uk-column-divider">
                     <li>Модуль живлення × 2</li>
                     <li>Bluetooth × 1</li>
@@ -197,8 +197,9 @@ labs = [
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/halocode.jpg"  alt="Example image">
                 <p class="modal_p">Це бездротовий одноплатний комп'ютер із вбудованим Wi-Fi. Його компактна конструкція, призначена для навчання програмуванню, включає широкий вибір електронних модулів.</p>
+                <p class="modal_p">Розроблений спеціально для навчання кодуванню, Halocode ідеально працює з програмним забезпеченням mBlock. З програмою mBlock 5 учні можуть легко створювати інтерактивні програми. Наприклад, повноцінну гру, для якої плата Halocode буде джойстиком. За допомогою вбудованих анімацій можна також створювати оригінальні інтерактивні історії або сюжетні ігри.</p>
                 <hr>
-                <p>До комплекту Halocode входять:</p>
+                <p class="uk-text-bold">До комплекту Halocode входять:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>одноплатний комп'ютер HaloCode;</li>
                     <li>micro-USB кабель;</li>
@@ -209,7 +210,6 @@ labs = [
                     <li>4 × біла текстильна застібка;</li>
                     <li>4 × різнокольорові затискачі.</li>
                 </ul>
-                <p class="modal_p">Розроблений спеціально для навчання кодуванню, Halocode ідеально працює з програмним забезпеченням mBlock. З програмою mBlock 5 учні можуть легко створювати інтерактивні програми. Наприклад, повноцінну гру, для якої плата Halocode буде джойстиком. За допомогою вбудованих анімацій можна також створювати оригінальні інтерактивні історії або сюжетні ігри.</p>
                 `
             },
             {
@@ -223,16 +223,16 @@ labs = [
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/robo/spike.jpg"  alt="Example image">
                 <p class="modal_p">Це практично-орієнтоване освітнє рішення для STEAM навчання. онних модулів.</p>
-                <p>В комплект SPIKE Prime входять:</p>
+                <p class="modal_p">Програмне забезпечення LEGO Education SPIKE можна завантажити на сайті LEGO Education. Програма створена на базі Scratch. Вона складається з набору команд, кожна з яких являє собою графічний блок визначеної форми і кольору з певними параметрами, які можна змінювати вручну, наприклад, швидкість та відстань, кут повороту і т.д.</p>
+                <p  class="modal_p">Програмне забезпечення містить 4 курси для дітей, загалом це понад 30 уроків з планом заняття та готовими інструкціями. Також за допомогою програмного забезпечення можна вивчати мікро Python.</p>
                 <hr>
+                <p class="uk-text-bold">В комплект SPIKE Prime входять:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>три двигуни;</li>
                     <li>три датчики (кольору, натиску, відстані);</li>
                     <li>блок Smart Hub з шістьма портами, динаміком, світловою матрицею 5×5, 6-осьовим гіроскопом, акамулятором;</li>
                     <li>більше 500 яскравих деталей LEGO Technic.</li>
                 </ul>
-                <p class="modal_p">Програмне забезпечення LEGO Education SPIKE можна завантажити на сайті LEGO Education. Програма створена на базі Scratch. Вона складається з набору команд, кожна з яких являє собою графічний блок визначеної форми і кольору з певними параметрами, які можна змінювати вручну, наприклад, швидкість та відстань, кут повороту і т.д.</p>
-                <p  class="modal_p">Програмне забезпечення містить 4 курси для дітей, загалом це понад 30 уроків з планом заняття та готовими інструкціями. Також за допомогою програмного забезпечення можна вивчати мікро Python.</p>
                 `
             },
             {
@@ -248,7 +248,7 @@ labs = [
                 <p class="modal_p">Це практичне робототехнічне міжпредметне навчальне рішення.</p>
                 <p class="modal_p">Рішення MINDSTORMS EV3 легко адаптується для будь-якого навчального середовища, надає можливості для розвитку в учнів впевненості в собі в процесі всебічних досліджень і готує їх до подальшого вивчення інформатики, інженерного мистецтва та інших суміжних наук.</p>
                 <hr>
-                <p>До комплекту MINDSTORMS входять:</p>
+                <p class="uk-text-bold">До комплекту MINDSTORMS входять:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>мікрокомп'ютер EV3;</li>
                     <li>3 сервомотора;</li>
@@ -284,7 +284,7 @@ labs = [
                 <p class="modal_p">Це набір середнього рівня складності для створення радіокерованих моделей. Розроблений спеціально для занять в гуртках робототехніки або в школах.</p>
                 <p class="modal_p">Набір дозволяє зібрати робототехнічні моделі, схожі на ті, що встановлені у виробничих цехах, справжні прототипи, що володіють силою й інтелектом, які виконуватимуть автоматизовані операції, спрямовані на досягнення цілей навчання науково-технічним дисциплінам.</p>
                 <hr>
-                <p>До набору TETRIX MAX R/C входить:</p>
+                <p class="uk-text-bold">До набору TETRIX MAX R/C входить:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>679 деталей (структурні, рухомі і апаратні елементи, перемикачі колес, шестерні, балки, рейки, з’єднувальні елементи, вставки та багато іншого);</li>
                     <li>безпровідний контролер + 4-канальний ресивер;</li>
@@ -308,8 +308,9 @@ labs = [
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/tetrix.jpg"  alt="Example image">
                 <p class="modal_p">Набір розширення використовується для побудови більш складних механізмів і багатофункціональних роботів на радіоуправлінні, а також для підготовки до змагань FTC, WRO та інших.</p>
+                <p>Містить інструкції з ефективного використання нових функцій.</p>
                 <hr>
-                <p>Набір включає 637 деталей, тим самим розширюючи елементну базу набору TETRIX MAX:</p>
+                <p class="uk-text-bold">Набір включає 637 деталей, тим самим розширюючи елементну базу набору TETRIX MAX:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>різноманітні з'єднувальні елементи, пластини та балки, які не входять до стандартних наборів з робототехніки,</li>
                     <li>гусеничні протектори, ланцюгові (зубчасті) колеса, всенаправлені колеса та конвеєрні лопаті;</li>
@@ -317,7 +318,6 @@ labs = [
                     <li>серводвигун безперервного обертання;</li>
                     <li>вісі, втулки, опори та з'єднувальне обладнання.</li>
                 </ul>
-                <p>Містить інструкції з ефективного використання нових функцій.</p>
                 `
             },
             {
@@ -332,8 +332,9 @@ labs = [
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arena/unimate.jpg"  alt="Example image">
                 <p class="modal_p">Навчальний конструктор Ultimate ідеально підходить для розвитку творчого потенціалу, фантазії, уяви дитини. Його сумісність з Arduino і Raspberry Pi робить конструктор ідеальним пристроєм для прихильників робототехніки, які хочуть дізнатися про механічний дизайн, електроніку та програмування</p>
                 <p class="modal_p">Програмується у зрозумілому графічному інтерфейсі mBlock 5.</p>
+                <p class="modal_p">Містить інструкції з ефективного використання нових функцій.</p>
                 <hr>
-                <p>Основні елементи, які входять в комплектацію конструктора:</p>
+                <p class="uk-text-bold">Основні елементи, які входять в комплектацію конструктора:</p>
                 <ul class="uk-list uk-list-disc uk-list-muted content">
                     <li>потужна та надійна у роботі материнська плата MegaPi;</li>
                     <li>двигуни;</li>
@@ -344,7 +345,6 @@ labs = [
                     <li>3-осьовий акселерометр і датчик гіроскопа;</li>
                     <li>адаптер RJ25.</li>
                 </ul>
-                <p>Містить інструкції з ефективного використання нових функцій.</p>
                 `
             }
         ]
@@ -360,22 +360,70 @@ labs = [
         ],
         "products":[
             {
-                "name": "Pen 3d",
-                "id": "pen3d",
-                "srcImg": "img/resource/lab3d/pen3d.jpg",
-                "count": 15,
-                "year": "",
-                "offsiteName": "www.xyzprinting.com/ru-RU/product-level/EXPLORER/3d-pen-series",
+                "name": "da Vinci 3D Pen Cool ",
+                "id": "pen3d_w",
+                "srcImg": "img/resource/lab3d/pen3d_w.jpg",
+                "count": 8,
+                "year": "6",
+                "offsiteName": "www.xyzprinting.com/ru-RU/product/da-vinci-3d-pen-cool",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/pen3d.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/pen3d_w.jpg"  alt="Example image">
+                <p class="modal_p">Безпечна портативна 3D-ручка, призначена для дітей. У ній використовується пластик PCL, який плавиться при низькій температурі і швидко застигає.</p>
+                <hr>
+                <p class="uk-text-bold">Технічні характеристики</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>Технологія друку: FFF (Виробництво методом наплавлення ниток)</li>
+                    <li>Діаметр сопла (мм): 1,2</li>
+                    <li>Температура сопла (оС): 70</li>
+                    <li>Сумісний матеріал: PCL-пластик</li>
+                    <li>Діаметр нитки (мм): 1,75</li>
+                    <li>Розміри продукту (ШхГхВ) (мм): 180x26x27,5 </li>
+                </ul>
+                <hr>
+                <p class="uk-text-bold">До комплекту входять:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>3D ручка;</li>
+                    <li>блок живлення;</li>
+                    <li>килимок для малювання;</li>
+                    <li>пробна нитка;</li>
+                    <li>кольорові 3D-карти (6 штук).</li>
+                </ul>
                 `
             },
             {
-                "name": "print",
+                "name": "da Vinci 3D Pen",
+                "id": "pen3d_orange",
+                "srcImg": "img/resource/lab3d/pen3d_orang.jpg",
+                "count": 8,
+                "year": "6",
+                "offsiteName": "www.xyzprinting.com/ru-RU/product/3d-pen",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/pen3d_orang.jpg"  alt="Example image">
+                <p class="modal_p">Маленька портативна 3D-ручка працює з біорозкладаним пластиком PLA, яким можна не тільки малювати, а й виправляти 3D-конструкції і з'єднувати 3D-вироби з PLA.</p>
+                <hr>
+                <p class="uk-text-bold">Технічні характеристики</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>Технологія друку: FFF (Виробництво методом наплавлення ниток)</li>
+                    <li>Діаметр сопла (мм): 0,8</li>
+                    <li>Температура сопла (оС): 190</li>
+                    <li>Сумісний матеріал: PLA -пластик</li>
+                    <li>Діаметр нитки (мм): 1,75</li>
+                    <li>Розміри продукту (ШхГхВ) (мм): 178 x 28 x 25</li>
+                </ul>
+                <hr>
+                <p class="uk-text-bold">До комплекту входять:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>3D ручка;</li>
+                    <li>блок живлення;</li>
+                    <li>пробна нитка;</li>
+                    <li>інструмент для прочищення сопла.</li>
+                </ul>
+                `
+            },
+            {
+                "name": "da Vinci 1.0 Pro",
                 "id": "print_one",
                 "srcImg": "img/resource/lab3d/print3d.jpg",
                 "count": 1,
@@ -384,13 +432,30 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/print3d.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">Принтер для професійного 3D-друку, який підтримує пластикові смоли різних виробників і може управлятися G-кодами. Цей пристрій дозволяє виробляти великі партії виробів практично з будь-якого матеріалу.</p>
+                <hr>
+                <p class="uk-text-bold">Технічні характеристики</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    Технологія друку: FFF
+                    <li>Точність позиціонування XY: X / Y 12,5 мікрон</li>
+                    <li>Підтримувані формати файлів: .stl, .3mf, .obj, .igs, .stp, .ply, .amf, XYZ Format (.3w), .nkg (.stl, .3w), G-code</li>
+                    <li>Макс. робоча площа (ШxГxВ) 200 x 200 x 200 мм</li>
+                    <li>Дозвіл шару: 20 - 400 мікрон</li>
+                    <li>Програма для друку: XYZmaker Suite / XYZprint Hub</li>
+                    <li>Макс. швидкість переміщення: макс. 150 мм/с</li>
+                    <li>Сумісний матеріал: PLA / Antibacterial PLA / ABS / Tough PLA / PETG / HIPS / Wood PLA</li>
+                    <li>Діаметр нитки: 1,75 мм</li>
+                    <li>Діаметр сопла: 0,4 мм</li>
+                    <li>Температура сопла: макс. 240 оС</li>
+                    <li>Температура робочої платформи: 40 ~ 90 °C (104 ~ 194 °F)</li>
+                    <li>Вимоги до живлення: 100 ~ 240 В 200 Вт</li>
+                    <li>Робоча температура: 15 ~ 32 °C</li>
+                    <li>Розміри виробу (Ш x Г x В): 468 x 558 x 510 мм</li>
+                </ul>
                 `
             },
             {
-                "name": "print 3 in 1",
+                "name": "da Vinci 1.0 Pro 3-in-1",
                 "id": "print_3in1",
                 "srcImg": "img/resource/lab3d/print3d3in1.jpg",
                 "count": 1,
@@ -399,9 +464,32 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/lab3d/print3d3in1.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="modal_p">da Vinci 1.0 Pro 3-1 - це 3D-принтер і мобільна робоча станція, що підтримує G-коди і друк нитками інших виробників. Завдяки встановленому 3D-сканеру ви можете відтворити будь-який предмет.</p>
+                <hr>
+                <p class="uk-text-bold">Технічні характеристики</p>
+                <ul>
+                    <li>Технологія друку: FFF</li>
+                    <li>Точність позиціонування XY: X / Y 12,5 мікрон</li>
+                    <li>Підтримувані формати файлів: .stl, .3mf, .obj, .igs, .stp, .ply, .amf, XYZ Format (.3w), .nkg (.stl, .3w), G-code</li>
+                    <li>Макс. робоча площа (ШxГxВ) 200 x 200 x 190 мм</li>
+                    <li>Дозвіл шару: 20 - 400 мікрон</li>
+                    <li>Програма для друку: XYZmaker Suite / XYZprint Hub</li>
+                    <li>Макс. швидкість переміщення: макс. 150 мм/с</li>
+                    <li>Сумісний матеріал: PLA / Antibacterial PLA / ABS / Tough PLA / PETG / HIPS / Wood PLA</li>
+                    <li>Діаметр нитки: 1,75 мм</li>
+                    <li>Діаметр сопла: 0,4 мм</li>
+                    <li>Температура сопла: макс. 240 оС</li>
+                    <li>Температура робочої платформи: 40 ~ 90 °C (104 ~ 194 °F)</li>
+                    <li>Технологія сканування: триангуляція за допомогою перетину лазером</li>
+                    <li>Точність сканування 0,25 мм</li>
+                    <li>Типи вихідних файлів: .stl, .obj, .das</li>
+                    <li>Розмір області сканування (Ø x H): 3 x 3 см ~ 15 x 15 см (1.18" x 1.18” ~ 5.9" x 5.9”)</li>
+                    <li>ПО для сканування: XYZscan</li>
+                    <li>Дозвіл сканування: 2140 точок / кв. см (13900 точок / кв. дюйм)</li>
+                    <li>Вимоги до живлення: 100 ~ 240 В 200 Вт</li>
+                    <li>Робоча температура: 15 ~ 32 °C</li>
+                    <li>Розміри виробу (Ш x Г x В): 468 x 558 x 510 мм</li>
+                </ul>
                 `
             }
         ]
@@ -487,7 +575,8 @@ labs = [
         ],
         "products":[
             {
-                "name": "STEM Архітектурний набір: Ейфелева вежа та<br>Сіднейський міст",
+                // "name": "STEM Архітектурний набір: Ейфелева вежа та<br>Сіднейський міст",
+                "name": "Architecture Set",
                 "id": "steamset01",
                 "srcImg": "img/resource/gamedev/steamset01.jpg",
                 "count": 1,
@@ -496,31 +585,6 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset01.jpg"  alt="Example image">
-                <p class="modal_p">Набір будівель парку розваг навчає молодих інженерів фізиці побудови улюблених атракціонів парку атракціонів: колеса чортового огляду, лондонського ока.</p>
-                <hr>
-                <p>Технічні характеристики</p>
-                <ul class="uk-list uk-list-disc uk-list-muted content">
-                    <li>Можливість побудувати 2 моделі атракціонів</li>
-                    <li>Зручне підключення в будь-якому напрямку та куті.</li>
-                    <li>Інструмент витяжки для легкого розбирання.</li>
-                    <li>Прості в дотриманні інструкції з будівництва.</li>
-                    <li>Усі деталі нетоксичні і довгої тривалості. Яскраві кольорові деталі.</li>
-                    <li>Друкована інструкція.</li>
-                    <li>Цей набір включає в себе 3В двигун з акумулятором, що має подвійний перемикач напрямку обертання.</li>
-                    <li>Матеріал продукту: ABS пластик, TPE & нейлон</li>
-                </ul>
-                `
-            },
-            {
-                "name": "STEM набір Парк розваг: Чортове колесо і<br>Око Лондона",
-                "id": "steamset02",
-                "srcImg": "img/resource/gamedev/steamset02.jpg",
-                "count": 1,
-                "year": "8 до 16",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset02.jpg"  alt="Example image">
                 <p class="modal_p">За допомогою набору можна створити дві негабаритні моделі всесвітньо відомої Ейфелевої вежі у Франції та міст Сідней-Харбор в Австралії!</p>
                 <p class="modal_p">Модель Ейфелевої вежі має висоту 150 см (59 дюймів), а міст Сіднейського гавані - 142 см (56 дюймів) в довжину! Набір поставляється у зручній пластиковій коробці для зберігання з кришкою для зручного зберігання.</p>
                 <p class="modal_p">Набір архітектурних будівель навчить молодих інженерів усьому, що потрібно знати про фізику великих будівель та мостів, включаючи сили, навантаження та матеріали. Також дізнаються, як інженери протистоять законам гравітації та тримають важкі мости, стоячи за допомогою тріангуляції, дуг та опор для кабелів. Детальні пояснення кожного наукового принципу, пов'язані з цікавими фактами та історією.</p>
@@ -534,6 +598,31 @@ labs = [
                     <li>Прості в дотриманні інструкції з будівництва.</li>
                     <li>Усі деталі нетоксичні і виготовлені до тривалості. Яскраві кольорові деталі.</li>
                     <li>Друкована інструкція включена</li>
+                </ul>
+                `
+            },
+            {   //"name": "STEM набір Парк розваг: Чортове колесо і<br>Око Лондона",
+                "name": "Amusement Park Set",
+                "id": "steamset02",
+                "srcImg": "img/resource/gamedev/steamset02.jpg",
+                "count": 1,
+                "year": "8 до 16",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset02.jpg"  alt="Example image">
+                <p class="modal_p">Набір будівель парку розваг навчає молодих інженерів фізиці побудови улюблених атракціонів парку атракціонів: колеса чортового огляду, лондонського ока.</p>
+                <hr>
+                <p class="uk-text-bold">Технічні характеристики</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>Можливість побудувати 2 моделі атракціонів</li>
+                    <li>Зручне підключення в будь-якому напрямку та куті.</li>
+                    <li>Інструмент витяжки для легкого розбирання.</li>
+                    <li>Прості в дотриманні інструкції з будівництва.</li>
+                    <li>Усі деталі нетоксичні і довгої тривалості. Яскраві кольорові деталі.</li>
+                    <li>Друкована інструкція.</li>
+                    <li>Цей набір включає в себе 3В двигун з акумулятором, що має подвійний перемикач напрямку обертання.</li>
+                    <li>Матеріал продукту: ABS пластик, TPE & нейлон</li>
                 </ul>
                 `
             },
@@ -638,7 +727,6 @@ labs = [
                 <p class="modal_p">Під час розроблення асортименту швейно-вишивальних машин бренд Minerva подбав про те, щоби моделі були максимально простими у використанні, багатофункціональними, якісними з погляду конструкції та матеріалів і могли задовольнити потреби найвибагливіших користувачів, втілюючи в життя все нові і нові творчі проєкти та ідеї сучасних молодих майстрів.</p>
                 <p class="modal_p">Моделі машин бренда Minerva виготовлено із високоякісних матеріалів, вони мають максимально ергономічну форму для комфортного використання навіть тривалий час, їхня конструкція функціональна, а меню продумане з урахуванням різного ступеня підготовки користувачів. Тому швейно-вишивальні машини Minerva стануть у пригоді як професіоналам у сфері вишивки, так і аматорам, що тільки починають знайомитися з мистецтвом машинної вишивки.</p>
                 <p class="modal_p">Для безперервної роботи машин Minerva в навчальних класах необхідно передбачити доступ до мережі електричного струму, а також наявність зручних столів або парт, висота яких відповідатиме висоті стільця та середньому зросту учня, аби забезпечити зручний доступ до корпусу самої машини. Для моделі швейно-вишивальної машини Minerva MC550W також буде необхідний доступ до мережі через Wi-Fi, оскільки її робота напряму пов’язана з активною точкою інтернету, а всі операції виконують завдяки цьому зв’язку.</p>
-                <p class="modal_p"></p>
                 `
             },
             {
@@ -652,8 +740,7 @@ labs = [
                 "modalHtml": `
                 <p class="modal_p">В основу комплекту Unimat 1 закладений модульний принцип, що дозволяє перебудовувати один верстат в інший за короткий час - від 30 секунд до 5 хвилин.</p>
                 <p class="modal_p">Набір UNIMAT 1 CLASSIC містить всі необхідні деталі і компоненти для того, щоб зібрати повнофункціональні варіанти верстатів:</p>
-                
-                
+
                 <hr>
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/description/u2.jpg"  alt="Example image">
                 <p class="modal_p uk-text-bold">Токарний верстат для металообробка</p>
