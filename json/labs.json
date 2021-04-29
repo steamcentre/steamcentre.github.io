@@ -636,7 +636,8 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset03.jpg"  alt="Example image">
-                <p class="modal_p">Діти одягають свої каски і глибоко занурюються у світ машинобудування, щоб з’ясувати науку, що стоїть за 4 найпопулярнішими визначними пам'ятками парку розваг у світі. Працюючи самостійно або з батьками, молоді учні створюють і експериментують із власними копіями колеса огляду, Лондонським оком, каруселлю та підсилювачем!</p>
+                <p class="modal_p">Engino Green House – це набір для створення міні-теплиці (габарити 6 × 69 × 37 см) з дверима та механічною системою вентиляції. Крім деталей для будівництва теплиці, в комплект також входять 12 вазонів для рослин, таця, шприц для поливу та навчальний посібник.</p>
+                <p class="modal_p">Після того як теплиця буде складена, а насіння висаджене, діти зможуть спостерігати, як воно проростає. Набір познайомить із садівництвом: розповість про життєвий цикл рослин, про фотосинтез та про те, завдяки чому в теплицях створюються ідеальні умови для вирощування рослин.</p>
                 `
             },
         ]
@@ -776,6 +777,56 @@ labs = [
         ]
     },
     {
+        "name": "Експриментальна",
+        "cssClass": "mediastudio",
+        "srcImg": "img/labs/media.png",
+        "content": [
+            "Лабораторія складається з фото-студії та телевізійної студії. Обладнання лабораторії може використовуватися школами для підготовки високоякісної медіа-продукції для участі в конкурсах, організації роботи учнівського телебачення.",
+            "Ресурс лабораторії може застосовуватися мобільною знімальною групою центру для підготовки відео-контенту з міських заходів.",
+        ],
+        "products":[
+            {
+                "name": "vern_teacher",
+                "id": "vern_teacher",
+                "srcImg": "img/resource/experiment/vern_teacher.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/vern_teacher.jpg"  alt="Example image">
+                <p class="modal_p" class="modal_p">laborum.</p>
+                `
+            },
+            {
+                "name": "vern_student",
+                "id": "vern_student",
+                "srcImg": "img/resource/experiment/vern_student.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/vern_student.jpg"  alt="Example image">
+                <p class="modal_p" class="modal_p">laborum.</p>
+                `
+            },
+            {
+                "name": "hromo",
+                "id": "hromo",
+                "srcImg": "img/resource/makespace/hromo.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/hromo.jpg"  alt="Example image">
+                <p class="modal_p" class="modal_p">laborum.</p>
+                `
+            }
+        ]
+    },
+    {
         "name": "MEDIA STUDIO",
         "cssClass": "mediastudio",
         "srcImg": "img/labs/media.png",
@@ -798,28 +849,28 @@ labs = [
                 `
             },
             {
-                "name": "name",
-                "id": "id_2",
-                "srcImg": "img/resource/q.jpg",
-                "count": 15,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
-                <p class="modal_p" class="modal_p">laborum.</p>
-                `
-            },
-            {
-                "name": "name",
-                "id": "id_3",
-                "srcImg": "img/resource/q.jpg",
+                "name": "videocam",
+                "id": "videocam",
+                "srcImg": "img/resource/makespace/videocam.jpg",
                 "count": 1,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/videocam.jpg"  alt="Example image">
+                <p class="modal_p" class="modal_p">laborum.</p>
+                `
+            },
+            {
+                "name": "hromo",
+                "id": "hromo",
+                "srcImg": "img/resource/makespace/hromo.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/hromo.jpg"  alt="Example image">
                 <p class="modal_p" class="modal_p">laborum.</p>
                 `
             }

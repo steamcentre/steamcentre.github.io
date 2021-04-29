@@ -14,7 +14,7 @@
     <title>STEAM Center</title>
 </head>
 <body id="body">
-    <nav class="row" id="mainMenu"></nav>
+    <nav class="uk-flex" id="mainMenu"></nav>
     <div class="wraper">
         <header class="heder">
             <img class="heder_canvas" src="img/header/heder_main.svg" alt="">
@@ -35,35 +35,37 @@
             <div class="photo_conteiner">
                 <img class="photo" src="img/children.webp" alt="">
             </div>
-            <div class="abrivation row">
-                <div class="abrivation_item science col-md-6 col-lg-6" uk-scrollspy="cls: uk-animation-slide-left; delay: 200">
+
+            
+            <div class="abrivation uk-flex uk-flex-wrap">
+                <div class="abrivation_item science uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; delay: 200">
                     <div class="abrivation_content m-left">
                         <h2 class="abrivation_heading">Science</h2>
                         <p class="abrivation_text">До будь якої проблеми потрібно підходити з наукової точки зору, аналізувати проблеми минулого та їх вирішення проблеми, шукати подібності.</p>
                     </div>
                 </div>
-                <div class="abrivation_item technology col-md-6 col-lg-6" uk-scrollspy="cls: uk-animation-slide-right; delay: 300">
+                <div class="abrivation_item technology uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; delay: 300">
                     <div class="abrivation_content m-left">
                         <h2 class="abrivation_heading">Technology</h2>
                         <p class="abrivation_text">Підхід до створення будь-чого покроково не пропускаючи етапи виробництва.</p>
                     </div>
                 </div>
             </div>
-            <div class="abrivation row">
-                <div class="abrivation_item engeneering col-md-6 col-lg-6" uk-scrollspy="cls: uk-animation-slide-left; delay: 300">
+            <div class="abrivation uk-flex uk-flex-wrap">
+                <div class="abrivation_item engeneering uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-left; delay: 300">
                     <div class="abrivation_content">
                         <h2 class="abrivation_heading">Engeneering</h2>
                         <p class="abrivation_text">Точне створення об'єктів завдяки його моделювання та початкового обрахунку ймовірних результатів основаних на законах фізики, створення прототипів.</p>
                     </div>
                 </div>
-                <div class="abrivation_item art col-md-6 col-lg-6" uk-scrollspy="cls: uk-animation-slide-right; delay: 200">
+                <div class="abrivation_item art uk-width-1-2@m" uk-scrollspy="cls: uk-animation-slide-right; delay: 200">
                     <div class="abrivation_content">
                         <h2 class="abrivation_heading ">Art</h2>
                         <p class="abrivation_text">Творча та презентабельна складова яка не пряму впливає на кінцевий результат створеного продукту. Велику роль відіграє при популяризації продукту або під-час продажу.</p>
                     </div>
                 </div>
             </div>
-            <div class="abrivation row">
+            <div class="abrivation">
                 <div class="abrivation_item math" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 200">
                     <div class="abrivation_content center-block">
                         <h2 class="abrivation_heading">Math</h2>
@@ -159,6 +161,9 @@
         <footer class="footer" id="mainFooter"></footer>
         <!--<a href="" uk-totop></a>-->
     </div>
+
+
+
     <script src="json/menu.json"></script>
     <script src="json/footer.json"></script>
 

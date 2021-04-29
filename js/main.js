@@ -6,9 +6,9 @@ document.getElementById('mainFooter').innerHTML = footer
 
 //render scrollUp
 document.getElementById('body').innerHTML += `
-    <div id="scroll__up" class="scroll__up">
-        <a href="#header" uk-icon="icon: chevron-up; ratio: 1.5" uk-scroll></a>
-    </div>
+    <a href="#header" id="scroll__up" class="scroll__up" uk-scroll>
+        <div  uk-icon="icon: chevron-up; ratio: 1.5" ></div>
+    </a>
     `
 
 let scrollUp = document.getElementById("scroll__up")

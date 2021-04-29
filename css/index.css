@@ -32,14 +32,14 @@
     visibility: hidden;    ;
 }
 .abrivation{
-    padding: 0;
+    /* padding: 0; */
 }
 /* width < 62em */
 .m-left{
     margin-left: 0;
 }
 .abrivation_item{
-    width: 100%;
+    /* width: 100%; */
     min-height: 300px;
 }
 .abrivation_content{
@@ -79,7 +79,7 @@
 .engeneering,
 .math,
 .art{
-    padding: 0 40px;       
+    padding: 0 40px;
 }
 
 .center-block{
