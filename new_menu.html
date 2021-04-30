@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <style>
+    <!-- <style>
 #scroll__up{
     opacity: 0.7;
     padding: 5px;
@@ -237,8 +237,8 @@ nav{
         display: block;
     }
 }
-    </style>
-    <nav class="wraper uk-flex" id="mainMenu">
+    </style> -->
+    <!-- <nav class="wraper uk-flex" id="mainMenu">
         <div class="logo uk-width-1-6@m">
             <a href="index.html" class="logo_link">
                 <img class="logo_img" src="img/logo.svg" alt="">
@@ -272,8 +272,49 @@ nav{
             <li class="menu_item"><a class="menu_link" href="#">галерея</a></li>
         
         </menu>
-    </nav>
+    </nav> -->
 
+        <!-- Main Navbar -->
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+            <nav class="uk-container uk-navbar">
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active">
+                            <a href="#">UIKit<strong>ResMenu</strong></a>
+                        </li> 
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav uk-visible@s">
+                        <li><a class="uk-text-large" href="https://shubhamjain.co/about/">about</a></li>
+                        <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                    </ul>
+                    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+                </div>
+            </nav>
+        </div>
+    <div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav">
+                <li><a class="uk-text-large" href="https://shubhamjain.co/about/">about</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+                <li><a class="uk-text-large" href="https://shubhamjain.co/">blog</a></li>
+            </ul>
+        </div>
+    </div>
     <main class="wraper">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat dolore sunt natus provident ab odit aperiam itaque consequuntur, assumenda error doloribus culpa amet maxime dolor, numquam iure architecto, molestias aspernatur?</p>
         <p>Alias, quaerat! Fugit labore dolores temporibus iure iste facilis voluptas hic sequi tempora repellendus obcaecati maiores modi architecto eius harum culpa quidem, excepturi animi ea laboriosam tempore voluptatibus! Ad, nulla?</p>

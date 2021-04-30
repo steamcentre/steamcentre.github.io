@@ -18,7 +18,11 @@
     right: 0;
     transition-duration: .5s;
 }
-
+nav{
+    background-color: #f3c039;
+    padding: 0 !important;
+}
+/* 
 #menu__toggle {
     opacity: 0;
 }
@@ -69,50 +73,41 @@
 }
 .menu__btn{
     visibility: hidden;
-}
+} */
 /* END BURGER */
 /* MENU */
-body{
-    margin: 0;
-    background-color: #88e;
-}
+
 
 /* .wraper{
     margin: 0 auto;
     max-width: 1200px;
 } */
-nav{
-    position: fixed;
+/* nav{ */
+    /* position: fixed;
     width: 100%;
-    /* padding: 0 10px !important; */
     max-width: 1200px;
     left: calc((100% - 1200px) / 2);
     z-index: 1000;
-    background-color: #f3c039;
-}
-#mainMenu{
+    background-color: #f3c039; */
+/* } */
+/* #mainMenu{ */
     /* background-color: #47248a; */
     /* margin: 0; */
     /* padding: 150px; */
-}
-.logo{
+/* } */
+/* .logo{
     padding: 0 10px;
     margin: auto 0;
-    /* margin-right: 20px; */
-}
+    margin-right: 20px;
+} */
 .logo_link{
     
 }
-.logo_img{
+/* .logo_img{
     margin: auto;
     padding: 6px 0;
-}
-.menu{
-    /* margin: auto; */
-    margin: 0;
-    /* margin-left: 40px; */
-    padding: 0;
-}
+} */
+
 .menu_item{
     display: inline-block;
     /* padding: 15px 10px; */
@@ -127,10 +122,11 @@ nav{
 .sub_menu,
 .sub_menu_link
 {
-    color: #fff;
+    font-family: Primus !important;
+    color: #fff !important;
     text-transform: uppercase;
-    text-decoration-line: none;
-    font-size: 1.1em !important;
+    /* text-decoration-line: none; */
+    font-size: 1em !important;
 }
 
 .menu_item:hover{
@@ -146,7 +142,8 @@ nav{
     background-color: #555;
     left: 0;
     top: 100%;
-    width: 220%;
+    /* width: 220%; */
+    white-space: nowrap;
 }
 .sub_menu_item:hover{
     background-color: #777;
@@ -159,69 +156,11 @@ nav{
     padding: 5px 10px;
     display: inline-block;
 }
-@media only screen and (min-width: 960px) {
-    .menu_item:hover .sub_menu{
-        display: block;
-    }
-    .visible{
-        display: block;
-    }
+/* @media only screen and (min-width: 960px) { */
+.menu_item:hover .sub_menu{
+    display: block;
 }
-@media only screen and (max-width: 1200px) {
-    nav{
-        left: 0;
-    }
+.visible{
+    display: block;
 }
-@media only screen and (max-width: 960px) {
-    .menu__btn{
-        visibility: visible;
-    }
-    #menu__toggle:checked ~ .menu {
-        visibility: visible;
-        /* display: none; */
-        right: 0;
-    }
-    .menu{
-        visibility: hidden;
-        /* display: none; */
-    }
-    .menu {
-        display: block;
-        position: fixed;
-        /* position: absolute; */
-        visibility: hidden;
-        top: 0;
-        right: -100%;
-    
-        width: 230px;
-        height: 100%;
-    
-        margin: 0;
-        padding: 40px 0;
-    
-        background-color: #f56e00;
-        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-    
-        transition-duration: .25s;
-    }
-    .menu_link{
-        width: 100%;
-    }
-    .menu_item{
-        display: block;
-    }
-    .sub_menu{
-        display: none;
-        position: static;
-        background-color: #f59600;
-    }
-    .sub_menu_link{
-        padding-left: 20px;
-    }
-    .sub_menu_headline::after{
-        content: " \25BC";
-    }
-    .visible{
-        display: block;
-    }
-}
+/* } */
