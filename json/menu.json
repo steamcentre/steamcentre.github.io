@@ -1,6 +1,6 @@
 
 let menu = `
-<div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 1000">
+<div id="mainMenu" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 1000">
     <nav class="uk-container uk-navbar">
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
@@ -52,7 +52,7 @@ let menu = `
             <li><a class="uk-text-large" href="#">Ресурси</a></li>
             <ul class="uk-nav-sub">
                 <li><a href="equipment.html">Обладнання</a></li>
-                <li><a href="#">матеріали</a></li>
+                <li><a href="#">Матеріали</a></li>
             </ul>
             <li><a class="uk-text-large" href="faq.html">FAQ</a></li>
             <li><a class="uk-text-large" href="#">Галерея</a></li>

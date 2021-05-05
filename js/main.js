@@ -6,7 +6,7 @@ document.getElementById('mainFooter').innerHTML = footer
 
 //render scrollUp
 document.getElementById('body').innerHTML += `
-    <a href="#header" id="scroll__up" class="scroll__up" uk-scroll>
+    <a href="#mainMenu" id="scroll__up" class="scroll__up" uk-scroll>
         <div  uk-icon="icon: chevron-up; ratio: 1.5" ></div>
     </a>
     `
