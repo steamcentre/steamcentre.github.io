@@ -54,8 +54,8 @@
                 <div>
                     <a href="#${product.id}" uk-toggle>
                         <div class="uk-card uk-card-default">
-                            <div class="uk-card-media-top resource_top">
-                                <img src="${product.srcImg}" alt="${product.name}">
+                            <div class="uk-card-media-top resource_top uk-inline-clip uk-transition-toggle" >
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="${product.srcImg}" alt="${product.name}">
                                 <div class="resource_count ${lab.cssClass}">${product.count}</div>
                             </div>
                             <div class="uk-card-body">
@@ -86,14 +86,14 @@
             main.append(labProducts)
         });
     </script>
-    <script src="json/menu.json"></script>
-    <script src="json/footer.json"></script>
+    <script defer src="json/menu.json"></script>
+    <script defer src="json/footer.json"></script>
 
-    <script src="js/uikit.js"></script>
-    <script src="js/uikit-icons.js"></script>
+    <script defer src="js/uikit.js"></script>
+    <script defer src="js/uikit-icons.js"></script>
 
     <!-- main -->
-    <script src="js/main.js"></script>
+    <script defer src="js/main.js"></script>
     
     <!-- text -->
     <!-- <style>

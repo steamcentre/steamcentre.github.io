@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/equipment.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>STEAM Center | Обладнання</title>
+</head>
+<body id="body">
+    <!-- <nav class="uk-flex" id="mainMenu"></nav> -->
+    <div id="mainMenu"></div>
+    <div class="wraper">
+        <!-- <header class="header">
+            <img class="header_canvas" src="img/header/heder_equipment.svg" alt="">
+        </header> -->
+        <main class="main">
+            <style>
+                .resurs {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .resurs img {
+                
+                }
+                .list li{
+                    margin-bottom: 10px;
+                    font-size: 1.2rem;
+                }
+                .list_wrap{
+                    margin: 10px;
+                }
+                .warning{
+                    background-color: red;
+                    color:white;
+                    padding: 20px;
+                    border-radius: 10px;
+                }
+                h3{
+                    font-weight: bold;
+                }
+                .header_curse{
+                    margin-left: 0;
+                }
+                .spike{
+                    background-color: #ffd400;
+                }
+                .box{
+                    padding: 40px 40px;
+                    color: white;
+                }
+                .plan{
+                    /* background-color: #006a80; */
+                    background-color: white;
+                    color: #666;
+                }
+                p{
+                    margin-bottom: 10px;
+                }
+                .plan_items{
+                    /* border: 1px solid red; */
+                }
+                .uk-open{
+                    /* color: whitesmoke; */
+                }
+                .uk-accordion-title{
+                    /* color: white !important; */
+                }
+            </style>
+            <div class="header_curse spike box" >
+                <div uk-grid>
+                    <div class="uk-width-1-2@s uk-flex uk-flex-column" style="justify-content: center;">
+                        <h1 class="uk-text-center">Робототехніка Spike Prime</h1>
+                        <p><span class="uk-text-italic">Вік:</span> 9-10 років</p>
+                        <p><span class="uk-text-italic">Кількість:</span> 8 учнів</p>
+                    </div>
+                    <div class="uk-width-1-2@s"><img src="/img/academ/spike.png" alt=""></div>
+                </div>
+                <p>Основним завданням занять є оволодіння основними поняттями робототехніки, технічного конструювання та моделювання роботів, написання керуючих комп'ютерних програм.</p>
+                <p>Для створення роботів використовується набір Lego Education SPIKE Prime. SPIKE Prime – це практично-орієнтоване освітнє рішення для STEAM-навчання.  Конструктор містить більше 500 яскравих деталей LEGO Technic і програмується за допомогою додатка, який створений на основі Scratch. Також за допомогою програмного забезпечення SPIKE Prime можна вивчати мікро Python.</p>
+            </div>
+            <div class="box plan">
+                <p class="uk-text-center">Планування занять:</p>
+                <ul class="plan_items" uk-accordion>
+                    <!-- <li class="uk-open"> -->
+                    <li>
+                        <a class="uk-accordion-title" href="#">Тема 1. Загін винахідників</a>
+                        <div class="uk-accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Тема 2. Запускаємо бізнес</a>
+                        <div class="uk-accordion-content">
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Тема 3. Корисні пристосування</a>
+                        <div class="uk-accordion-content">
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+        </main>
+       
+        <footer class="footer" id="mainFooter"></footer>
+    </div>
+    
+ 
+    <script defer src="json/menu.json"></script>
+    <script defer src="json/footer.json"></script>
+
+    <script defer src="js/uikit.js"></script>
+    <script defer src="js/uikit-icons.js"></script>
+
+    <!-- main -->
+    <script defer src="js/main.js"></script>
+</body>
+</html>

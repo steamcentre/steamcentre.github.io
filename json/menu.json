@@ -16,7 +16,7 @@ let menu = `
                 <li class="menu_item">
                     <a class="uk-text-large menu_link" href="#">НАПРЯМКИ РОБОТИ</a>
                     <ul class="sub_menu">
-                        <li class="sub_menu_item"><a class="sub_menu_link" href="#">академія професій майбутнього</a></li>
+                        <li class="sub_menu_item"><a class="sub_menu_link" href="academ.html">академія професій майбутнього</a></li>
                         <li class="sub_menu_item"><a class="sub_menu_link" href="#">підвищення кваліфікації</a></li>
                         <li class="sub_menu_item"><a class="sub_menu_link" href="#">пересувні лабораторії</a></li>
                     </ul>
@@ -45,7 +45,7 @@ let menu = `
             <li><a class="uk-text-large" href="#">Про нас</a></li>
             <li><a class="uk-text-large" href="#">Напрямки роботи</a></li>
             <ul class="uk-nav-sub">
-                <li><a href="#">Академія професій майбутнього</a></li>
+                <li><a href="academ.html">Академія професій майбутнього</a></li>
                 <li><a href="#">Підвищення кваліфікації</a></li>
                 <li><a href="#">Пересувні лабораторії</a></li>
             </ul>

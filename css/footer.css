@@ -1,16 +1,26 @@
-.footer{}
+.footer{
+    margin-top: 50px;
+}
 .footerConteoner{
     background-color: #f7c851;
     padding: 40px 20px;
     padding-right: 50px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin-left: 0;
 }
+
+
+
 .footerList {
     margin: 0;
     margin-bottom: 30px;
     list-style-type: none;
     
 }
+.footerList,
+.socialNetwork{
+    /* width: 30%; */
+} 
 .footerList_h{
     margin-bottom: 10px;
     /* font-weight: 400; */
@@ -18,9 +28,13 @@
 .footerList_item{
 
 }
+.courses_item{
+    margin: 10px 0;
+}
 .courses_link,
 .footerList_link{
     color: #fff;
+    /* line-height: 1em; */
 }
 .other_link{
 
