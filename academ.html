@@ -73,6 +73,19 @@
                 .uk-accordion-title{
                     /* color: white !important; */
                 }
+                .palan_list{
+                    margin-left: 20px;
+                    margin-top: 20px;
+                }
+                @media (min-width: 640px) {
+                    .plan_img{
+                        max-height: 250px;
+                    }
+                }
+                .plan_wrap_img{
+                    justify-content: center;
+                }
+                
             </style>
             <div class="header_curse spike box" >
                 <div uk-grid>
@@ -83,29 +96,58 @@
                     </div>
                     <div class="uk-width-1-2@s"><img src="/img/academ/spike.png" alt=""></div>
                 </div>
-                <p>Основним завданням занять є оволодіння основними поняттями робототехніки, технічного конструювання та моделювання роботів, написання керуючих комп'ютерних програм.</p>
-                <p>Для створення роботів використовується набір Lego Education SPIKE Prime. SPIKE Prime – це практично-орієнтоване освітнє рішення для STEAM-навчання.  Конструктор містить більше 500 яскравих деталей LEGO Technic і програмується за допомогою додатка, який створений на основі Scratch. Також за допомогою програмного забезпечення SPIKE Prime можна вивчати мікро Python.</p>
             </div>
             <div class="box plan">
+                <p>Основним завданням занять є оволодіння основними поняттями робототехніки, технічного конструювання та моделювання роботів, написання керуючих комп'ютерних програм.</p>
+                <p>Для створення роботів використовується набір Lego Education SPIKE Prime. SPIKE Prime – це практично-орієнтоване освітнє рішення для STEAM-навчання.  Конструктор містить більше 500 яскравих деталей LEGO Technic і програмується за допомогою додатка, який створений на основі Scratch. Також за допомогою програмного забезпечення SPIKE Prime можна вивчати мікро Python.</p>
                 <p class="uk-text-center">Планування занять:</p>
-                <ul class="plan_items" uk-accordion>
+                <ul class="plan_items" uk-accordion="multiple: true">
                     <!-- <li class="uk-open"> -->
                     <li>
                         <a class="uk-accordion-title" href="#">Тема 1. Загін винахідників</a>
-                        <div class="uk-accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list">
+                                    <li>Вступ</li>
+                                    <li>Хто швидше?</li>
+                                    <li>Ідеальне прибирання</li>
+                                    <li>Усунути несправність</li>
+                                    <li>Модель для друга</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/spike01.png" alt=""></div>
                         </div>
                     </li>
                     <li>
                         <a class="uk-accordion-title" href="#">Тема 2. Запускаємо бізнес</a>
-                        <div class="uk-accordion-content">
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="6">
+                                    <li>Наступне замовлення</li>
+                                    <li>Несправність</li>
+                                    <li>Система спостереження</li>
+                                    <li>Безпека понад усе</li>
+                                    <li>Ще безпечніше!</li>
+                                    <li>Автоматизація виробництва</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/spike02.png" alt=""></div>
                         </div>
                     </li>
                     <li>
                         <a class="uk-accordion-title" href="#">Тема 3. Корисні пристосування</a>
-                        <div class="uk-accordion-content">
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="12">
+                                    <li>Брейк данс</li>
+                                    <li>Повторити 5 раз</li>
+                                    <li>Дощ чи сонце?</li>
+                                    <li>Швидкість вітру</li>
+                                    <li>Піклування про рослини</li>
+                                    <li>Розвиваюча гра</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/spike03.png" alt=""></div>
                         </div>
                     </li>
                 </ul>

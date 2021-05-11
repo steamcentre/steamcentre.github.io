@@ -103,7 +103,7 @@
     color: #666;
 }
 .google_map{
-    margin-bottom: -50px;
+    /* margin-bottom: -50px; */
 }
 .google_map iframe{
     width: 100%;
