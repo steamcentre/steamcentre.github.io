@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/uikit.css">
-    <link rel="stylesheet" href="css/flexboxgrid.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/equipment.css">
+    <link rel="stylesheet" href="css/academ.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>STEAM Center | Обладнання</title>
 </head>
@@ -21,72 +20,84 @@
             <img class="header_canvas" src="img/header/heder_equipment.svg" alt="">
         </header> -->
         <main class="main">
-            <style>
-                .resurs {
-                    display: flex;
-                    justify-content: center;
-                }
+            <div class="header_curse junior box">
+                <div uk-grid>
+                    <div class="uk-width-1-2@s uk-flex uk-flex-column" style="justify-content: center;">
+                        <h1 class="uk-text-center">Програмування Junior</h1>
+                        <p><span class="uk-text-italic">Вік:</span>6-8 років</p>
+                        <p><span class="uk-text-italic">Кількість:</span> 10 учнів</p>
+                    </div>
+                    <div class="uk-width-1-2@s"><img src="/img/academ/junior.png" alt=""></div>
+                </div>
+            </div>
+            <div class="box plan">
+                <p>Основним завданням занять є оволодіння основами алгоритмізації та програмування завдяки роботі з навчальними наборами mTiny Makeblock та Matatalab. За допомогою базових алгоритмічних конструкцій змушують робота подолати певний маршрут, оминаючи перешкоди.</p>
+                <p>mTiny це робот-панда призначений для раннього розвитку дітей, що ростуть в епоху цифрових технологій.</p>
+                <p>Matatalab розроблений спеціально для дошкільнят та дітей молодшого шкільного віку. Набір підходить для тренування логічного мислення і пам’яті, вивчення основ математики, програмування та навіть музики.</p>
+                <p class="uk-text-center">Планування занять:</p>
+                <ul class="plan_items" uk-accordion="multiple: true">
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 1. Платформа Arduino</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list">
+                                    <li>Вступ</li>
+                                    <li>Основні компоненти Arduino</li>
+                                    <li>Основи електроніки</li>
+                                    <li>Керування світлодіодом</li>
+                                    <li>Конденсатори</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/arduino01.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 2. Шлях до автоматизації</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="6">
+                                    <li>Автоматика</li>
+                                    <li>Електронні пристрої</li>
+                                    <li>Фоторезистор</li>
+                                    <li>RGB-світлодіод</li>
+                                    <li>П’єзоелектричний випромінювач (buzzer)</li>
+                                    <li>Електронні пристрої і людина</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/arduino02.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 3. Двигуни</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="12">
+                                    <li>Двигун постійного струму</li>
+                                    <li>Серводвигун</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/arduino03.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 4. Автономні Arduino-роботи</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="14">
+                                    <li>Конструювання робо-машини LineTracker</li>
+                                    <li>Конструювання робо-машини, що оминає перешкоди</li>
+                                    <li>Проектна діяльність</li>
+                                    <li>Змагання роботів</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/arduino04.png" alt=""></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-                .resurs img {
-                
-                }
-                .list li{
-                    margin-bottom: 10px;
-                    font-size: 1.2rem;
-                }
-                .list_wrap{
-                    margin: 10px;
-                }
-                .warning{
-                    background-color: red;
-                    color:white;
-                    padding: 20px;
-                    border-radius: 10px;
-                }
-                h3{
-                    font-weight: bold;
-                }
-                .header_curse{
-                    margin-left: 0;
-                }
-                .spike{
-                    background-color: #ffd400;
-                }
-                .box{
-                    padding: 40px 40px;
-                    color: white;
-                }
-                .plan{
-                    /* background-color: #006a80; */
-                    background-color: white;
-                    color: #666;
-                }
-                p{
-                    margin-bottom: 10px;
-                }
-                .plan_items{
-                    /* border: 1px solid red; */
-                }
-                .uk-open{
-                    /* color: whitesmoke; */
-                }
-                .uk-accordion-title{
-                    /* color: white !important; */
-                }
-                .palan_list{
-                    margin-left: 20px;
-                    margin-top: 20px;
-                }
-                @media (min-width: 640px) {
-                    .plan_img{
-                        max-height: 250px;
-                    }
-                }
-                .plan_wrap_img{
-                    justify-content: center;
-                }
-                
-            </style>
+
+
             <div class="header_curse spike box" >
                 <div uk-grid>
                     <div class="uk-width-1-2@s uk-flex uk-flex-column" style="justify-content: center;">
@@ -104,7 +115,7 @@
                 <ul class="plan_items" uk-accordion="multiple: true">
                     <!-- <li class="uk-open"> -->
                     <li>
-                        <a class="uk-accordion-title" href="#">Тема 1. Загін винахідників</a>
+                        <a class="uk-accordion-title" href="#">Модуль 1. Загін винахідників</a>
                         <div class="uk-accordion-content" uk-grid>
                             <div class="uk-width-1-2@s">
                                 <ol class="list palan_list">
@@ -119,13 +130,13 @@
                         </div>
                     </li>
                     <li>
-                        <a class="uk-accordion-title" href="#">Тема 2. Запускаємо бізнес</a>
+                        <a class="uk-accordion-title" href="#">Модуль 2. Запускаємо бізнес</a>
                         <div class="uk-accordion-content" uk-grid>
                             <div class="uk-width-1-2@s">
                                 <ol class="list palan_list" start="6">
                                     <li>Наступне замовлення</li>
                                     <li>Несправність</li>
-                                    <li>Система спостереження</li>
+                                    <li>СисМодуль спостереження</li>
                                     <li>Безпека понад усе</li>
                                     <li>Ще безпечніше!</li>
                                     <li>Автоматизація виробництва</li>
@@ -135,7 +146,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class="uk-accordion-title" href="#">Тема 3. Корисні пристосування</a>
+                        <a class="uk-accordion-title" href="#">Модуль 3. Корисні пристосування</a>
                         <div class="uk-accordion-content" uk-grid>
                             <div class="uk-width-1-2@s">
                                 <ol class="list palan_list" start="12">
@@ -154,8 +165,145 @@
             </div>
 
 
+            <div class="header_curse eve box" >
+                <div uk-grid>
+                    <div class="uk-width-1-2@s uk-flex uk-flex-column" style="justify-content: center;">
+                        <h1 class="uk-text-center">Робототехніка Mindstorms EV3</h1>
+                        <p><span class="uk-text-italic">Вік:</span> 9-10 років</p>
+                        <p><span class="uk-text-italic">Кількість:</span> 8 учнів</p>
+                    </div>
+                    <div class="uk-width-1-2@s"><img src="/img/academ/eve.png" alt=""></div>
+                </div>
+            </div>
+            <div class="box plan">
+                <p>Основним завданням занять є оволодіння основними поняттями робототехніки, технічного конструювання та моделювання роботів, написання керуючих комп'ютерних програм.</p>
+                <p>Для створення роботів використовується набір Lego Education Mindstorms EV3. Базовий набір Mindstorms EV3 –  ідеальне рішення для вивчення предметів STEM. Завдяки ефективному поєднанню зручного у використанні апаратного і програмного забезпечення учні зможуть розвинути навички, необхідні для конструювання і програмування роботів і вирішення комплексних завдань з реального життя.</p>
+                <p class="uk-text-center">Планування занять:</p>
+                <ul class="plan_items" uk-accordion="multiple: true">
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 1. Тренування для роботів</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list">
+                                    <li>Рух та повороти. Керування рухом</li>
+                                    <li>Об’єкти та перешкоди. Використання ультразвукового датчика</li>
+                                    <li>Захоплення об’єкту. Використання моторизованого інструменту</li>
+                                    <li>Кольори та лінії. Використання датчика кольору</li>
+                                    <li>Кути та шаблони. Використання гіроскопічного датчика і шаблонів «Мої блоки»</li>
+                                    <li>Заводський робот. Освоєння навичків роботи з приводною платформою</li>
+                                    <li>Місія з керування роботом</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/eve01.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 2. Інженерна лабораторія</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="8">
+                                    <li>Метод спроб та помилок. Точність і акуратність</li>
+                                    <li>Перша передача. Базові поняття роботи шестерень</li>
+                                    <li>Перемикання передач. Змінення потужності</li>
+                                    <li>Ковзання вниз по схилу. Коефіцієнт тертя</li>
+                                    <li>Вільне падіння. Прискорення вільного падіння</li>
+                                    <li>Підйом по схилу. Освоєння концепцій сили та руху</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/eve02.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 3. Складні проекти</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="14">
+                                    <li>Побудова та програмування ГироБоя або Сортувальника кольорів</li>
+                                    <li>Побудова та програмування РобоЦуценя або РобоРуки</li>
+                                    <li>Розробка та презентація власного проекту</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/eve03.png" alt=""></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
 
+            <div class="header_curse arduino box">
+                <div uk-grid>
+                    <div class="uk-width-1-2@s uk-flex uk-flex-column" style="justify-content: center;">
+                        <h1 class="uk-text-center">Програмування на Arduino</h1>
+                        <p><span class="uk-text-italic">Вік:</span>від 11 років</p>
+                        <p><span class="uk-text-italic">Кількість:</span> 8 учнів</p>
+                    </div>
+                    <div class="uk-width-1-2@s"><img src="/img/academ/arduino.png" alt=""></div>
+                </div>
+            </div>
+            <div class="box plan">
+                <p>Основним завданням занять є оволодіння поняттями, знаннями з основ електротехніки, програмування, проектування та конструювання з використанням платформи Arduino, засвоєння технічних та технологічних знань та уявлень про особливості робототехніки на платформи Arduino.</p>
+                <p>Arduino – це апаратна обчислювальна платформа для аматорського конструювання, основними компонентами якої є плата мікроконтролера з елементами вводу/виводу, яка може використовуватися для створення автономних інтерактивних об'єктів.</p>
+                <p class="uk-text-center">Планування занять:</p>
+                <ul class="plan_items" uk-accordion="multiple: true">
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 1. Платформа Arduino</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list">
+                                    <li>Вступ</li>
+                                    <li>Основні компоненти Arduino</li>
+                                    <li>Основи електроніки</li>
+                                    <li>Керування світлодіодом</li>
+                                    <li>Конденсатори</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/arduino01.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 2. Шлях до автоматизації</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="6">
+                                    <li>Автоматика</li>
+                                    <li>Електронні пристрої</li>
+                                    <li>Фоторезистор</li>
+                                    <li>RGB-світлодіод</li>
+                                    <li>П’єзоелектричний випромінювач (buzzer)</li>
+                                    <li>Електронні пристрої і людина</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/arduino02.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 3. Двигуни</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="12">
+                                    <li>Двигун постійного струму</li>
+                                    <li>Серводвигун</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/arduino03.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Модуль 4. Автономні Arduino-роботи</a>
+                        <div class="uk-accordion-content" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <ol class="list palan_list" start="14">
+                                    <li>Конструювання робо-машини LineTracker</li>
+                                    <li>Конструювання робо-машини, що оминає перешкоди</li>
+                                    <li>Проектна діяльність</li>
+                                    <li>Змагання роботів</li>
+                                </ol>
+                            </div>
+                            <div class="uk-width-1-2@s uk-flex plan_wrap_img"><img class="plan_img" src="/img/academ/arduino04.png" alt=""></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </main>
        
         <footer class="footer" id="mainFooter"></footer>

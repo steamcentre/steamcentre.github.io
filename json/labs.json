@@ -651,42 +651,42 @@ labs = [
         ],
         "products":[
             {
-                "name": "name",
-                "id": "id_1",
-                "srcImg": "img/resource/q.jpg",
-                "count": 15,
+                "name": "Мультиметр",
+                "id": "multimetr",
+                "srcImg": "img/resource/arduino/multimetr.jpg",
+                "count": 5,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/multimetr.jpg"  alt="Example image">
                 <p>laborum.</p>
                 `
             },
             {
-                "name": "name",
+                "name": "Міні паяльна станція",
                 "id": "id_2",
-                "srcImg": "img/resource/q.jpg",
-                "count": 15,
+                "srcImg": "img/resource/arduino/soldering_iron.jpg",
+                "count": 5,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/soldering_iron.jpg""  alt="Example image">
                 <p>laborum.</p>
                 `
             },
             {
-                "name": "name",
-                "id": "id_3",
-                "srcImg": "img/resource/q.jpg",
+                "name": "Набір Arduino",
+                "id": "pak_arduino",
+                "srcImg": "img/resource/arduino/arduino.jpg",
                 "count": 1,
-                "count": 15,
+                "count": 5,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/arduino.jpg"  alt="Example image">
                 <p>laborum.</p>
                 `
             }
@@ -868,7 +868,59 @@ labs = [
                 </ul>
                 <div class="uk-text-center"><a href="r_molphysics.html">Читити далі...</a></div>
                 `
-            }
+            },
+            {
+                "name": "Оптика",
+                "id": "optika",
+                "srcImg": "img/resource/experiment/optika.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/optika.jpg"  alt="Example image">
+                <p class="modal_p">Lorem</p>
+                `
+            },
+            {
+                "name": "Магнетизм",
+                "id": "magnetic",
+                "srcImg": "img/resource/experiment/magnetic.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/magnetic.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id",
+                "srcImg": "img/resource/experiment/q.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id",
+                "srcImg": "img/resource/experiment/q.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
         ]
     },
     {
