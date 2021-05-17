@@ -549,21 +549,7 @@ labs = [
                 <p class="modal_p">оповнена реальність в освіті може допомогти вчителям мотивувати учнів до навчання, візуалізувати детальніше наш 3Д простір. Те, чого неможливо досягти за допомогою традиційної педагогіки, можна зробити за допомогою технології доповненої реальності.</p>
                 `
             },
-            {
-                "name": "projector",
-                "id": "projector",
-                "srcImg": "img/resource/vr/projector.jpg",
-                "count": 15,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/projector.jpg"  alt="Example image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                `
-            }
+            
         ]
     },
     {
@@ -660,7 +646,7 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/multimetr.jpg"  alt="Example image">
-                <p>laborum.</p>
+                <p>Мультиметр - прилад який об'єднує у собі декілька вимірювальних приладів таких як: електронний термометр, омметр, вольтметр, амперметр та датчик цілістності електричного кола та індикатор справності PN переходу.</p>
                 `
             },
             {
@@ -673,7 +659,7 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/soldering_iron.jpg""  alt="Example image">
-                <p>laborum.</p>
+                <p>Набір для паяння: паяльник із підставкою, тримач для плат та радіодеталей, килимок.</p>
                 `
             },
             {
@@ -687,7 +673,59 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/arduino.jpg"  alt="Example image">
-                <p>laborum.</p>
+                <p class="modal_p">Набір для лабораторних робіт: arduino, датчики, модулі.</p>
+                <p class="modal_p">ARDUINO плата яка поєднує у собі мікроконтролер ATMEGA 8 та програматор для зручності прототипної розробки пристроїв. Використовується для створення проєктів та наочного відображення програмування, поєднуючи програмування з механікою та електроніки.</p>
+                <hr>
+                <p class="uk-text-bold">В набір також входять:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content uk-column-1-2@s uk-column-divider">
+                    <li>Платформа з відкритим кодом програм і бібліотек  Arduino Uno Rev3 (ATmega16U/2) с кабелем USB × 1</li>
+                    <li>Платформа Arduino Nano V3.0 AVR ATmega328P кабелем mini-USB × 1</li>
+                    <li>Платформа Arduino Mega 2560 R3 × 1</li>
+                    <li>Макетна плата MB-102 830 отворів × 1</li>
+                    <li>Резистор 220 Ом × 10</li>
+                    <li>Резистори 10 ком × 10</li>
+                    <li>Датчик освітленості (фоторезистор) × 1</li>
+                    <li>Модуль датчика освітленості аналогово-цифровий × 1</li>
+                    <li>Термистор NTC MES2A1 10 Ом 2мм 3950к × 1</li>
+                    <li>Силовий польовий транзистор IRFS 40N × 1</li>
+                    <li>Набір кольорових світлодіодів з мм i 5 ММ (100шт) × 1</li>
+                    <li>світлодіодний педикатор 0.56". 7-ми сегментний × 1</li>
+                    <li>Кнопка тактова 6х6х5мм × 3</li>
+                    <li>Активный динамик 5V × 1</li>
+                    <li>Вихідний зсувний регістр 74НС:59S × 1</li>
+                    <li>Комплект з'єднувальних дротів 120шт по 20см × 1</li>
+                    <li>Паяльник 60 Вт з регулятором температури і набором змішних жал × 1</li>
+                    <li>Датчик вологості грунту (гигрометр) × 1 </li>
+                    <li>LED-індикатор семисегментний 4-розрядний × 1</li>
+                    <li>Датчик освітленості ТEMT6000 1</li>
+                    <li>Модуль датчика освітленості аналогово-цифровий × 1</li>
+                    <li>Плата розширення V3 для Arduino Nano × 1</li>
+                    <li>Датчик вологості і температури DHTL11 × 1 </li>
+                    <li>Батарейний відсік 4хАА × 1</li>
+                    <li>Сервопривод SG90 2кг × 4</li>
+                    <li>Водяна занурювальна помпа 3-6 в 120л / год × 1</li>
+                    <li>Ультразвуковий латчик відстані HC-SR04 × 1</li>
+                    <li>Штекер живлення 2,1 * 5,5 на кабель, з клемником × 1</li>
+                    <li>RGB-світлодіод зі спільним анодом × 1 </li>
+                    <li>Світлодіодна стрічка RGB 12V IP20 5050/60 Standard (5M) × 1</li>
+                    <li>Модуль датчика Холла А3144 цифровий4-х канальний × 1 </li>
+                    <li>модуль реле 12В 10А 1-канальний × 1</li>
+                    <li>модуль реле SB 10A × 1</li>
+                    <li>Датчик перешколи ІЧ × 1</li>
+                    <li>Контролер Ethernet Shield × 1</li>
+                    <li>Килимок для різки × 1</li>
+                    <li>Підставка для паяльника × 1</li>
+                    <li>Драйвер крокового двигуна DR V8834 × 1</li> 
+                    <li>Кроковий двигун 12V 28BYJ-48 × 1</li>
+                    <li>Motor Shicld 5B L298P × 1</li>
+                    <li>Bluetooth-модуль HC-06 × 1</li>
+                    <li>Мотор редуктор i ведуче колесо × 4</li>
+                    <li>Підвищуючий DC-DC конвертер 2.5-58 в 5B 1-1.5A × 1</li>
+                    <li>Датчик ліші КY-033 × 1</li>
+                    <li>Мультиметр × 1</li>
+                    <li>DT-838WIFI модуль × 1</li>
+                    <li>Тримач з лупою і двома крокодилами MG16126-А × 1</li>
+                </ul>
                 `
             }
         ]
@@ -849,13 +887,13 @@ labs = [
             {
                 "name": "Молекулярна фізика та термодинаміка",
                 "id": "molandterm",
-                "srcImg": "img/resource/q.jpg",
+                "srcImg": "img/resource/experiment/molecular.jpg",
                 "count": 1,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/molecular.jpg"  alt="Example image">
                 <p class="modal_p">Набір лабораторний" Молекулярна фізика та термодинаміка (далі набір) призначений для використання в загальноосвітніх середніх та вищих навчальних закладах, в кабінетах фізики, вчителем (викладачем) і учнями при виконанні демонстраційного та лабораторного експерименту по фізичному практикуму при вивченні розділів молекулярна фізика та термодинаміка відповідно до чинних навчальних програм МОН України з фізики. Дозволяє познайомити учнів з основними положеннями молекулярної фізики та термодинаміки, провести експерименти визначення питомої теплоти плавлення льоду, вивчення теплової рівноваги за умов змішування води різної температури, вимірювання поверхневого натягу рідини, дослідження ізотермічного процесу та інше. Розвиває у учнів експериментальні вміння і дослідницькі навички.</p>
                 <hr>
                 <p class="modal_p uk-text-bold">Технічні характеристики</p>
@@ -896,15 +934,54 @@ labs = [
                 `
             },
             {
-                "name": "name",
-                "id": "id",
-                "srcImg": "img/resource/experiment/q.jpg",
+                "name": "mechanik_energi",
+                "id": "mechanik_energi",
+                "srcImg": "img/resource/experiment/mechanik.jpg",
                 "count": 1,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/mechanik.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "mg2",
+                "id": "id",
+                "srcImg": "img/resource/experiment/mg2.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/mg2.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "shtativ",
+                "id": "shtativ",
+                "srcImg": "img/resource/experiment/shtativ.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/shtativ.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "name",
+                "id": "id",
+                "srcImg": "img/resource/experiment/laserlinz.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/laserlinz.jpg"  alt="Example image">
                 <p class="modal_p">lorem</p>
                 `
             },
@@ -917,7 +994,7 @@ labs = [
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/q.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/q.jpg"  alt="Example image">
                 <p class="modal_p">lorem</p>
                 `
             },

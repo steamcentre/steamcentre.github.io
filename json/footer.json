@@ -3,8 +3,8 @@ let footer = `
     <div class="uk-width-1-3@m">
         <ul class="footerList">
             <li class="footerList_item footerList_h">КУРСИ</li>
-            <li class="footerList_item"><a class="footerList_link" href="#">Робототехніка</a></li>
-            <li class="footerList_item"><a class="footerList_link" href="#">3D моделювання</a></li>
+            <li class="footerList_item"><a class="footerList_link" href="404.html">Робототехніка</a></li>
+            <li class="footerList_item"><a class="footerList_link" href="404.html">3D моделювання</a></li>
             <!--<li class="footerList_item"><a class="footerList_link" href="#">і таке інше</a></li>-->
         </ul>
     </div>
