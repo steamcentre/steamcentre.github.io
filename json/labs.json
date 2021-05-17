@@ -924,7 +924,7 @@ labs = [
                 "name": "Магнетизм",
                 "id": "magnetic",
                 "srcImg": "img/resource/experiment/magnetic.jpg",
-                "count": 1,
+                "count": 2,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
