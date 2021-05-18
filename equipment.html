@@ -41,6 +41,7 @@
             let labProducts = document.createElement('div');
             labProducts.className = "resource uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center" 
             labProducts.setAttribute('uk-grid', "")
+            labProducts.setAttribute('uk-height-match', "target: > div > a > div")
             lab.products.forEach(product => {
                 let forYear = ''
                 if (product.year){

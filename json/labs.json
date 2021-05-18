@@ -852,7 +852,7 @@ labs = [
         ],
         "products":[
             {
-                "name": "Цифрового вимірювального комп’ютерного комплексу для СТЕМу (вчительсий комплект)",
+                "name": "Цифрового вимірювального комп’ютерного комплексу для СТЕМу<br>(вчительсий комплект)",
                 "id": "vern_teacher",
                 "srcImg": "img/resource/experiment/vern_teacher.jpg",
                 "count": 1,
@@ -901,7 +901,7 @@ labs = [
                 `
             },
             {
-                "name": "Цифрового вимірювального комп’ютерного комплексу для СТЕМу (учнівський комплект)",
+                "name": "Цифрового вимірювального комп’ютерного комплексу для СТЕМу<br>(учнівський комплект)",
                 "id": "vern_student",
                 "srcImg": "img/resource/experiment/vern_student.jpg",
                 "count": 1,
@@ -944,15 +944,15 @@ labs = [
                 `
             },
             {
-                "name": "mechanik_energi",
-                "id": "mechanik_energi",
-                "srcImg": "img/resource/experiment/mechanik.jpg",
+                "name": "transform_energi",
+                "id": "transform_energi",
+                "srcImg": "img/resource/experiment/transform_energi.jpg",
                 "count": 1,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/mechanik.jpg"  alt="Example image">
+                <div class="lab_img_numb"><img src="img/resource/experiment/transform_energi_numb.jpg"  alt="Example image"></div>
                 <p class="modal_p">lorem</p>
                 `
             },
@@ -975,10 +975,10 @@ labs = [
                 "srcImg": "img/resource/experiment/magnetic.jpg",
                 "count": 2,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/magnetic.jpg"  alt="Example image">
+                <div class="lab_img_numb"><img src="img/resource/experiment/magnetic_numb.jpg"  alt="Example image"></div>
                 <p class="modal_p">lorem</p>
                 `
             },
@@ -988,10 +988,10 @@ labs = [
                 "srcImg": "img/resource/experiment/mg2.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/mg2.jpg"  alt="Example image">
+                <div class="lab_img_numb"><img src="img/resource/experiment/mg2_numb.jpg"  alt="Example image"></div>
                 <p class="modal_p">lorem</p>
                 `
             },
@@ -1001,11 +1001,51 @@ labs = [
                 "srcImg": "img/resource/experiment/optika.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/optika.jpg"  alt="Example image">
-                <p class="modal_p">Lorem</p>
+                <p>Набір лабораторний "ОПТИКА" призначений для використання в загальноосвітніх середніх та вищих навчальних закладах, в
+                кабінетах фізики, вчителем (викладачем) і учнями при виконанні демонстраційного експерименту по фізичному практикуму при вивченні
+                розділів оптики і квантової фізики відповідно до чинних навчальних програм МОН України з фізики. Дозволяє познайомити учнів з основними
+                положеннями оптичної і квантової теорії, перевірка законів відбивання світла, дослідження законів заломлення світла, вивчення явища поляризації,
+                дифракції, інтерференції світла, демонстрації фотоелектричного ефекту та інше. Розвиває у учнів експериментальні вміння і дослідницькі навички.</p>
+                <hr>
+                <p class="modal_p uk-text-bold uk-text-center">До складу комплекту входить:</p>
+                <div class="lab_img_numb"><img class="" src="img/resource/experiment/optika_numb.jpg"  alt="Example image"></div>
+                <ol class="content uk-column-1-2@s uk-column-divider">
+                    <li>Оптична лава 1 шт.</li>
+                    <li>Джерело світла 2 шт.</li>
+                    <li>Булавка 6 шт.</li>
+                    <li>Дзеркало 3 шт.</li>
+                    <li>Килимок 1 шт.</li>
+                    <li>Екран 1 шт.</li>
+                    <li>Лінза збиральна довгофокусна 2 шт.</li>
+                    <li>Лінза збиральна короткофокусна 2 шт.</li>
+                    <li>Розсіююча лінза 2 шт.</li>
+                    <li>Підставка 1 шт.</li>
+                    <li>Призма 1 шт.</li>
+                    <li>Кріплення на лаву 8 шт.</li>
+                    <li>Оправи для пристосувань 4 шт.</li>
+                    <li>Фіксатори лави 2 шт.</li>
+                    <li>Диск Ньютона 1 шт.</li>
+                    <li>Провід з’єднувальній 1 шт.</li>
+                    <li>Рамка з дифракційними решітками 4 шт.</li>
+                    <li>Поляризаційні решітки 2 шт.</li>
+                    <li>Фотоелектричний елемент з датчиком 1 шт.</li>
+                    <li>Джерело живлення автономне 1 шт.</li>
+                    <li>Джерело живлення стаціонарне 1 шт.</li>
+                    <li>Лінза Френеля 1 шт.</li>
+                    <li>Аналог Ісландського шпату 1 шт.</li>
+                    <li>Світловод 1 шт.</li>
+                    <li>Світлофільтри 6 шт.</li>
+                    <li>Оптичні щілини 3 шт.</li>
+                    <li>ТІ. Проріз в формі букви “F” 1 шт.</li>
+                    <li>Діафрагма 3 шт.</li>
+                    <li>Ящик для зберігання 1 шт.</li>
+                    <li>Лоджемент 1 шт.</li>
+                </ol>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/17b-gnGl-fBxUbJFjQ7qyOFRPu8fYIuTL/view?usp=sharing" target="_blank">читати далі</a></p>
                 `
             },
             {
@@ -1014,10 +1054,9 @@ labs = [
                 "srcImg": "img/resource/experiment/molecular.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/molecular.jpg"  alt="Example image">
                 <p class="modal_p">Набір лабораторний" Молекулярна фізика та термодинаміка (далі набір) призначений для використання в загальноосвітніх середніх та вищих навчальних закладах, в кабінетах фізики, вчителем (викладачем) і учнями при виконанні демонстраційного та лабораторного експерименту по фізичному практикуму при вивченні розділів молекулярна фізика та термодинаміка відповідно до чинних навчальних програм МОН України з фізики. Дозволяє познайомити учнів з основними положеннями молекулярної фізики та термодинаміки, провести експерименти визначення питомої теплоти плавлення льоду, вивчення теплової рівноваги за умов змішування води різної температури, вимірювання поверхневого натягу рідини, дослідження ізотермічного процесу та інше. Розвиває у учнів експериментальні вміння і дослідницькі навички.</p>
                 <hr>
                 <p class="modal_p uk-text-bold">Технічні характеристики</p>
@@ -1028,7 +1067,7 @@ labs = [
                     <li>Маса комплекту не більше - 5 кг.</li>
                     <li>Середній повний термін служби -10 років</li>
                 </ul>
-                <div class="uk-text-center"><a href="r_molphysics.html">Читити далі...</a></div>
+                <div class="lab_img_numb"><img src="img/resource/experiment/molecular_numb.jpg"></div>
                 `
             },
             {
@@ -1111,9 +1150,6 @@ labs = [
                 <p class="modal_p">Використовується разом з фото- або відеокамерою для зручності створення медіа контенту.</p>
                 <p class="modal_p uk-text-bold">Комплект студійний фон Green Chrome Key.</p>
                 <p class="modal_p">Комплект зі студійного фону Chromakey Green + "ворота" ля фото і відео зйомок в студії і за її межами.</p>
-                
-                
-                
                 `
             }
         ]

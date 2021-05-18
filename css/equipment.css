@@ -15,6 +15,10 @@ body{
 {
     width: 33%;
 }
+.lab_img_numb{
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (max-width: 640px) {
     .lab_img{
         width: 100%;
