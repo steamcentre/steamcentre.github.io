@@ -511,7 +511,7 @@ labs = [
                 "srcImg": "img/resource/vr/oculus.jpg",
                 "count": 1,
                 "year": "13",
-                "offsiteName": "www",
+                "offsiteName": "www.oculus.com/quest-2/",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/vr/oculus.jpg"  alt="Example image">
@@ -567,7 +567,7 @@ labs = [
                 "srcImg": "img/resource/gamedev/steamset01.jpg",
                 "count": 1,
                 "year": "8 до 16",
-                "offsiteName": "www",
+                "offsiteName": "enginoeducation.com/project-based-sets/",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset01.jpg"  alt="Example image">
@@ -593,7 +593,7 @@ labs = [
                 "srcImg": "img/resource/gamedev/steamset02.jpg",
                 "count": 1,
                 "year": "8 до 16",
-                "offsiteName": "www",
+                "offsiteName": "enginoeducation.com/project-based-sets/",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset02.jpg"  alt="Example image">
@@ -618,7 +618,7 @@ labs = [
                 "srcImg": "img/resource/gamedev/steamset03.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "enginoeducation.com/greenhouse-video/",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/gamedev/steamset03.jpg"  alt="Example image">
@@ -854,34 +854,82 @@ labs = [
         "cssClass": "exprem",
         "srcImg": "img/labs/exp.png",
         "content": [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam natus magnam dolorem corrupti architecto voluptatibus commodi mollitia? Odio enim minus repellat. Cumque sequi laborum placeat quod officiis laboriosam sit porro.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam natus magnam dolorem corrupti architecto voluptatibus commodi mollitia? Odio enim minus repellat. Cumque sequi laborum placeat quod officiis laboriosam sit porro.",
+            "Експериментальна лабораторія містить спеціалізоване багатофункціональне обладнання на основі Американської цифрової лабораторії (AFS) з фізики Vernier. Більше 30 давачів для зняття показів та пристроїв збору даних не лише дозволить осучаснити вивчення фізики, хімії та біології, а й підвищити навчальну мотивацію учнів шляхом залучення до експериментальної діяльності. Ресурс лабораторії може бути використаний під час проведення досліджень та експериментів в межах підготовки наукових робіт МАН.",
         ],
         "products":[
             {
-                "name": "vern_teacher",
+                "name": "Цифрового вимірювального комп’ютерного комплексу для СТЕМу (вчительсий комплект)",
                 "id": "vern_teacher",
                 "srcImg": "img/resource/experiment/vern_teacher.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/vern_teacher.jpg"  alt="Example image">
-                <p class="modal_p">laborum.</p>
+                <p class="modal_p">Цифровий вимірювальний комп’ютерний комплекс Vernier™ дозволить вам  не лише проводити уроки та факультативи з фізики на якісно новому рівні, а й забезпечить широке поле для наукової діяльності. Дуже широкий арсенал способів та методів отримання даних, їх опрацювання та відображення дозволяє викладати природничі предмети на якісно новому рівні та  ґрунтовно займатись дослідницькою роботу.</p>
+                <hr>
+                <p class="modal_p"><strong>Примітка</strong>: Продукція Верньє призначена для навчального використання. Наша продукція не розроблена і не рекомендована для будь-яких промислових, медичних або комерційних процесів, таких як життєзабезпечення, діагностика пацієнта, контроль виробничого процесу або промислові випробування будь-якого виду.</p>
+                <hr>
+                <p class="modal_p uk-text-bold uk-text-center">До складу комплекту входить:</p>
+                <ol class="content uk-column-1-2@s uk-column-divider">
+                    <li>Аналогово-цифровий перетворювач LabQuest 2</li>
+                    <li>Go Direct ® Датчик артеріального тиску</li>
+                    <li>Датчик Ручний динамометр</li>
+                    <li>Датчик освітленості</li>
+                    <li>Температурний зонд з нержавіючої сталі	</li>
+                    <li>Адаптер датчика NXT</li>
+                    <li>Датчик заряд</li>
+                    <li>Фотоворот</li>
+                    <li>30-вольтовий зонд напруг</li>
+                    <li>Датчик сильного струм</li>
+                    <li>Мікрофон</li>
+                    <li>Ручний монітор серцевого ритму</li>
+                    <li>Датчик газу CO 2</li>
+                    <li>O 2 Датчик газ</li>
+                    <li>Спірометр	</li>
+                    <li>Датчик рН	</li>
+                    <li>Поворотний датчик руху</li>
+                    <li>Датчик магнітного пол</li>
+                    <li>Датчик сили подвійного діапазону</li>
+                    <li>Датчик UVA ультрафіолетового світла</li>
+                    <li>Датчик UVB	84</li>
+                    <li>Пластикова камера для дослідів BioChamber 2000	</li>
+                    <li>Датчик тиску газу	</li>
+                    <li>Насадка для з’єднання датчика дихання та Датчика вуглекислого газу	</li>
+                    <li>Датчик температури Термопара	</li>
+                    <li>Детектор руху	</li>
+                    <li>Датчик рівня звуку	</li>
+                    <li>Додатковий комплект "Механіка:кінематика, динаміка" до набору Цифрова лабораторія Vernier™ (ЦВК)</li>
+                </ol>
                 `
             },
             {
-                "name": "vern_student",
+                "name": "Цифрового вимірювального комп’ютерного комплексу для СТЕМу (учнівський комплект)",
                 "id": "vern_student",
                 "srcImg": "img/resource/experiment/vern_student.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/vern_student.jpg"  alt="Example image">
-                <p class="modal_p">laborum.</p>
+                <p class="modal_p">Учнівський комплект  цифрової  лабораторії  Vernier™  дозволить вам  проводити практичні та  лабораторні роботи з фізики на якісно новому  рівні.</p>
+                <hr>
+                <p class="modal_p"><strong>Примітка:</strong> Продукція Верньє призначена для навчального використання. Наша продукція не розроблена і не рекомендована для будь-яких промислових, медичних або комерційних процесів, таких як життєзабезпечення, діагностика пацієнта, контроль виробничого процесу або промислові випробування будь-якого виду.</p>
+                <hr>
+                <p class="modal_p uk-text-bold uk-text-center">До складу комплекту входить:</p>
+                <ol class="content uk-column-1-2@s uk-column-divider">
+                    <li>Аналогово-цифровий перетворювач LabQuest 2	</li>
+                    <li>Температурний зонд з нержавіючої сталі	</li>
+                    <li>Адаптер датчика NXT	</li>
+                    <li>30-вольтовий зонд напруги	</li>
+                    <li>Датчик сильного струму</li>
+                    <li>Лічильник крапель</li>
+                    <li>Датчик ORP</li>
+                    <li>Зонд провідності</li>
+                    <li>Колориметр Go Direct</li>
+                </ol>
                 `
             },
             {
@@ -959,22 +1007,10 @@ labs = [
                 <p class="modal_p">lorem</p>
                 `
             },
+            
             {
-                "name": "shtativ",
-                "id": "shtativ",
-                "srcImg": "img/resource/experiment/shtativ.jpg",
-                "count": 1,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/shtativ.jpg"  alt="Example image">
-                <p class="modal_p">lorem</p>
-                `
-            },
-            {
-                "name": "name",
-                "id": "id",
+                "name": "laserlinz",
+                "id": "laserlinz",
                 "srcImg": "img/resource/experiment/laserlinz.jpg",
                 "count": 1,
                 "year": "",
@@ -986,16 +1022,38 @@ labs = [
                 `
             },
             {
-                "name": "name",
-                "id": "id",
-                "srcImg": "img/resource/experiment/q.jpg",
+                "name": "electrka.jpg",
+                "id": "electrka.jpg",
+                "srcImg": "img/resource/experiment/electrka.jpg",
                 "count": 1,
                 "year": "",
                 "offsiteName": "www",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/q.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/electrka.jpg"  alt="Example image">
                 <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "shtativ",
+                "id": "shtativ",
+                "srcImg": "img/resource/experiment/shtativ.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/shtativ.jpg"  alt="Example image">
+                <p class="modal_p">Штатив фізичний універсальний — допоміжне обладнання, що часто використовується в шкільному кабінеті фізики.</p>
+                <p class="modal_p uk-text-bold">Особливості конструкції штативу</p>
+                <p class="modal_p">Фізичний штатив — це, по суті, вертикальна підпірка з тримачами для різного фізичного приладдя.</p>
+                <hr>
+                <p class="modal_p uk-text-bold">Штатив призначений для наступних маніпуляцій:</p>
+                <ul class="uk-list uk-list-disc uk-list-muted content">
+                    <li>зміцнення та складання різних приладів,</li>
+                    <li>проведення демонстраційних дослідів.</li>
+                </ul>
+                <p class="modal_p">Даний прилад виготовлений з міцного, стійкого до зовнішніх впливів матеріалу, який додатково має антикорозійне покриття.</p>
                 `
             },
         ]
