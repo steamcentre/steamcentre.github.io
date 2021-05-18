@@ -4,9 +4,7 @@ labs = [
         "cssClass": "robo_junior",
         "srcImg": "img/labs/ROBO_JUNIOR.png",
         "content": [
-            "Лабораторія робототехніки складається з трьох частин: RoboJunior – для проведення занять з вивчення основ робототехніки дітьми молодшої вікової групи (дошкілля та початкові класи). Технічний ресурс може бути використаний в складі пересувної лабораторії під час формування у дітей основ алгоритмічного мислення та вивчення сходинок до інформатики.",
-            "RoboLab – для проведення занять з вивчення робототехніки дітьми середнього та старшого шкільного віку. Ресурсну базу лабораторіїможна використовуват для підготовки до змагань команди шкіл міста.",
-            "RoboArena – для відпрацювання командами етапів фестивалів робототехніки."
+            "Для проведення занять з вивчення основ робототехніки дітьми молодшої вікової групи (дошкілля та початкові класи). Технічний ресурс може бути використаний в складі пересувної лабораторії під час формування у дітей основ алгоритмічного мислення та вивчення сходинок до інформатики.",
         ],
         "products":[
             {
@@ -181,9 +179,7 @@ labs = [
         "cssClass": "robo_lab",
         "srcImg": "img/labs/robo_lab.png",
         "content": [
-            "Лабораторія робототехніки складається з трьох частин: RoboJunior – для проведення занять з вивчення основ робототехніки дітьми молодшої вікової групи (дошкілля та початкові класи). Технічний ресурс може бути використаний в складі пересувної лабораторії під час формування у дітей основ алгоритмічного мислення та вивчення сходинок до інформатики.",
-            "RoboLab – для проведення занять з вивчення робототехніки дітьми середнього та старшого шкільного віку. Ресурсну базу лабораторіїможна використовуват для підготовки до змагань команди шкіл міста.",
-            "RoboArena – для відпрацювання командами етапів фестивалів робототехніки."
+            "Для проведення занять з вивчення робототехніки дітьми середнього та старшого шкільного віку. Ресурсну базу лабораторії можна використовувати для підготовки до змагань команди шкіл міста. Практичний підхід при роботі з наборами дозволяє дітям з легкістю засвоювати шкільний матеріал з фізики, хімії, інформатики, математики та ін.",
         ],
         "products":[
             {
@@ -266,9 +262,7 @@ labs = [
         "cssClass": "robo_arena",
         "srcImg": "img/labs/erana.jpg",
         "content": [
-            "Лабораторія робототехніки складається з трьох частин: RoboJunior – для проведення занять з вивчення основ робототехніки дітьми молодшої вікової групи (дошкілля та початкові класи). Технічний ресурс може бути використаний в складі пересувної лабораторії під час формування у дітей основ алгоритмічного мислення та вивчення сходинок до інформатики.",
-            "RoboLab – для проведення занять з вивчення робототехніки дітьми середнього та старшого шкільного віку. Ресурсну базу лабораторіїможна використовуват для підготовки до змагань команди шкіл міста.",
-            "RoboArena – для відпрацювання командами етапів фестивалів робототехніки."
+            "Лабораторія RoboArena призначена для відпрацювання командами етапів фестивалів робототехніки. Зручні столи можна використовувати для підготовки до змагань, виконання індивідуальних або групових проектів."
         ],
         "products":[
             {
@@ -642,7 +636,7 @@ labs = [
                 "srcImg": "img/resource/arduino/multimetr.jpg",
                 "count": 5,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/multimetr.jpg"  alt="Example image">
@@ -655,7 +649,7 @@ labs = [
                 "srcImg": "img/resource/arduino/soldering_iron.jpg",
                 "count": 5,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/soldering_iron.jpg""  alt="Example image">
@@ -669,7 +663,7 @@ labs = [
                 "count": 1,
                 "count": 5,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/arduino/arduino.jpg"  alt="Example image">
@@ -756,8 +750,8 @@ labs = [
                 "id": "minerva",
                 "srcImg": "img/resource/makespace/minerva.jpg",
                 "count": 1,
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
+                "offsiteName": "minerva.com.ua/sewing-mashines/126-minerva-mc-450er",
+                "offsiteProtocol": "http",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/minerva.jpg"  alt="Example image">
                 <p class="modal_p">Виконує 404 виду операцій (10 видів петель, 40 мотивів вишивки і алфавіт), горизонтальний човник, анімований LCD дисплей з підсвічуванням, максимальний розмір вишивки 110 мм х 170 мм, дзеркальне відображення зразка вишивки, вишивка алфавіту , регулятор тиску лапки на тканину.</p>
@@ -902,6 +896,8 @@ labs = [
                     <li>Датчик рівня звуку	</li>
                     <li>Додатковий комплект "Механіка:кінематика, динаміка" до набору Цифрова лабораторія Vernier™ (ЦВК)</li>
                 </ol>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/18sEitQqZXXESr8YSpmNyzXJxnnw28ogD/view?usp=sharing" target="_blank">читати далі</a></p>
                 `
             },
             {
@@ -930,6 +926,86 @@ labs = [
                     <li>Зонд провідності</li>
                     <li>Колориметр Go Direct</li>
                 </ol>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1K6xG6ryVNczfmgdEWb4lJ7DA5AcjXhi_/view?usp=sharing" target="_blank">читати далі</a></p>
+                `
+            },
+            {
+                "name": "laserlinz",
+                "id": "laserlinz",
+                "srcImg": "img/resource/experiment/laserlinz.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/laserlinz.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "mechanik_energi",
+                "id": "mechanik_energi",
+                "srcImg": "img/resource/experiment/mechanik.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/mechanik.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "electrka",
+                "id": "electrka",
+                "srcImg": "img/resource/experiment/electrka.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/electrka.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "Магнетизм",
+                "id": "magnetic",
+                "srcImg": "img/resource/experiment/magnetic.jpg",
+                "count": 2,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/magnetic.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "mg2",
+                "id": "id",
+                "srcImg": "img/resource/experiment/mg2.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/mg2.jpg"  alt="Example image">
+                <p class="modal_p">lorem</p>
+                `
+            },
+            {
+                "name": "Оптика",
+                "id": "optika",
+                "srcImg": "img/resource/experiment/optika.jpg",
+                "count": 1,
+                "year": "",
+                "offsiteName": "www",
+                "offsiteProtocol": "https",
+                "modalHtml": `
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/optika.jpg"  alt="Example image">
+                <p class="modal_p">Lorem</p>
                 `
             },
             {
@@ -953,85 +1029,6 @@ labs = [
                     <li>Середній повний термін служби -10 років</li>
                 </ul>
                 <div class="uk-text-center"><a href="r_molphysics.html">Читити далі...</a></div>
-                `
-            },
-            {
-                "name": "Оптика",
-                "id": "optika",
-                "srcImg": "img/resource/experiment/optika.jpg",
-                "count": 1,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/optika.jpg"  alt="Example image">
-                <p class="modal_p">Lorem</p>
-                `
-            },
-            {
-                "name": "Магнетизм",
-                "id": "magnetic",
-                "srcImg": "img/resource/experiment/magnetic.jpg",
-                "count": 2,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/magnetic.jpg"  alt="Example image">
-                <p class="modal_p">lorem</p>
-                `
-            },
-            {
-                "name": "mechanik_energi",
-                "id": "mechanik_energi",
-                "srcImg": "img/resource/experiment/mechanik.jpg",
-                "count": 1,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/mechanik.jpg"  alt="Example image">
-                <p class="modal_p">lorem</p>
-                `
-            },
-            {
-                "name": "mg2",
-                "id": "id",
-                "srcImg": "img/resource/experiment/mg2.jpg",
-                "count": 1,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/mg2.jpg"  alt="Example image">
-                <p class="modal_p">lorem</p>
-                `
-            },
-            
-            {
-                "name": "laserlinz",
-                "id": "laserlinz",
-                "srcImg": "img/resource/experiment/laserlinz.jpg",
-                "count": 1,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/laserlinz.jpg"  alt="Example image">
-                <p class="modal_p">lorem</p>
-                `
-            },
-            {
-                "name": "electrka.jpg",
-                "id": "electrka.jpg",
-                "srcImg": "img/resource/experiment/electrka.jpg",
-                "count": 1,
-                "year": "",
-                "offsiteName": "www",
-                "offsiteProtocol": "https",
-                "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/electrka.jpg"  alt="Example image">
-                <p class="modal_p">lorem</p>
                 `
             },
             {
