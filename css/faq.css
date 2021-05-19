@@ -13,7 +13,7 @@
 }
 .dialog{
     padding: 20px 30px;
-    background-image: url(../img/faq/bg_message5.jpg);
+    background-image: url(../img/faq/bg_message.jpg);
 }
 .dialog_wraper{
     max-width: 600px;
@@ -30,19 +30,21 @@
     padding: 10px 15px;
     border-radius: 10px;
     margin-bottom: 15px;
-
+    color: #666;
 }
 .dialog_person{
-    background-color: #9a5edb;
+    /* background-color: #9a5edb; */
+    background-color: #fff;
     margin-right: 30px;
     border-top-left-radius: 0;
 }
 .dialog_we{
-    background-color: #423bdb;
+    /* background-color: #423bdb; */
+    background-color: #cbecff;
     margin-left: 30px;
     border-top-right-radius: 0;
 }
 .dialog_link{
-    color: wheat;
+    /* color: wheat; */
     text-decoration: underline;
 }

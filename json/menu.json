@@ -12,7 +12,7 @@ let menu = `
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav uk-visible@m">
                 <li class="menu_item"><a class="uk-text-large menu_link" href="https://www.facebook.com/steam.center.poltava" target="_blank">НОВИНИ</a></li>
-                <li class="menu_item"><a class="uk-text-large menu_link" href="404.html">ПРО НАС</a></li>
+                <li class="menu_item"><a class="uk-text-large menu_link" href="about.html">ПРО НАС</a></li>
                 <li class="menu_item">
                     <a class="uk-text-large menu_link" href="#">НАПРЯМКИ РОБОТИ</a>
                     <ul class="sub_menu">
@@ -42,7 +42,7 @@ let menu = `
     <div class="uk-offcanvas-bar">
         <ul class="uk-nav">
             <li><a class="uk-text-large" href="https://www.facebook.com/steam.center.poltava">Новини</a></li>
-            <li><a class="uk-text-large" href="404.html">Про нас</a></li>
+            <li><a class="uk-text-large" href="about.html">Про нас</a></li>
             <li><a class="uk-text-large" href="#">Напрямки роботи</a></li>
             <ul class="uk-nav-sub">
                 <li><a href="academ.html">Академія професій майбутнього</a></li>
