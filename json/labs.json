@@ -931,60 +931,93 @@ labs = [
                 `
             },
             {
-                "name": "laserlinz",
+                "name": "Комплект оптика для цифрового вимірювального комплексу для кабінету фізики",
                 "id": "laserlinz",
                 "srcImg": "img/resource/experiment/laserlinz.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/laserlinz.jpg"  alt="Example image">
-                <p class="modal_p">lorem</p>
+                <p class="modal_p">в процесі розробки:)</p>
                 `
             },
             {
-                "name": "transform_energi",
+                "name": "Демонстраційний набір Трансформація енергії",
                 "id": "transform_energi",
                 "srcImg": "img/resource/experiment/transform_energi.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
+                <p class="modal_p">Використовується демонстраційний набір «Трансформація енергії» на уроках фізики загальноосвітнього навчального закладу під час проведення демонстраційних дослідів з електродинаміки: джерела енергії, залежність електричного струму від ЕРС джерела та повного опору кола.</p>
+                <p class="modal_p">Вихідна напруга: 0–4,5В.</p>
+                <hr>
+                <p class="modal_p uk-text-bold uk-text-center">До складу комплекту входить:</p>
                 <div class="lab_img_numb"><img src="img/resource/experiment/transform_energi_numb.jpg"  alt="Example image"></div>
-                <p class="modal_p">lorem</p>
+                <ol class="content uk-column-1-2@s uk-column-divider">
+                    <li>Сонячна батарея - 1шт;</li>
+                    <li>Двигун/генератор з вентилятором - 1шт;</li>
+                    <li>Ручний генератор - 1шт;</li>
+                    <li>Світлодіод - 1шт;</li>
+                    <li>Утримувач акумуляторів - 1шт.</li>
+                    <li>Набір з’єднувальних проводів - 1шт;</li>
+                    <li>Динамік - 1шт;</li>
+                </ol>
+                <p>Комплект містить сонячну батарею та електричні прилади (електричний дзвоник, електричний двигун). Для проведення дослідів слід дуже потужно освітити сонячну батарею. При <span class="uk-text-bold uk-text-italic">недостатньому освітленні</span> не можна отримати електричний струм достатньої сили.</p>
                 `
             },
             {
-                "name": "electrka",
+                "name": "Набір лабораторний для вивчення електрики",
                 "id": "electrka",
                 "srcImg": "img/resource/experiment/electrka.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/electrka.jpg"  alt="Example image">
-                <p class="modal_p">lorem</p>
+                <p class="modal_p">в процесі розробки:)</p>
                 `
             },
             {
-                "name": "Магнетизм",
-                "id": "magnetic",
+                "name": "Демонстраційний набір для вивчення електростатики",
+                "id": "electrostatik",
                 "srcImg": "img/resource/experiment/magnetic.jpg",
                 "count": 2,
                 "year": "",
                 "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <div class="lab_img_numb"><img src="img/resource/experiment/magnetic_numb.jpg"  alt="Example image"></div>
-                <p class="modal_p">lorem</p>
+                <p>Набір демонстраційний «Електрометри з пристосуванням» (електростатика) (далі - набір) призначений для використання в загальноосвітніх середніх та вищих навчальних закладах, в кабінетах фізики, вчителем (викладачем) та учнями при виконанні демонстраційного експерименту по фізичному практикуму при вивченні розділів електрика та магнетизм відповідно до чинних навчальних програм МОН України з фізики. Дозволяє познайомити учнів з експериментами: електризація різних тіл, взаємодія наелектризованих тіл, два роди електричних зарядів, подільність електричного заряду та інше. Розвиває у учнів експериментальні вміння і дослідницькі навички.</p>
+                <hr>
+                <p class="modal_p uk-text-bold uk-text-center">До складу комплекту входить:</p>
+                <div class="lab_img_numb"><img class="" src="img/resource/experiment/magnetic_numb.jpg"  alt="Example image"></div>
+                <ol class="content uk-column-1-2@s uk-column-divider">
+                    <li>Електроскоп 1 шт.</li>
+                    <li>Палички для трибоелектризації 4 шт.</li>
+                    <li>Матеріал для електризації 4 шт.</li>
+                    <li>Конденсатор 1 набір</li>
+                    <li>Кульки на нитці 3 шт.</li>
+                    <li>Колби з приладдям для виготовлення електроскопу 2 шт.</li>
+                    <li>Електростатичний екран 1 шт.</li>
+                    <li>CuC12 1 пакет</li>
+                    <li>Джерело струму 1 шт.</li>
+                    <li>Котушка моток 1 шт.</li>
+                    <li>Компас 1 шт.</li>
+                    <li>Електрометри 2 шт.</li>
+                    <li>Штатив електростатичний 2 шт.</li>
+                    <li>Електростатичні султани 2 шт.</li>
+                </ol>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1rbs0SelMZHsZsua9bzCUTBR-RFS6qfNM/view?usp=sharing" target="_blank">читати далі</a></p>
                 `
             },
             {
-                "name": "mg2",
-                "id": "id",
+                "name": "Набір для демонстрації механічних якищ: кінематика, динаміка",
+                "id": "mg2",
                 "srcImg": "img/resource/experiment/mg2.jpg",
                 "count": 1,
                 "year": "",
@@ -992,11 +1025,11 @@ labs = [
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <div class="lab_img_numb"><img src="img/resource/experiment/mg2_numb.jpg"  alt="Example image"></div>
-                <p class="modal_p">lorem</p>
+                <p class="modal_p">в процесі розробки:)</p>
                 `
             },
             {
-                "name": "Оптика",
+                "name": "Набір лабораторний для виконання лабораторних робіт з хвильвої оптики",
                 "id": "optika",
                 "srcImg": "img/resource/experiment/optika.jpg",
                 "count": 1,
@@ -1049,7 +1082,7 @@ labs = [
                 `
             },
             {
-                "name": "Молекулярна фізика та термодинаміка",
+                "name": "Набір лабораторний для вивчення молекулярної фізики та термодинаміки",
                 "id": "molandterm",
                 "srcImg": "img/resource/experiment/molecular.jpg",
                 "count": 1,
@@ -1057,21 +1090,37 @@ labs = [
                 "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <p class="modal_p">Набір лабораторний" Молекулярна фізика та термодинаміка (далі набір) призначений для використання в загальноосвітніх середніх та вищих навчальних закладах, в кабінетах фізики, вчителем (викладачем) і учнями при виконанні демонстраційного та лабораторного експерименту по фізичному практикуму при вивченні розділів молекулярна фізика та термодинаміка відповідно до чинних навчальних програм МОН України з фізики. Дозволяє познайомити учнів з основними положеннями молекулярної фізики та термодинаміки, провести експерименти визначення питомої теплоти плавлення льоду, вивчення теплової рівноваги за умов змішування води різної температури, вимірювання поверхневого натягу рідини, дослідження ізотермічного процесу та інше. Розвиває у учнів експериментальні вміння і дослідницькі навички.</p>
+                <p>Набір лабораторний "Молекулярна фізика та термодинаміка" (далі набір) призначений для використання в загальноосвітніх середніх та вищих навчальних закладах, в кабінетах фізики, вчителем (викладачем) і учнями при виконанні демонстраційного та лабораторного експерименту по фізичному практикуму при вивченні розділів молекулярна фізика та термодинаміка відповідно до чинних навчальних програм МОН України з фізики. Дозволяє познайомити учнів з основними положеннями молекулярної фізики та термодинаміки, провести експерименти визначення питомої теплоти плавлення льоду, вивчення теплової рівноваги за умов змішування води різної температури, вимірювання поверхневого натягу рідини, дослідження ізотермічного процесу та інше. Розвиває у учнів експериментальні вміння і дослідницькі навички.</p>
                 <hr>
-                <p class="modal_p uk-text-bold">Технічні характеристики</p>
-                <ul class="uk-list uk-list-disc uk-list-muted content">
-                    <li>В склад комплекту входять елементи для проведення експериментів з термодинаміки, які компактно укладаються в коробки, що дозволяє достатньо швидко складати набір для проведення експериментів.</li>
-                    <li>Нормальні умови застосування; - температура довкілля - 10-30 °С; - відносна вологість повітря - від ЗО % до 85 %.</li>
-                    <li>Габаритні розміри не більше -	1.	420 мм х 310 ммх 160 мм.</li>
-                    <li>Маса комплекту не більше - 5 кг.</li>
-                    <li>Середній повний термін служби -10 років</li>
-                </ul>
+                <p class="modal_p uk-text-bold uk-text-center">До складу комплекту входить:</p>
                 <div class="lab_img_numb"><img src="img/resource/experiment/molecular_numb.jpg"></div>
+                <ol class="content uk-column-1-2@s uk-column-divider">
+                    <li>Термометр рідинний О-1ОСГС</li>
+                    <li>Термометр рідинний -1О-11О’С</li>
+                    <li>Калориметр</li>
+                    <li>Тіла для калориметрії</li>
+                    <li>Мірний циліндр 1ОО мл.</li>
+                    <li>Набір мірних стаканів 4 шт.</li>
+                    <li>Шприц 20 мл</li>
+                    <li>Ваги електронні 500 гр.</li>
+                    <li>Джгут</li>
+                    <li>Спиртівка</li>
+                    <li>Спирт</li>
+                    <li>Салфетка «мікрофібра»</li>
+                    <li>Секундомір</li>
+                    <li>Пробірка</li>
+                    <li>Скляна трубка.</li>
+                    <li>Пластилін.</li>
+                    <li>Лійка.</li>
+                    <li>Чашка перті</li>
+                
+                </ol>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1YEYpphzdY0gV7xhxzPuANyu1D3NvXMK1/view?usp=sharing" target="_blank">читати далі</a></p>
                 `
             },
             {
-                "name": "shtativ",
+                "name": "Штатив фізичний універсальний",
                 "id": "shtativ",
                 "srcImg": "img/resource/experiment/shtativ.jpg",
                 "count": 1,
@@ -1109,7 +1158,7 @@ labs = [
                 "srcImg": "img/resource/mediastudio/photocam.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/mediastudio/photocam.jpg"  alt="Example image">
@@ -1124,7 +1173,7 @@ labs = [
                 "srcImg": "img/resource/makespace/videocam.jpg",
                 "count": 1,
                 "year": "8",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/videocam.jpg"  alt="Example image">
@@ -1141,7 +1190,7 @@ labs = [
                 "srcImg": "img/resource/makespace/hromo.jpg",
                 "count": 1,
                 "year": "",
-                "offsiteName": "www",
+                "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
                 <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/hromo.jpg"  alt="Example image">

@@ -18,14 +18,14 @@ let menu = `
                     <ul class="sub_menu">
                         <li class="sub_menu_item"><a class="sub_menu_link" href="academ.html">академія професій майбутнього</a></li>
                         <li class="sub_menu_item"><a class="sub_menu_link" href="404.html">підвищення кваліфікації</a></li>
-                        <li class="sub_menu_item"><a class="sub_menu_link" href="404.html">пересувні лабораторії</a></li>
+                        <li class="sub_menu_item"><a class="sub_menu_link" href="mobile_lab.html">пересувні лабораторії</a></li>
                     </ul>
                 </li>
                 <li class="menu_item">
                     <a class="uk-text-large menu_link" href="#">РЕСУРСИ</a>
                     <ul class="sub_menu">
                         <li class="sub_menu_item"><a class="sub_menu_link" href="equipment.html">Обладнання</a></li>
-                        <li class="sub_menu_item"><a class="sub_menu_link" href="404.html">матеріали</a></li>
+                        <li class="sub_menu_item"><a class="sub_menu_link" href="404.html">Методичні матеріали</a></li>
                     </ul>
                 </li>
                 <li class="menu_item"><a class="uk-text-large menu_link" href="faq.html">FAQ</a></li>
@@ -46,13 +46,13 @@ let menu = `
             <li><a class="uk-text-large" href="#">Напрямки роботи</a></li>
             <ul class="uk-nav-sub">
                 <li><a href="academ.html">Академія професій майбутнього</a></li>
-                <li><a href="#">Підвищення кваліфікації</a></li>
-                <li><a href="#">Пересувні лабораторії</a></li>
+                <li><a href="404.html">Підвищення кваліфікації</a></li>
+                <li><a href="mobile_lab.html">Пересувні лабораторії</a></li>
             </ul>
             <li><a class="uk-text-large" href="#">Ресурси</a></li>
             <ul class="uk-nav-sub">
                 <li><a href="equipment.html">Обладнання</a></li>
-                <li><a href="404.html">Матеріали</a></li>
+                <li><a href="404.html">Методичні матеріали</a></li>
             </ul>
             <li><a class="uk-text-large" href="faq.html">FAQ</a></li>
             <li><a class="uk-text-large" href="404.html">Галерея</a></li>

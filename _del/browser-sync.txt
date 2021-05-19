@@ -1,7 +1,0 @@
-install Node.js
-npm install -g browser-sync
-Shift + правый клик на папке проекта => консоль
-browser-sync start --server --files "*.css, *.html"
-
-info
-https://ydmitry.ru/blog/ray-dlya-verstalshchika-sinkhronizatsiya-okon-brauzerov/
