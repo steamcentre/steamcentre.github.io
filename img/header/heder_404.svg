@@ -182,9 +182,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="630.62846"
-     inkscape:cy="296.08687"
+     inkscape:zoom="0.50000001"
+     inkscape:cx="874.67593"
+     inkscape:cy="499.19096"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -227,18 +227,26 @@
        height="173.87801"
        width="420"
        id="rect1963"
-       style="opacity:1;fill:#f7c851;fill-opacity:1;stroke:none;stroke-width:0.890979;stroke-opacity:1" />
+       style="opacity:1;fill:#f7c851;fill-opacity:1;stroke:none;stroke-width:0.890979;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        d="M 0,-457.12201 V -631 h 104.68522 c -2.76004,3.87356 -5.426544,8.05209 -6.773453,11.37364 -4.900157,12.08419 -0.219258,27.15875 -6.527444,38.57131 -8.335858,15.08098 -29.668909,19.66379 -38.571324,34.41746 -8.897817,14.74613 -3.110271,35.67983 -12.461496,50.14269 -6.080372,9.40406 -18.695664,12.64819 -26.406484,20.76915 C 9.6685227,-471.22176 4.2905398,-463.59349 0,-457.12201 Z"
        style="fill:#f3c039;fill-opacity:1;stroke:none;stroke-width:0.0741757px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="path1965" />
+       id="path1965"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        d="M 420,-457.12201 V -631 H 315.31478 c 2.76002,3.87356 5.42654,8.05209 6.77344,11.37364 4.90016,12.08419 0.21927,27.15875 6.52744,38.57131 8.33587,15.08098 29.66891,19.66379 38.57133,34.41746 8.89782,14.74613 3.11028,35.67983 12.4615,50.14269 6.08037,9.40405 18.69566,12.64819 26.40649,20.76916 4.27649,4.50398 9.65448,12.13226 13.94502,18.60373 z"
        style="fill:#f3c039;fill-opacity:1;stroke:none;stroke-width:0.0741757px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="path1975" />
+       id="path1975"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        transform="matrix(0.19323084,0,0,0.19323084,-129.75574,-539.54085)"
-       id="g1909">
+       id="g1909"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <ellipse
          transform="matrix(-0.53063542,0.84760017,0.84760017,0.53063542,0,0)"
          ry="64.770294"
@@ -1509,13 +1517,17 @@
        height="70.379166"
        x="99.139587"
        y="-532.04584"
-       ry="23.8125" />
+       ry="23.8125"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:23.4964px;line-height:1.25;font-family:'Gardens CM';-inkscape-font-specification:'Gardens CM';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.587411"
        x="210.39008"
        y="-503.80103"
-       id="text1170"><tspan
+       id="text1170"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan1168"
          x="210.39008"
