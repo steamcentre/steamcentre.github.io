@@ -121,3 +121,9 @@ body{
 hr{
     clear: both;
 }
+
+@media only screen and (max-width: 640px) {
+    .uk-modal-title{
+        font-size: 1.2rem;
+    }
+}
