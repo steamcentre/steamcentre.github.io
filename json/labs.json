@@ -1170,13 +1170,13 @@ labs = [
             {
                 "name": "Відеокамера PANASONIC",
                 "id": "videocam",
-                "srcImg": "img/resource/makespace/videocam.jpg",
+                "srcImg": "img/resource/mediastudio/videocam.jpg",
                 "count": 1,
                 "year": "8",
                 "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/videocam.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/mediastudio/videocam.jpg"  alt="Example image">
                 <p class="modal_p">Відеокамеру можна використовувати для створення якісного відеоконтенту для шкіл, позашкільних закладів тощо.</p>
                 <p class="modal_p">Маючи компактний корпус, відеокамера пропонує мобільність і портативність з передовими функціями зйомки, які вимагають професіонали.</p>
                 <p class="modal_p">Об'єктив охоплює діапазон фокусних відстаней від ширококутного 25 мм до телефото 600 мм з 24-кратним зумом. ZOOM досягає 32-кратним збільшенням з дозволом 4K і 48-кратним збільшенням з дозволом FHD.</p>
@@ -1187,13 +1187,13 @@ labs = [
             {
                 "name": "Медійне обладнання",
                 "id": "mediaother",
-                "srcImg": "img/resource/makespace/hromo.jpg",
+                "srcImg": "img/resource/mediastudio/hromo.jpg",
                 "count": 1,
                 "year": "",
                 "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/makespace/hromo.jpg"  alt="Example image">
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/mediastudio/hromo.jpg"  alt="Example image">
                 <p class="modal_p">Все, нищеперечислене обладнання, можна використовувати як в лабораторії, так і для виїзних заходів.</p>
                 <p class="modal_p uk-text-bold">Штатив VELBON Videomate 538/F</p>
                 <p class="modal_p">Використовується разом з фото- або відеокамерою для зручності створення медіа контенту.</p>

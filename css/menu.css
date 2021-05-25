@@ -22,95 +22,11 @@ nav{
     background-color: #f3c039;
     padding: 0 !important;
 }
-/* 
-#menu__toggle {
-    opacity: 0;
-}
-#menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-}
-#menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0);
-}
-#menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-}
-.menu__btn {
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 10px;
-    right: 20px;
-  
-    width: 26px;
-    height: 26px;
-  
-    cursor: pointer;
-    z-index: 1;
-}
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-    display: block;
-    position: absolute;
-  
-    width: 100%;
-    height: 2px;
-  
-    background-color: #00f;
-  
-    transition-duration: .25s;
-}
-  .menu__btn > span::before {
-    content: '';
-    top: -8px;
-}
-  .menu__btn > span::after {
-    content: '';
-    top: 8px;
-}
-.menu__btn{
-    visibility: hidden;
-} */
-/* END BURGER */
-/* MENU */
-
-
-/* .wraper{
-    margin: 0 auto;
-    max-width: 1200px;
-} */
-/* nav{ */
-    /* position: fixed;
-    width: 100%;
-    max-width: 1200px;
-    left: calc((100% - 1200px) / 2);
-    z-index: 1000;
-    background-color: #f3c039; */
-/* } */
-/* #mainMenu{ */
-    /* background-color: #47248a; */
-    /* margin: 0; */
-    /* padding: 150px; */
-/* } */
-/* .logo{
-    padding: 0 10px;
-    margin: auto 0;
-    margin-right: 20px;
-} */
 .logo_link{
     
 }
-/* .logo_img{
-    margin: auto;
-    padding: 6px 0;
-} */
-
 .menu_item{
     display: inline-block;
-    /* padding: 15px 10px; */
     position: relative;
 }
 .menu_link{
@@ -125,7 +41,6 @@ nav{
     font-family: Primus !important;
     color: #fff !important;
     text-transform: uppercase;
-    /* text-decoration-line: none; */
     font-size: 1em !important;
 }
 
@@ -142,7 +57,6 @@ nav{
     background-color: #555;
     left: 0;
     top: 100%;
-    /* width: 220%; */
     white-space: nowrap;
 }
 .sub_menu_item:hover{
@@ -156,11 +70,9 @@ nav{
     padding: 5px 10px;
     display: inline-block;
 }
-/* @media only screen and (min-width: 960px) { */
 .menu_item:hover .sub_menu{
     display: block;
 }
 .visible{
     display: block;
 }
-/* } */

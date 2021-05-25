@@ -25,21 +25,18 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
-    /* background: url(../img/children.webp) 100% 100% no-repeat; */
 }
 .photo{
     width: 100%;
     visibility: hidden;    ;
 }
 .abrivation{
-    /* padding: 0; */
+
 }
-/* width < 62em */
 .m-left{
     margin-left: 0;
 }
 .abrivation_item{
-    /* width: 100%; */
     min-height: 300px;
 }
 .abrivation_content{
@@ -85,7 +82,6 @@
 .center-block{
     margin: 0 auto;
 }
-/* .uk-card-body, */
 .activity{}
 .uk-card-title{
 
@@ -103,7 +99,7 @@
     color: #666;
 }
 .google_map{
-    /* margin-bottom: -50px; */
+
 }
 .google_map iframe{
     width: 100%;
@@ -121,12 +117,6 @@
     }
 }
 @media only screen and (min-width: 62em) {
-    /* .science,
-    .technology,
-    .engeneering,
-    .math{
-       
-    } */
     .science{
         background: url(../img/steam/science.svg) 100% 100% no-repeat;
         background-color: #0EC167;

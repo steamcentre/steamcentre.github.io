@@ -33,18 +33,15 @@
     color: #666;
 }
 .dialog_person{
-    /* background-color: #9a5edb; */
     background-color: #fff;
     margin-right: 30px;
     border-top-left-radius: 0;
 }
 .dialog_we{
-    /* background-color: #423bdb; */
     background-color: #cbecff;
     margin-left: 30px;
     border-top-right-radius: 0;
 }
 .dialog_link{
-    /* color: wheat; */
     text-decoration: underline;
 }

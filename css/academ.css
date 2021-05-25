@@ -42,7 +42,6 @@ h3{
     background-color: #00bbff;
 }
 .plan{
-    /* background-color: #006a80; */
     background-color: white;
     color: #666;
 }
@@ -50,13 +49,13 @@ p{
     margin-bottom: 10px;
 }
 .plan_items{
-    /* border: 1px solid red; */
+
 }
 .uk-open{
-    /* color: whitesmoke; */
+
 }
 .uk-accordion-title{
-    /* color: white !important; */
+
 }
 .palan_list{
     margin-left: 20px;

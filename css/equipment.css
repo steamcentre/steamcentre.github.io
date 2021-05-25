@@ -1,6 +1,3 @@
-body{
-    /* background-color: #555; */
-}
 .main{
     color: #666;
 }
@@ -24,9 +21,6 @@ body{
         width: 100%;
     }
 }
-
-
-
 .lab_text{
     padding: 30px 40px 0 40px;
     text-align: justify;
@@ -121,7 +115,6 @@ body{
 hr{
     clear: both;
 }
-
 @media only screen and (max-width: 640px) {
     .uk-modal-title{
         font-size: 1.4rem;

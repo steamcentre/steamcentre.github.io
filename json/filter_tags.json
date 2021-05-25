@@ -4,8 +4,16 @@ filter_tags = [
         "value": "3D"
     },
     {
+        "text": "Arduino",
+        "value": "Arduino"
+    },
+    {
         "text": "Blender",
         "value": "Blender"
+    },
+    {
+        "text": "JavaScript",
+        "value": "JavaScript",
     },
     {
         "text": "Tinkercad",
@@ -26,10 +34,6 @@ filter_tags = [
     {
         "text": "woofJS",
         "value": "woofJS",
-    },
-    {
-        "text": "JavaScript",
-        "value": "JavaScript",
     },
     {
         "text": "Інформатика",

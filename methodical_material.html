@@ -14,13 +14,18 @@
 </head>
 <body id="body">
     <div id="mainMenu"></div>
-    <!-- <nav class="uk-flex" id="mainMenu"></nav> -->
     <div class="wraper">
-        <header class="header">
+        <header class="header visibility_header">
             <img class="header_canvas" src="img/header/heder_equipment.svg" alt="">
         </header>
         <main class="main uk-flex">
-            <section class="materials" id="method"></section>
+            <section class="materials" id="materials">
+                <div class="article_conteiner article_content statusMatirial">
+                    <p>Кількість знайдених матеріалів <span id="statusMatirial"></span></p>
+                    <div><button class="article_tag" onclick="renderMaterials();resetFilter();">Показати все</button></div>
+                </div>
+                <div id="method"></div>
+            </section>
             <section class="navtegs visibility"> 
                 <div class="navtegs_conteiner">
                     <h3 class="navtegs_headline uk-text-center">Рубрики</h3>
@@ -37,12 +42,23 @@
     <script defer src="js/uikit.js"></script>
     <script defer src="js/uikit-icons.js"></script>
     
-    <!-- main -->
     <script defer src="js/main.js"></script>
 
     <script src="json/filter_tags.json"></script>
     <script src="json/material.json"></script>
     <script defer>
+        const resetFilter = (tagValue='')=>{
+            for (let i = 0; i < filter_tags.length; i++) {
+                const {value} = filter_tags[i];
+                if (form[value].checked){
+                    form[value].checked = false
+                }
+            }
+            if(tagValue !== ''){
+                form[tagValue].checked = true
+            }
+        }
+
         const filterElemets = () => {
             let activeTages = []
             filter_tags.forEach(tag => {
@@ -80,61 +96,50 @@
                     return false
                 }
             }
-            let showUpps = true
+
+            let countMaterials = 0
             material.forEach(m => {
-                if (isRender(m.tegs)){
-                    showUpps = false
+                let {name, color = '', srcImg, link, tegs, content, source = ''} = m
+                if (isRender(tegs)){
+                    countMaterials++
                     let tegsHtml = ''
-                    m.tegs.forEach(tag => {
-                        tegsHtml += `<a href="#method"><button onclick="renderMaterials('${tag}')"  class="article_tag">${tag}</button></a>`
+                    tegs.forEach(tag => {
+                        tegsHtml += `<a href="#materials"><button onclick="renderMaterials('${tag}');resetFilter('${tag}')" class="article_tag">${tag}</button></a>`
                     });
 
                     let p = ''
-                    m.content.forEach(content => {
+                    content.forEach(content => {
                         p += `<p>${content}</p>`
                     });
 
-                    let color = ''
-                    if (m.color){
-                        color = `style="border-color: ${m.color};"`
+                    if (color !== ''){
+                        color = `style="border-color: ${color};"`
                     }
+
+                    if (source !== ''){
+                        source = `<a href="${source}" target="_blank">Джерело</a>`
+                    }
+
                     method.innerHTML += `
-                        <article class="uk-article">
+                        <article class="uk-article uk-animation-slide-left" >
                             <div class="article_conteiner" >
-                                <a href="${m.link}" target="_blank"><img class="article_img uk-align-left" src="${m.srcImg}" alt=""></a>
+                                <a href="${link}" target="_blank"><img class="article_img uk-align-left" src="${srcImg}" alt=""></a>
                                 <div class="article_content" ${color}>
-                                    <a href="${m.link}" target="_blank"><h2 class="article_headline">${m.name}</h2></a>
+                                    <a href="${link}" target="_blank"><h2 class="article_headline">${name}</h2></a>
                                     <div class="article_tags">
                                         ${tegsHtml}
                                     </div>
                                     ${p}
-                                    <div class="clear"></div>
+                                    <div class="clear">${source}</div>
                                 </div>
                             </div>
                         </article>
                     `
                 }
-                
             });
-            if (showUpps){
-                method.innerHTML += `
-                <article class="uk-article">
-                    <div class="article_conteiner" >
-                        <div class="article_content">
-                            За результатами пошуку, враховуючи вибрані фільтри, нічого не знайдено, перепрошуємо за тимчасові незручності
-                        </div>
-                    </div>
-                </article>
-                `
-            }
+            statusMatirial.innerHTML = countMaterials.toString()
         }
         renderMaterials()
-        
-        // let navtegsConteiner = document.getElementsByClassName('navtegs_conteiner')[0];
-        // setInterval(() => {
-        //     console.log(window.pageYOffset)
-        // }, 1000);
     </script>
-
 </body>
 </html>

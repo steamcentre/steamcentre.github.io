@@ -1,5 +1,5 @@
 .footer{
-    /* margin-top: 50px; */
+
 }
 .footerConteoner{
     background-color: #f7c851;
@@ -17,13 +17,9 @@
     list-style-type: none;
     
 }
-.footerList,
-.socialNetwork{
-    /* width: 30%; */
-} 
+
 .footerList_h{
     margin-bottom: 10px;
-    /* font-weight: 400; */
 }
 .footerList_item{
 
@@ -34,7 +30,6 @@
 .courses_link,
 .footerList_link{
     color: #fff;
-    /* line-height: 1em; */
 }
 .other_link{
 

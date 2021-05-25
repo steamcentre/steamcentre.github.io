@@ -24,14 +24,14 @@ p{
 }
 .header_canvas{
     width: 100%;
-    /* margin-top: 55px; */
-}
-@media only screen and (max-width: 1020px) {
-    .heder_canvas{
-        /* margin-top: 47px; */
-    }
 }
 .list li{
     margin-bottom: 10px;
     font-size: 1.2rem;
+
+}@media only screen and (max-width: 640px) {
+    .visibility_header{
+        display: none;
+    }
+
 }
