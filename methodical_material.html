@@ -1,12 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/methodical_material.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>STEAM Center</title>
 </head>
-<body>
-    <h1>hello</h1>
+<body id="body">
+    <div id="mainMenu"></div>
+    <!-- <nav class="uk-flex" id="mainMenu"></nav> -->
+    <div class="wraper">
+        <header class="header">
+            <img class="header_canvas" src="img/header/heder_equipment.svg" alt="">
+        </header>
+        <main class="main uk-flex">
+            <section class="materials" id="method"></section>
+            <section class="navtegs visibility"> 
+                <div class="navtegs_conteiner">
+                    <h3 class="navtegs_headline uk-text-center">Рубрики</h3>
+                    <form action="" id="form" class="filter_form"></form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="mainFooter"></footer>
+    </div>
+ 
+    <script defer src="json/menu.json"></script>
+    <script defer src="json/footer.json"></script>
+
+    <script defer src="js/uikit.js"></script>
+    <script defer src="js/uikit-icons.js"></script>
+    
+    <!-- main -->
+    <script defer src="js/main.js"></script>
+
+    <script src="json/filter_tags.json"></script>
+    <script src="json/material.json"></script>
+    <script defer>
+        const filterElemets = () => {
+            let activeTages = []
+            filter_tags.forEach(tag => {
+                const {value} = tag
+                if (form[value].checked){
+                    activeTages.push(value)
+                }
+            });
+            if (activeTages.length === 0){
+                renderMaterials()
+            } else {
+                renderMaterials(...activeTages)
+            }
+        }
+
+        const renderFilter = () => {
+            filter_tags.forEach(el => {
+                const {text, value} = el
+                form.innerHTML += `<input type="checkbox" name="${value}" onclick="filterElemets()"><span class="filter_text">${text}</span><br>`
+            });
+        }
+        renderFilter()
+        const renderMaterials = (...arr) => {
+            method.innerHTML = ''
+
+            const isRender = (tegs) => {
+                if (arr.length === 0){
+                    return true
+                } else {
+                    for (let i = 0; i < arr.length; i++) {
+                        if (tegs.indexOf(arr[i]) !== -1){
+                            return true
+                        }
+                    }
+                    return false
+                }
+            }
+            let showUpps = true
+            material.forEach(m => {
+                if (isRender(m.tegs)){
+                    showUpps = false
+                    let tegsHtml = ''
+                    m.tegs.forEach(tag => {
+                        tegsHtml += `<a href="#method"><button onclick="renderMaterials('${tag}')"  class="article_tag">${tag}</button></a>`
+                    });
+
+                    let p = ''
+                    m.content.forEach(content => {
+                        p += `<p>${content}</p>`
+                    });
+
+                    let color = ''
+                    if (m.color){
+                        color = `style="border-color: ${m.color};"`
+                    }
+                    method.innerHTML += `
+                        <article class="uk-article">
+                            <div class="article_conteiner" >
+                                <a href="${m.link}" target="_blank"><img class="article_img uk-align-left" src="${m.srcImg}" alt=""></a>
+                                <div class="article_content" ${color}>
+                                    <a href="${m.link}" target="_blank"><h2 class="article_headline">${m.name}</h2></a>
+                                    <div class="article_tags">
+                                        ${tegsHtml}
+                                    </div>
+                                    ${p}
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </article>
+                    `
+                }
+                
+            });
+            if (showUpps){
+                method.innerHTML += `
+                <article class="uk-article">
+                    <div class="article_conteiner" >
+                        <div class="article_content">
+                            За результатами пошуку, враховуючи вибрані фільтри, нічого не знайдено, перепрошуємо за тимчасові незручності
+                        </div>
+                    </div>
+                </article>
+                `
+            }
+        }
+        renderMaterials()
+        
+        // let navtegsConteiner = document.getElementsByClassName('navtegs_conteiner')[0];
+        // setInterval(() => {
+        //     console.log(window.pageYOffset)
+        // }, 1000);
+    </script>
+
 </body>
 </html>

@@ -1,0 +1,42 @@
+filter_tags = [
+    {
+        "text": "3D графіка",
+        "value": "3D"
+    },
+    {
+        "text": "Blender",
+        "value": "Blender"
+    },
+    {
+        "text": "Tinkercad",
+        "value": "Tinkercad"
+    },
+    {
+        "text": "Unity",
+        "value": "Unity"
+    },
+    {
+        "text": "VR (віртуальна р-ть)",
+        "value": "VR"
+    },
+    {
+        "text": "AR (доповнена р-ть)",
+        "value": "AR"
+    },
+    {
+        "text": "woofJS",
+        "value": "woofJS",
+    },
+    {
+        "text": "JavaScript",
+        "value": "JavaScript",
+    },
+    {
+        "text": "Інформатика",
+        "value": "Інформатика",
+    },
+    // {
+    //     "text": "",
+    //     "value": ""
+    // },
+]
