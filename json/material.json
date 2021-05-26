@@ -463,6 +463,336 @@ material = [
         "source": "",
     },
     // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/32.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
+    //     "name":  "teht",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/1.jpg",
+    //     "link": "",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // {
     //     "name":  "",
     //     "color": "#316E99",
     //     "srcImg": "img/methodical_material/.jpg",

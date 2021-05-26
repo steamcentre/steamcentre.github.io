@@ -802,7 +802,7 @@ labs = [
                 "id": "unimate",
                 "srcImg": "img/resource/makespace/unimate.jpg",
                 "count": 1,
-                "year": 99999,
+                "year": "",
                 "offsiteName": "thecooltool.com/produkte/unimat1-classic",
                 "offsiteProtocol": "https",
                 "modalHtml": `
@@ -933,14 +933,46 @@ labs = [
             {
                 "name": "Комплект оптика для цифрового вимірювального комплексу для кабінету фізики",
                 "id": "laserlinz",
-                "srcImg": "img/resource/experiment/laserlinz.jpg",
+                "srcImg": "img/resource/experiment/optic.jpg",
                 "count": 1,
                 "year": "",
                 "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/laserlinz.jpg"  alt="Example image">
-                <p class="modal_p">в процесі розробки:)</p>
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/optic.jpg"  alt="Example image">
+                <p class="modal_p">Набір «Оптика» TM Vernier – це інноваційне оптичне обладнання з високоякісними лінзами.</p>
+                <p class="modal_p">Використовуйте набір дзеркал із джерелом світла та екраном на розширювальному наборі оптики  та доріжкою від системи динаміки Vernier для спостереження та вимірювання реальних та віртуальних зображень, відтворених дзеркалами.</p>
+                <p class="modal_p">За допомогою дзеркал, надійно встановлених на доріжці, яка виконує роль оптичного стенду, діти можуть швидко зрозуміти, як формуються та розташовуються зображення.</p>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1DzoAlLezOWRhoLRpaKiHeYgID7x3hX6X/view?usp=sharing" target="_blank">читати далі</a></p>
+                <hr>
+
+                <p class="modal_p uk-text-bold">Кольорова оптика</p>
+                <img class="uk-align-right uk-margin-remove-adjacent lab_img" src="img/resource/experiment/o_color.jpg"  alt="Example image">
+                <p class="modal_p">За допомогою набору «Кольорова оптика» ТМ Vernier можна легко та зручно виконувати експерименти в адитивному та субтрактивному змішуванні кольорів.</p>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1u0G92KaXXThqZd-tYA6MF4cgFT7u-FpZ/view?usp=sharing" target="_blank">читати далі</a></p>
+                <hr>             
+                
+                <p class="modal_p uk-text-bold">Дифракційний апарат</p>
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/o_defract.jpg"  alt="Example image">
+                <p class="modal_p">За допомогою дифракційного апарату студенти вимірюють інтенсивність як функцію положення для різних моделей дифракції та інтерференції.</p>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1NG1hKDLYjczZwxP-5R9loS0M5tltRWny/view?usp=sharing" target="_blank">читати далі</a></p>
+                <hr>
+                
+                <p class="modal_p uk-text-bold">Поляризатор / аналізатор для розширення оптики</p>
+                <img class="uk-align-right uk-margin-remove-adjacent lab_img" src="img/resource/experiment/o_polar.jpg"  alt="Example image">
+                <p class="modal_p">Набір поляризаторів / аналізаторів включає фіксований поляризатор, регульований аналізатор та регульований аналізатор для поворотного датчика руху.</p>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1-uG2GmVW5BbK6OUCUFvJgfjnfG8sUss9/view?usp=sharing" target="_blank">читати далі</a></p>
+                <hr>             
+                
+                <p class="modal_p uk-text-bold">Додатковий комплект "Оптика"</p>
+                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/o_dodatc.jpg"  alt="Example image">
+                <p class="modal_p">Додайте комплект розширення оптики Vernier до вашої системи Dynamics Cart and Track System для проведення оптичних експериментів, таких як формування зображення лінзами та інтенсивність світла в залежності від відстані. Ви навіть можете використовувати комплект для побудови основного телескопа.</p>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1ZJGpetqJjjSq9yT8pznrvDgB4_5HvI4l/view?usp=sharing" target="_blank">читати далі</a></p>
                 `
             },
             {
@@ -978,8 +1010,70 @@ labs = [
                 "offsiteName": "",
                 "offsiteProtocol": "https",
                 "modalHtml": `
-                <img class="uk-align-left uk-margin-remove-adjacent lab_img" src="img/resource/experiment/electrka.jpg"  alt="Example image">
-                <p class="modal_p">в процесі розробки:)</p>
+                <p class="modal_p">Набір призначений для використання в загальноосвітніх середніх та вищих навчальних закладах, в кабінетах фізики, вчителем (викладачем) та учнями при виконанні
+                демонстраційного експерименту по фізичному практикуму при вивченні розділів електрика та магнетизм відповідно до чинних навчальних програм
+                МОН України з фізики. Дозволяє познайомити учнів з експериментами: вимірювання опору провідника за допомогою амперметра й вольтметра,
+                дослідження електричного кола з послідовним та паралельним з’єднанням провідників, вимірювання ЕРС і внутрішнього опору джерела струму та інше.
+                Розвиває у учнів експериментальні вміння і дослідницькі навички.</p>
+                <div class="lab_img_numb"><img src="img/resource/experiment/electrka_numb.jpg"  alt="Example image"></div>
+                <hr>
+                <p class="modal_p uk-text-bold uk-text-center">До складу комплекту входить:</p>
+                <ol class="content uk-column-1-2@s uk-column-divider">
+                Резистор 1 Ом x1
+                    <li>Резистор 10 Ом x2</li>
+                    <li>Резистор 47 Ом x1</li>
+                    <li>Резистор 100 Ом x2</li>
+                    <li>Резистор 470 Ом x1</li>
+                    <li>Резистор 1 кОм x2</li>
+                    <li>Резистор 4,7 кОм x1</li>
+                    <li>Резистор 10 кОм x1</li>
+                    <li>Резистор 20 кОм x2</li>
+                    <li>Резистор 100 кОм x1</li>
+                    <li>Резистор 1 МОм x1</li>
+                    <li>Резистор змінного опору 1кОм x2</li>
+                    <li>Резистор змінного опору 10кОм x1</li>
+                    <li>Резистор змінного опору 100кОм x1</li>
+                    <li>Діод випрямляючий 1N4001 x3</li>
+                    <li>Діод випрямляючий 1N914 x3</li>
+                    <li>Біполярний транзистор з pnpпереходом 2N3906 x3</li>
+                    <li>Біполярний транзистор з npnпереходом 2N3904 x3</li>
+                    <li>Котушка 200 витків x1</li>
+                    <li>Котушка 300 витків і 600 витків x1</li>
+                    <li>Трансформатор x1</li>
+                    <li>Електродвигун 3 В постійного струму x1</li>
+                    <li>Лампа розжарювання 2,5В x1</li>
+                    <li>Батарея гальванічних елементів 3В постійного струму x1</li>
+                    <li>Динамік 3 В x1</li>
+                    <li>Провідник прямий x4</li>
+                    <li>Провідник прямий з роз’ємом для підключення вольтметру x2</li>
+                    <li>Конденсатор постійної ємності 510пФ x1</li>
+                    <li>Конденсатор постійної ємності 0,001мкФ x1</li>
+                    <li>Конденсатор постійної ємності 0,01мкФ x1</li>
+                    <li>Конденсатор постійної ємності 0,1 мкФ x1</li>
+                    <li>Конденсатор поляризований електролітичний 1мкФ x1</li>
+                    <li>Конденсатор поляризований електролітичний 4,7мкФ x1</li>
+                    <li>Конденсатор поляризований електролітичний 10мкФ x1</li>
+                    <li>Конденсатор поляризований електролітичний 47мкФ x1</li>
+                    <li>Конденсатор поляризований електролітичний 100мкФ x1</li>
+                    <li>Конденсатор поляризований електролітичний 470мкФ x1</li>
+                    <li>Провідник Х-образний x2</li>
+                    <li>Провідник Х-образний з роз’ємом для підключення вольтметру x2</li>
+                    <li>Провідник Т-образний x4</li>
+                    <li>Провідник Т-образний з роз’ємом для підключення вольтметру x4</li>
+                    <li>Провідник Г-образний x4</li>
+                    <li>Провідник Г-образний з роз’ємом для підключення вольтметру x4</li>
+                    <li>З’єднувальний елемент x50</li>
+                    <li>Підключення амперметру x2</li>
+                    <li>Світлодіод x2</li>
+                    <li>Павербанк x1</li>
+                    <li>Амперметр x1</li>
+                    <li>Вольтметр x1</li>
+                    <li>Мультиметр x1</li>
+                    <li>Набір проводів x1</li>
+                    <li>Пакувальна коробка x1</li>
+                </ol>
+                <hr>
+                <p class="uk-text-center"><a href="https://drive.google.com/file/d/1hdCq6CcbHrSL6u8cm1fIaOSrPk90sl62/view?usp=sharing" target="_blank">читати далі</a></p>
                 `
             },
             {
