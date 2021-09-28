@@ -462,6 +462,108 @@ material = [
         ],
         "source": "",
     },
+    // AR
+    {
+        "name":  "Винаходи Леонардо да Вінчі",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/AR/dv.png",
+        "link": "https://drive.google.com/file/d/1PlhT273A-8BMN_fWxzEqLrqj5q-umgIO/view?usp=sharing",
+        "tegs": [
+            "AR",
+            "Art",
+            "Інформатика",
+
+        ],
+        "content": [
+            "Da Vinci Machines. Цей додаток створить доповнену реальність і перенесе вас в неймовірний світ винаходів Леонардо да Вінчі. Мітки для друку доступні у кінці документу",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.dmatsokin.vinci1&gl=UA"
+    },
+    {
+        "name":  "Найвідоміші хмарочоси та будівлі світу",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/AR/11.png",
+        "link": "https://drive.google.com/file/d/1rRKU-JPsCpO1y3JRclRdxe7UkNePwWMo/view?usp=sharing",
+        "tegs": [
+            "AR",
+            "EN",
+            "Інформатика",
+
+        ],
+        "content": [
+            "Skyscrapers AR. Це нова форма додатка доповненої реальності, яка пропонує користувачам залишатися поруч із відомими хмарочосами світу, ходити навколо будівлі та детально розглядати її з усіх боків, з’ясовуючи особливості архітектурного творіння.  Мітки для друку доступні у кінці документу",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.dmatsokin.skyscrapers&gl=UA"
+    },
+    {
+        "name":  "НУШ: Доповнена реальність на уроках математики",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/AR/math.png",
+        "link": "https://drive.google.com/file/d/1LDdOpRkhVBhyuH68sUOp5_WumkNrH-Gv/view?usp=sharing",
+        "tegs": [
+            "AR",
+            "Math",
+            "Інформатика",
+            "НУШ"
+        ],
+        "content": [
+            "Інноваційний та захоплюючий спосіб вивчення геометрії за допомогою візуалізації та взаємодії. За допомогою колекції флеш-карт можна вивчати прості геометричні фігури.   Мітки для друку доступні у кінці документу",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=ru.skyinnovations.cbgeometry&gl=UA"
+    },
+    {
+        "name":  "Будова Сонячної системи. Запуск ракети",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/AR/math.png",
+        "link": "https://drive.google.com/file/d/1VqvBQfqJ0JPsUfEd34D0WPUSwjao-pI5/view?usp=sharing",
+        "tegs": [
+            "AR",
+            "Я у світіт",
+            "Інформатика",
+            "НУШ"
+
+        ],
+        "content": [
+            "CleverBooks Space. Додаток охоплює інженерні та космічні інтерактивні завдання доповненої реальності для дітей початкового рівня 7-11 років. Можливості: планети Сонячної системи, складання космічних ракет, навчальні пункти про просту механіку, функції деталей космічної ракети, вибір, космічна місія за вибором дитини. Мітки для друку доступні у кінці документу",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=eu.cleverbooks.space&gl=UA"
+    },
+    {
+        "name":  "3D модель Сонячної системи та 3D моделі її планет",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/AR/astr.png",
+        "link": "https://drive.google.com/file/d/1NI_38z7YPPUGUsecTKj-gusK-rUyXcR6/view?usp=sharing",
+        "tegs": [
+            "AR",
+            "Астрономія",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "AR Solar System. Мобільний додаток із технологією доповненої реальності дозволяє отримати на екрані гаджету 3D модель Сонячної системи та 3D моделі усіх планет Сонячної системи. Мітки для друку доступні у кінці документу",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.ar.solar&gl=UA"
+    },
+    {
+        "name":  "3D моделі найвідоміших мостів світу",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/AR/most.png",
+        "link": "https://drive.google.com/file/d/1tHJoTE_kptRD51PBpaWGV7wRzCEECIiH/view?usp=sharing",
+        "tegs": [
+            "AR",
+            "EN",
+            "Інформатика",
+            "Географія",
+            "НУШ",
+            
+
+        ],
+        "content": [
+            "ABridges AR. Мобільний додаток, який містить 3D моделі мостів світу. Цей додаток можна використовувати у проектній діяльності «Мости» у позашкільний час у STEAM-лабораторії, а також на уроках англійської мови, географії тощо.  Мітки для друку доступні у кінці документу",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.dmatsokin.bridges"
+    },
     // {
     //     "name":  "teht",
     //     "color": "#316E99",
