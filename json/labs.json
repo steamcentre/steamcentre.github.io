@@ -1019,7 +1019,7 @@ labs = [
                 <hr>
                 <p class="modal_p uk-text-bold uk-text-center">До складу комплекту входить:</p>
                 <ol class="content uk-column-1-2@s uk-column-divider">
-                Резистор 1 Ом x1
+                    <li>Резистор 1 Ом x1</li>
                     <li>Резистор 10 Ом x2</li>
                     <li>Резистор 47 Ом x1</li>
                     <li>Резистор 100 Ом x2</li>
