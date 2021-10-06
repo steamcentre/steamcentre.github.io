@@ -19,6 +19,7 @@ let menu = `
                         <li class="sub_menu_item"><a class="sub_menu_link" href="academ.html">академія професій майбутнього</a></li>
                         <li class="sub_menu_item"><a class="sub_menu_link" href="404.html">підвищення кваліфікації</a></li>
                         <li class="sub_menu_item"><a class="sub_menu_link" href="mobile_lab.html">пересувні лабораторії</a></li>
+                        <li class="sub_menu_item"><a class="sub_menu_link" href="fest_robo.html">фестиваль робототехніки</a></li>
                     </ul>
                 </li>
                 <li class="menu_item">
@@ -48,6 +49,7 @@ let menu = `
                 <li><a href="academ.html">Академія професій майбутнього</a></li>
                 <li><a href="404.html">Підвищення кваліфікації</a></li>
                 <li><a href="mobile_lab.html">Пересувні лабораторії</a></li>
+                <li><a href="fest_robo.html">Фестиваль робототехніки</a></li>
             </ul>
             <li><a class="uk-text-large" href="#">Ресурси</a></li>
             <ul class="uk-nav-sub">
