@@ -20,6 +20,10 @@ filter_tags = [
         "value": "Tinkercad"
     },
     {
+        "text": "Spike",
+        "value": "Spike"
+    },
+    {
         "text": "Unity",
         "value": "Unity"
     },
@@ -67,8 +71,12 @@ filter_tags = [
         "value": "НУШ",
     },
     {
-        "text": "Я у світіт",
-        "value": "Я у світіт",
+        "text": "Роботехніка",
+        "value": "Роботехніка",
+    },
+    {
+        "text": "Я у світі",
+        "value": "Я у світі",
     },
 
     // {
