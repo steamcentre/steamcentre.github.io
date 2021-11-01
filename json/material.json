@@ -580,21 +580,203 @@ material = [
         ],
         "source": "https://play.google.com/store/apps/details?id=com.puteko.colarmix&gl=UA"
     },
-     {
+    {
         "name":  "Заняття 1. Допоможіть!",
-        "color": "#EA7600",
+        "color": "#85ff00",
         "srcImg": "img/methodical_material/spike/1.png",
         "link": "https://drive.google.com/file/d/15XmaQIMCOxvpj6qJyZ0Z3okky0gKFpiG/view?usp=sharing",
         "tegs": [
             "Spike",
             "Роботехніка",
             "Інформатика",
+            
 
         ],
         "content": [
-            "Дана модель використовує датчик кольору для визначення кольору предмета і реагування на нього. Датчик кольору здатний розрізняти відтінки кольорів.",
+            "Курс 1. Загін винахідників",
+            "Для створення моделі використовується датчик кольору, який може визначати колір предмета. Датчик розрізняє різні відтінки кольорів",
         ],
         "source": "https://education.lego.com/ru-ru/lessons/prime-invention-squad/help#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 2. Хто швидше?",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/2.png",
+        "link": "https://drive.google.com/file/d/1t8PUjD2Emms9tt-S2kynRb0BaN6K-eE4/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 1. Загін винахідників",
+            "Швидкість, формули обрахунку. Створення найшвидшої моделі блохи. Використання середнього мотору",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-invention-squad/hopper-race#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 3. Ідеальне прибирання",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/3.png",
+        "link": "https://drive.google.com/file/d/1lPCFVGxSj4Gfscv7gHT1hy6ORsT46c7-/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 1. Загін винахідників",
+            "Яким має бути ідеальний захват для прибирання? Створення відповідної моделі та пристрою керування, перевірка можливостей",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-invention-squad/super-cleanup#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 4. Усунути поломку",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/4.png",
+        "link": "https://drive.google.com/file/d/1YglR0SfB6xCDRlC8BesyFUHAgTG4wQL2/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 1. Загін винахідників",
+            "Станок з ЧПУ (числове програмне управління), виправлення помилок в побудові. Використання зубчастої передачі",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-invention-squad/broken#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 5. Модель для друга",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/5.png",
+        "link": "https://drive.google.com/file/d/1xBujvKDYYjwgJTRjBcLXBb_3r2Dr3k8O/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 1. Загін винахідників",
+            "Створення моделі протезу кисті руки, за допомогою якого люди з обмеженими можливостями можуть виконати будь-яку дію",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-invention-squad/design-for-someone#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 6. Наступне замовлення",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/6.png",
+        "link": "https://drive.google.com/file/d/1iLOZHZNW82K_gJyX81ONkDdfl2B9i5om/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 2. Запускаємо бізнес",
+            "Створення робота служби контроля якості, який буде допомагати перевіряти якість нової продукції",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-kickstart-a-business/place-your-order#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 7. Несправність",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/7.png",
+        "link": "https://drive.google.com/file/d/1hbsOHeDvzhyyFJ8ANIis5VQQKiR9vLSw/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 2. Запускаємо бізнес",
+            "Побудова моделі транспортного візка для перевезення посилок, яку обов’язково потрібно полагодити",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-kickstart-a-business/out-of-order#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 8. Система відстеження",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/8.png",
+        "link": "https://drive.google.com/file/d/1w5_5cy65dhl9VT4fIMdFUV7RGg8gne01/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 2. Запускаємо бізнес",
+            "Всім важливо знати де знаходяться посилки, які вони замовили. Для цього використовують системи відстеження. Побудова власної системи відстеження",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-kickstart-a-business/track-your-packages#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 9. Безпека понад усе",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/9.png",
+        "link": "https://drive.google.com/file/d/1e-55-M29ZU4qqkR7S5olq0zma2HbM8kX/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 2. Запускаємо бізнес",
+            "Замки та паролі – засоби безпеки, які використовують в усьому світі для захисту речей та інформації. Побудова моделі сейфа для захисту цінних речей",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-kickstart-a-business/keep-it-safe#%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE-%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F"
+    },
+    {
+        "name":  "Заняття 10. Ще безпечніше!",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/10.jpg",
+        "link": "https://drive.google.com/file/d/1LsXeGOaCZIfTtLCGmhx_dvZLLsPtzyxi/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 2. Запускаємо бізнес",
+            "Як посилити захист, щоб ніхто не зміг зламати твій пароль. Побудова ще міцнішої та безпечнішої сейфової комірки",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-kickstart-a-business/keep-it-really-safe#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 11. Автоматизація виробництва",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/11.jpg",
+        "link": "https://drive.google.com/file/d/1oV0gZ-YUQpPFrCtT4xohwn663zsPzAoM/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+            
+
+        ],
+        "content": [
+            "Курс 2. Запускаємо бізнес",
+            "Створення робота-помічника. Розробка та програмування промислового робота, який міг би розрізняти посилки по кольору і відправляти їх замовнику",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-kickstart-a-business/automate-it#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
     },
     // {
     //     "name":  "teht",
