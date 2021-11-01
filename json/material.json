@@ -466,7 +466,7 @@ material = [
     {
         "name":  "Винаходи Леонардо да Вінчі",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/AR/dv.png",
+        "srcImg": "img/methodical_material/ar/dv.png",
         "link": "https://drive.google.com/file/d/1PlhT273A-8BMN_fWxzEqLrqj5q-umgIO/view?usp=sharing",
         "tegs": [
             "AR",
@@ -482,7 +482,7 @@ material = [
     {
         "name":  "Найвідоміші хмарочоси та будівлі світу",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/AR/11.png",
+        "srcImg": "img/methodical_material/ar/11.png",
         "link": "https://drive.google.com/file/d/1rRKU-JPsCpO1y3JRclRdxe7UkNePwWMo/view?usp=sharing",
         "tegs": [
             "AR",
@@ -498,7 +498,7 @@ material = [
     {
         "name":  "НУШ: Доповнена реальність на уроках математики",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/AR/math.png",
+        "srcImg": "img/methodical_material/ar/math.png",
         "link": "https://drive.google.com/file/d/1LDdOpRkhVBhyuH68sUOp5_WumkNrH-Gv/view?usp=sharing",
         "tegs": [
             "AR",
@@ -514,7 +514,7 @@ material = [
     {
         "name":  "Будова Сонячної системи. Запуск ракети",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/AR/math.png",
+        "srcImg": "img/methodical_material/ar/math.png",
         "link": "https://drive.google.com/file/d/1VqvBQfqJ0JPsUfEd34D0WPUSwjao-pI5/view?usp=sharing",
         "tegs": [
             "AR",
@@ -531,7 +531,7 @@ material = [
     {
         "name":  "3D модель Сонячної системи та 3D моделі її планет",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/AR/astr.png",
+        "srcImg": "img/methodical_material/ar/astr.png",
         "link": "https://drive.google.com/file/d/1NI_38z7YPPUGUsecTKj-gusK-rUyXcR6/view?usp=sharing",
         "tegs": [
             "AR",
@@ -548,7 +548,7 @@ material = [
     {
         "name":  "3D моделі найвідоміших мостів світу",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/AR/most.png",
+        "srcImg": "img/methodical_material/ar/most.png",
         "link": "https://drive.google.com/file/d/1tHJoTE_kptRD51PBpaWGV7wRzCEECIiH/view?usp=sharing",
         "tegs": [
             "AR",
@@ -567,7 +567,7 @@ material = [
     {
         "name":  "Доповнена реальність на уроках",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/AR/qui.png",
+        "srcImg": "img/methodical_material/ar/qui.png",
         "link": "https://drive.google.com/file/d/1sMKNXbguhwWXpzvrQAQp-1W_HMUtvUwb/view?usp=sharing",
         "tegs": [
             "AR",
