@@ -564,6 +564,42 @@ material = [
         ],
         "source": "https://play.google.com/store/apps/details?id=com.dmatsokin.bridges"
     },
+    {
+        "name":  "Доповнена реальність на уроках",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/AR/qui.png",
+        "link": "https://drive.google.com/file/d/1sMKNXbguhwWXpzvrQAQp-1W_HMUtvUwb/view?usp=sharing",
+        "tegs": [
+            "AR",
+            "англ",
+            "Інформатика",
+            "географія",
+            "НУШ",
+            "Я у світі",
+            
+
+        ],
+        "content": [
+            "Quiver. Додаток Quiver дозволяє дітям і дорослим розкрити в себе таланти художника і особисто взаємодіяти з своїми індивідуальними творіннями. Розфарбовані картинки «оживуть» прямо на екрані, з'явиться можливість грати з анімованими персонажами, розфарбованими вибраними кольорами, доторкнувшись до екрану пристроїв.  Мітки для друку можна завантажити увівши адресу https://quivervision.com/education-coloring-packs",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.puteko.colarmix&gl=UA"
+    },
+     {
+        "name":  "Заняття 1. Допоможіть!",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/spike/1.png",
+        "link": "https://drive.google.com/file/d/15XmaQIMCOxvpj6qJyZ0Z3okky0gKFpiG/view?usp=sharing",
+        "tegs": [
+            "Роботехніка",
+            "Spike",
+            "Інформатика",
+
+        ],
+        "content": [
+            "Дана модель використовує датчик кольору для визначення кольору предмета і реагування на нього. Датчик кольору здатний розрізняти відтінки кольорів.",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-invention-squad/help#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
     // {
     //     "name":  "teht",
     //     "color": "#316E99",
