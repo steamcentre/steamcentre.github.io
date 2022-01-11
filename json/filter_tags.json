@@ -20,10 +20,6 @@ filter_tags = [
         "value": "Tinkercad"
     },
     {
-        "text": "Spike",
-        "value": "Spike"
-    },
-    {
         "text": "Unity",
         "value": "Unity"
     },
@@ -39,46 +35,47 @@ filter_tags = [
         "text": "woofJS",
         "value": "woofJS",
     },
-
-
-
     {
-        "text": "Англ. мова",
-        "value": "EN",
+        "text": "Англійська",
+        "value": "Англ",
     },
     {
         "text": "Астрономія",
         "value": "Астрономія",
     },
     {
+        "text": "Біологія",
+        "value": "Біологія",
+    },
+    {
         "text": "Географія",
         "value": "Географія",
+    },
+    {
+        "text": "Історія",
+        "value": "Історія",
     },
     {
         "text": "Інформатика",
         "value": "Інформатика",
     },
     {
-        "text": "Мистецтво",
-        "value": "Art",
+        "text": "Математика",
+        "value": "Математика",
     },
     {
-        "text": "Mатематика",
-        "value": "Math",
+        "text": "Музика",
+        "value": "Музика",
     },
     {
         "text": "НУШ",
         "value": "НУШ",
     },
     {
-        "text": "Роботехніка",
-        "value": "Роботехніка",
-    },
-    {
         "text": "Я у світі",
         "value": "Я у світі",
     },
-
+    
     // {
     //     "text": "",
     //     "value": ""

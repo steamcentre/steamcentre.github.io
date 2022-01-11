@@ -466,120 +466,227 @@ material = [
     {
         "name":  "Винаходи Леонардо да Вінчі",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/ar/dv.png",
+        "srcImg": "img/methodical_material/AR/dv.png",
         "link": "https://drive.google.com/file/d/1PlhT273A-8BMN_fWxzEqLrqj5q-umgIO/view?usp=sharing",
         "tegs": [
             "AR",
-            "Art",
             "Інформатика",
-
+            "Мистецтво",
         ],
         "content": [
-            "Da Vinci Machines. Цей додаток створить доповнену реальність і перенесе вас в неймовірний світ винаходів Леонардо да Вінчі. Мітки для друку доступні у кінці документу",
+            "<b>Da Vinci Machines</b>. Цей додаток створить доповнену реальність і перенесе вас в неймовірний світ винаходів Леонардо да Вінчі. Мітки для друку доступні у кінці документу",
         ],
         "source": "https://play.google.com/store/apps/details?id=com.dmatsokin.vinci1&gl=UA"
     },
     {
         "name":  "Найвідоміші хмарочоси та будівлі світу",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/ar/11.png",
+        "srcImg": "img/methodical_material/AR/11.png",
         "link": "https://drive.google.com/file/d/1rRKU-JPsCpO1y3JRclRdxe7UkNePwWMo/view?usp=sharing",
         "tegs": [
             "AR",
-            "EN",
+            "Англ",
             "Інформатика",
 
         ],
         "content": [
-            "Skyscrapers AR. Це нова форма додатка доповненої реальності, яка пропонує користувачам залишатися поруч із відомими хмарочосами світу, ходити навколо будівлі та детально розглядати її з усіх боків, з’ясовуючи особливості архітектурного творіння.  Мітки для друку доступні у кінці документу",
+            "<b>Skyscrapers AR</b>. Це нова форма додатка доповненої реальності, яка пропонує користувачам залишатися поруч із відомими хмарочосами світу, ходити навколо будівлі та детально розглядати її з усіх боків, з’ясовуючи особливості архітектурного творіння.  Мітки для друку доступні у кінці документу",
         ],
         "source": "https://play.google.com/store/apps/details?id=com.dmatsokin.skyscrapers&gl=UA"
     },
     {
         "name":  "НУШ: Доповнена реальність на уроках математики",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/ar/math.png",
+        "srcImg": "img/methodical_material/AR/math.png",
         "link": "https://drive.google.com/file/d/1LDdOpRkhVBhyuH68sUOp5_WumkNrH-Gv/view?usp=sharing",
         "tegs": [
             "AR",
-            "Math",
+            "Математика",
             "Інформатика",
             "НУШ"
+
         ],
         "content": [
-            "Інноваційний та захоплюючий спосіб вивчення геометрії за допомогою візуалізації та взаємодії. За допомогою колекції флеш-карт можна вивчати прості геометричні фігури.   Мітки для друку доступні у кінці документу",
+            "<b>CleverBooks Geometry</b>. Інноваційний та захоплюючий спосіб вивчення геометрії за допомогою візуалізації та взаємодії. За допомогою колекції флеш-карт можна вивчати прості геометричні фігури.   Мітки для друку доступні у кінці документу",
         ],
         "source": "https://play.google.com/store/apps/details?id=ru.skyinnovations.cbgeometry&gl=UA"
     },
     {
         "name":  "Будова Сонячної системи. Запуск ракети",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/ar/math.png",
+        "srcImg": "img/methodical_material/AR/math.png",
         "link": "https://drive.google.com/file/d/1VqvBQfqJ0JPsUfEd34D0WPUSwjao-pI5/view?usp=sharing",
         "tegs": [
             "AR",
-            "Я у світі",
             "Інформатика",
-            "НУШ"
-
+            "НУШ",
+            "Я у світіт",
         ],
         "content": [
-            "CleverBooks Space. Додаток охоплює інженерні та космічні інтерактивні завдання доповненої реальності для дітей початкового рівня 7-11 років. Можливості: планети Сонячної системи, складання космічних ракет, навчальні пункти про просту механіку, функції деталей космічної ракети, вибір, космічна місія за вибором дитини. Мітки для друку доступні у кінці документу",
+            "<b>CleverBooks Space</b>. Додаток охоплює інженерні та космічні інтерактивні завдання доповненої реальності для дітей початкового рівня 7-11 років. Можливості: планети Сонячної системи, складання космічних ракет, навчальні пункти про просту механіку, функції деталей космічної ракети, вибір, космічна місія за вибором дитини. Мітки для друку доступні у кінці документу",
         ],
         "source": "https://play.google.com/store/apps/details?id=eu.cleverbooks.space&gl=UA"
     },
     {
         "name":  "3D модель Сонячної системи та 3D моделі її планет",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/ar/astr.png",
+        "srcImg": "img/methodical_material/AR/astr.png",
         "link": "https://drive.google.com/file/d/1NI_38z7YPPUGUsecTKj-gusK-rUyXcR6/view?usp=sharing",
         "tegs": [
             "AR",
             "Астрономія",
             "Інформатика",
-            
-
         ],
         "content": [
-            "AR Solar System. Мобільний додаток із технологією доповненої реальності дозволяє отримати на екрані гаджету 3D модель Сонячної системи та 3D моделі усіх планет Сонячної системи. Мітки для друку доступні у кінці документу",
+            "<b>AR Solar System</b>. Мобільний додаток із технологією доповненої реальності дозволяє отримати на екрані гаджету 3D модель Сонячної системи та 3D моделі усіх планет Сонячної системи. Мітки для друку доступні у кінці документу",
         ],
         "source": "https://play.google.com/store/apps/details?id=com.ar.solar&gl=UA"
     },
     {
         "name":  "3D моделі найвідоміших мостів світу",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/ar/most.png",
+        "srcImg": "img/methodical_material/AR/most.png",
         "link": "https://drive.google.com/file/d/1tHJoTE_kptRD51PBpaWGV7wRzCEECIiH/view?usp=sharing",
         "tegs": [
             "AR",
-            "EN",
-            "Інформатика",
+            "Англ",
             "Географія",
+            "Інформатика",
             "НУШ",
         ],
         "content": [
-            "ABridges AR. Мобільний додаток, який містить 3D моделі мостів світу. Цей додаток можна використовувати у проектній діяльності «Мости» у позашкільний час у STEAM-лабораторії, а також на уроках англійської мови, географії тощо.  Мітки для друку доступні у кінці документу",
+            "<b>ABridges AR</b>. Мобільний додаток, який містить 3D моделі мостів світу. Цей додаток можна використовувати у проектній діяльності «Мости» у позашкільний час у STEAM-лабораторії, а також на уроках англійської мови, географії тощо.  Мітки для друку доступні у кінці документу",
         ],
         "source": "https://play.google.com/store/apps/details?id=com.dmatsokin.bridges"
     },
     {
         "name":  "Доповнена реальність на уроках",
         "color": "#EA7600",
-        "srcImg": "img/methodical_material/ar/qui.png",
+        "srcImg": "img/methodical_material/AR/qui.png",
         "link": "https://drive.google.com/file/d/1sMKNXbguhwWXpzvrQAQp-1W_HMUtvUwb/view?usp=sharing",
         "tegs": [
             "AR",
-            "EN",
-            "Інформатика",
+            "Англ",
             "Географія",
+            "Інформатика",
             "НУШ",
             "Я у світі",
         ],
         "content": [
-            "Quiver. Додаток Quiver дозволяє дітям і дорослим розкрити в себе таланти художника і особисто взаємодіяти з своїми індивідуальними творіннями. Розфарбовані картинки «оживуть» прямо на екрані, з'явиться можливість грати з анімованими персонажами, розфарбованими вибраними кольорами, доторкнувшись до екрану пристроїв.  Мітки для друку можна завантажити за <a href='https://quivervision.com/education-coloring-packs' target='_blank'>посиланням</a>",
+            "Додаток <b>Quiver</b> дозволяє дітям і дорослим розкрити в себе таланти художника і особисто взаємодіяти з своїми індивідуальними творіннями. Розфарбовані картинки «оживуть» прямо на екрані, з'явиться можливість грати з анімованими персонажами, розфарбованими вибраними кольорами, доторкнувшись до екрану пристроїв.",
+            "Мітки для друку можна завантажити увівши адресу <a href='https://quivervision.com/education-coloring-packs' target='_blank'>https://quivervision.com/education-coloring-packs</a>"
         ],
         "source": "https://play.google.com/store/apps/details?id=com.puteko.colarmix&gl=UA"
     },
+    {
+        "name":  "Віртуальна реальність з YouTube:360",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/vr/vr-youtube.png",
+        "link": "https://drive.google.com/file/d/1u9o0Y82OTvqEeFfV9Sz2Xco_u1iAJgcC/view?usp=sharing",
+        "tegs": [
+            "VR",
+            "Англ",
+            "Географія",
+            "Інформатика",
+            "НУШ",
+            "Я у світі",
+        ],
+        "content": [
+            "<b>YouTube VR</b>. Це основна програма для тих, хто захоплюється 360-градусним відео, включаючи віртуальну реальність. Каталог відеороликів VR постійно зростає. Список відеозаписів може варіюватися від музики до відео дикої природи. Для використання - вам необхідно у полі пошуку, крім ключових слів, додавати додаткові слова 'vr' або '360'. Підбірка youtube-каналів з відео 360:",
+            "1. <a href='https://www.youtube.com/c/CAPTIVISION/videos' target='_blank'>www.youtube.com/c/CAPTIVISION/videos</a>",
+            "2. <a href='https://www.youtube.com/c/AirPanoVR/videos' target='_blank'>www.youtube.com/c/AirPanoVR/videos</a>"
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.vr&gl=UA"
+    },
+
+    {
+        "name":  "Будова внутрішнього вуха у VR 3D",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/vr/vr-3d.png",
+        "link": "https://drive.google.com/file/d/1iCzUs5KmiZ2cKdPXMEBo9cj8xe89TQOz/view?usp=sharing",
+        "tegs": [
+            "VR",
+            "Біологія",
+            "Інформатика",
+            "Я у світі",
+        ],
+        "content": [
+            "За допомогоюм цього додатку діти знайомляться із будовою вуха, слухового процесу, використовуючи інтерактивну 3D модель, а також дізнаються як орган слуху перетворює коливання повітря на електричні сигнали, які обробляються мозком.",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.rendernet.hearing&gl=UA"
+    },
+    {
+        "name":  "Акрополь - інтерактивне освітнє 3D-відео",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/vr/vr-3d2.png",
+        "link": "https://drive.google.com/file/d/1qNq-CioWldjuyO0HVw9pry_QitFYBBNE/view?usp=sharing",
+        "tegs": [
+            "VR",
+            "Географія",
+            "Інформатика",
+            "Історія",
+            "Я у світі",
+        ],
+        "content": [
+            "Афінський Акрополь був зведений у період правління Перікла і сьогодні є, мабуть, найвідомішою цитаделлю світу. Мандруйте знаменитими історичними місцями та познайомтеся з важливими подіями минулого за допомогою запропонованої 3D-анімацій!",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.rendernet.acropolis&gl=UA"
+    },
+    {
+        "name":  "Будова тіла людини - інтерактивне освітнє 3D-відео",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/vr/vr-3d3.png",
+        "link": "https://drive.google.com/file/d/1vq03YcVjMkGbEZQ-rpAdFqUHVrw4i3zJ/view?usp=sharing",
+        "tegs": [
+            "VR",
+            "Біологія",
+            "Інформатика",
+            "Я у світі",
+        ],
+        "content": [
+            " Навчальна 3d-анімація дає загальне уявлення про структуру та роботу найважливіших органів людського тіла.",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.rendernet.humanmale&gl=UA"
+    },
+
+    {
+        "name":  "WITHIN - підбірка цікавих VR відео для навчання",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/vr/vr-within.png",
+        "link": "https://drive.google.com/file/d/1QpmO4nu109t0Udvf40qQ5dPj3Sqhm9jD/view?usp=sharing",
+        "tegs": [
+            "VR",
+            "Астрономія",
+            "Географія",
+            "Інформатика",
+            "Музика",
+            "Я у світі",
+            "НУШ",
+        ],
+        "content": [
+            "Відкрийте для себе найкращий контент VR від найкращих у світі творців VR – все в одному додатку. Від захоплюючих історій, сюжет яких розвивається в цілком вигаданих світах, до документальних фільмів, що занурюють вас у новини глибше, ніж будь-коли раніше, Within збирає разом першосортний контент на сюжетній основі з ефектом занурення різноманітних жанрів. Перелік цікавих відео для школи: <br>- Моцарт 360: Глорія, 05:20 хв, 2019; <br>- Моцарт 360: Бенедикт, 04:35 хв, 2019;  <br>- 	Моцарт 360: Agnus Dei, 04:00 хв;  <br>- Запуск ракети з космодрому Байканур, Вихід у відкритий космос, 04:21 хв; <br> - Прогулянка з горилами, 06:03 хв; <br>  - Зміна клімату: танення льодовиків, 09:46 хв  ",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=com.shakingearthdigital.vrsecardboard&gl=UA"
+    },
+
+    {
+        "name":  "Віртуальні тури найвідомішими містами, країнами світу",
+        "color": "#EA7600",
+        "srcImg": "img/methodical_material/vr/vr-sites.png",
+        "link": "https://drive.google.com/file/d/1DGzfKJeHTkij3AUpUuYk9Nkbbwsx3YNz/view?usp=sharing",
+        "tegs": [
+            "VR",
+            "Географія",
+            "Інформатика",
+            "Я у світі",
+            "НУШ",
+        ],
+        "content": [
+            "<b>Sites in  VR</b>.Віртуальні тури визначними місцями з Туреччини, Єгипту, Саудівської Аравії, Сирії, Марокко, Кувейту, Ємену, Македонії, Голландії, Бельгії, Франції, Італії, Греції та Космосу. Вивчіть чудеса ісламської архітектури, відвідайте мечеті, гробниці, палаци султанів, музеї, корчми, лазні, замки, вежі, старовинні будинки, площі, парки, природу, релігійні об’єкти, стародавні міста, космос та інші місця з понад тисячою Панорамні зображення на 360 градусів у високій якості. Підніміться на Ейфелеву вежу, зайдіть всередину єгипетських пірамід і навіть відвідайте Марс! Ви відчуєте, ніби ви там...",
+        ],
+        "source": "https://play.google.com/store/apps/details?id=air.com.ercangigi.sitesin3d&gl=UA"
+    },
+
     {
         "name":  "Заняття 1. Допоможіть!",
         "color": "#85ff00",
@@ -589,8 +696,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 1. Загін винахідників",
@@ -607,8 +712,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 1. Загін винахідників",
@@ -625,8 +728,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 1. Загін винахідників",
@@ -643,8 +744,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 1. Загін винахідників",
@@ -661,8 +760,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 1. Загін винахідників",
@@ -679,8 +776,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 2. Запускаємо бізнес",
@@ -697,8 +792,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 2. Запускаємо бізнес",
@@ -715,8 +808,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 2. Запускаємо бізнес",
@@ -733,8 +824,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 2. Запускаємо бізнес",
@@ -751,8 +840,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 2. Запускаємо бізнес",
@@ -769,8 +856,6 @@ material = [
             "Spike",
             "Роботехніка",
             "Інформатика",
-            
-
         ],
         "content": [
             "Курс 2. Запускаємо бізнес",
@@ -778,6 +863,87 @@ material = [
         ],
         "source": "https://education.lego.com/ru-ru/lessons/prime-kickstart-a-business/automate-it#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
     },
+    {
+        "name":  "Заняття 12. Брейк-данс",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/12.png",
+        "link": "https://drive.google.com/file/d/1iUpG0xoq4xAywo-ON2qEuuJbpNwvuBGB/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+        ],
+        "content": [
+            "Курс 3. Корисні пристосування",
+            "Створення робота, який танцює брейк-данс! Він буде танцювати під музику і нагадувати, що необхідно зробити перерву і порухатись",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-life-hacks/break-dance#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 13. Робот тренер",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/13.png",
+        "link": "https://drive.google.com/file/d/1x3u7tT8rgZ5FIJ9mOOxItl12PV_wkD4W/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+        ],
+        "content": [
+            "Курс 3. Корисні пристосування",
+            "Створення робота Лео - особистого тренера. Цей особистий тренер допоможе підрахувати кількість зроблених присідань",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-life-hacks/repeat-5-times#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 14. Дощ чи сонце?",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/14.png",
+        "link": "https://drive.google.com/file/d/1ZUg3XseogHCDJhPyFWB-Hx3pFMLaDRB2/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+        ],
+        "content": [
+            "Курс 3. Корисні пристосування",
+            "Створення робота Синоптика. Давайте дізнаємось, наскільки точно він зможе передбачити погоду на сьогодні!",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-life-hacks/rain-or-shine#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 15. Швидкість вітру",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/15.png",
+        "link": "https://drive.google.com/file/d/1PJYSdw8poUK0eWerO2wCS8igd857o7r1/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+        ],
+        "content": [
+            "Курс 3. Корисні пристосування",
+            "Створення індикатора швидкості вітру за шкалою Бофорта. Цей пристрій повідоме про швидкість вітру, а також про те, чи безпечно сьогодні запускати паперового змія або квадракоптер, грати у волейбол або влаштовувати пікнік на свіжому повітрі",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-life-hacks/wind-speed#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+    {
+        "name":  "Заняття 16. Піклування про рослини",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/spike/16.png",
+        "link": "https://drive.google.com/file/d/1mO2IBNwH2h7UoOq6pzBrrAH6FcPcZDou/view?usp=sharing",
+        "tegs": [
+            "Spike",
+            "Роботехніка",
+            "Інформатика",
+        ],
+        "content": [
+            "Курс 3. Корисні пристосування",
+            "Створення індикатора рівня поливу для вирощення помідорів. Він повідомить чи потрібно сьогодні поливати помідори.",
+        ],
+        "source": "https://education.lego.com/ru-ru/lessons/prime-life-hacks/veggie-love#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
+    },
+
     // {
     //     "name":  "teht",
     //     "color": "#316E99",
