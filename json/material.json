@@ -340,11 +340,13 @@ material = [
     },
     // Unity end
 
-    // Arduino start
+    // *****************************
+    // Arduino start ***************
+    // *****************************
     {
-        "name":  "Еффект бігущої хвилі із вогників світлодіодів",
+        "name":  "№1: Еффект бігущої хвилі із вогників світлодіодів",
         "color": "#316E99",
-        "srcImg": "img/methodical_material/24.jpg",
+        "srcImg": "img/methodical_material/arduino/1.jpg",
         "link": "https://www.tinkercad.com/things/4o41hCmr4pt",
         "tegs": [
             "Arduino",
@@ -357,9 +359,9 @@ material = [
         "source": "",
     },
     {
-        "name":  "Повторення команд за допомогою циклу for",
+        "name":  "№2: Повторення команд за допомогою циклу for",
         "color": "#316E99",
-        "srcImg": "img/methodical_material/26.jpg",
+        "srcImg": "img/methodical_material/arduino/2.jpg",
         "link": "https://www.tinkercad.com/things/7SCqiBCyK1d",
         "tegs": [
             "Arduino",
@@ -372,9 +374,9 @@ material = [
         "source": "",
     },
     {
-        "name":  "Демонстрація ШІМ",
+        "name":  "№3: Демонстрація ШІМ",
         "color": "#316E99",
-        "srcImg": "img/methodical_material/25.jpg",
+        "srcImg": "img/methodical_material/arduino/3.jpg",
         "link": "https://www.tinkercad.com/things/51Qv2kk6wVj",
         "tegs": [
             "Arduino",
@@ -388,9 +390,9 @@ material = [
     },
     
     {
-        "name":  "Демонстрація роботи цифрового входу",
+        "name":  "№4: Демонстрація роботи цифрового входу",
         "color": "#316E99",
-        "srcImg": "img/methodical_material/27.jpg",
+        "srcImg": "img/methodical_material/arduino/4.jpg",
         "link": "https://www.tinkercad.com/things/aAwMx0R2OCn",
         "tegs": [
             "Arduino",
@@ -403,9 +405,9 @@ material = [
         "source": "",
     },
     {
-        "name":  "Керування рухом",
+        "name":  "№5: Керування рухом",
         "color": "#316E99",
-        "srcImg": "img/methodical_material/28.jpg",
+        "srcImg": "img/methodical_material/arduino/5.jpg",
         "link": "https://www.tinkercad.com/things/dOEjNx3Pxyb",
         "tegs": [
             "Arduino",
@@ -418,9 +420,9 @@ material = [
         "source": "",
     },
     {
-        "name":  "Тестер для одноелементних батарейок",
+        "name":  "№6: Тестер для одноелементних батарейок",
         "color": "#316E99",
-        "srcImg": "img/methodical_material/29.jpg",
+        "srcImg": "img/methodical_material/arduino/6.jpg",
         "link": "https://www.tinkercad.com/things/feoTYD0ZRb5",
         "tegs": [
             "Arduino",
@@ -433,9 +435,9 @@ material = [
         "source": "",
     },
     {
-        "name":  "Використання зумера",
+        "name":  "№7: Використання зумера",
         "color": "#316E99",
-        "srcImg": "img/methodical_material/30.jpg",
+        "srcImg": "img/methodical_material/arduino/7.jpg",
         "link": "https://www.tinkercad.com/things/bCT0jiE1ns1",
         "tegs": [
             "Arduino",
@@ -448,9 +450,9 @@ material = [
         "source": "",
     },
     {
-        "name":  "Бистрореагуючий термометр",
+        "name":  "№8: Швидкореагуючий термометр",
         "color": "#316E99",
-        "srcImg": "img/methodical_material/31.jpg",
+        "srcImg": "img/methodical_material/arduino/8.jpg",
         "link": "https://www.tinkercad.com/things/7sJ4jZG0vd0",
         "tegs": [
             "Arduino",
@@ -462,7 +464,340 @@ material = [
         ],
         "source": "",
     },
-    // AR
+    {
+        "name":  "№9: Функція для повторного виконання дій",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/9.jpg",
+        "link": "https://www.tinkercad.com/things/6LZ5I8qKjnC",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№10: Функція, що змінює число миготінь світлодіода",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/10.jpg",
+        "link": "https://www.tinkercad.com/things/logouV82TJE",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№11: Термометр, що повідомляє температуру миготінням світлодіода",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/11.jpg",
+        "link": "https://www.tinkercad.com/things/5X3k0vQxfDm",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№12: Відображення температури в моніторі порту",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/12.jpg",
+        "link": "https://www.tinkercad.com/things/4OPvLRqrwcl",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№13: Збільшення числа на два",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/13.jpg",
+        "link": "https://www.tinkercad.com/things/8NLHzsdpSih",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№14: Використання змінних типу long",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/13.jpg",
+        "link": "https://www.tinkercad.com/things/hfc9YP3G5TQ",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№15: Електронний кубик",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/15.jpg",
+        "link": "https://www.tinkercad.com/things/0MRunf0TMTP",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№16: Світлодіодний індикатор для двійкових чисел",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/16.jpg",
+        "link": "https://www.tinkercad.com/things/228C9ynO5c9",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№17: Гра «Двійкова вікторина»",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/17.jpg",
+        "link": "link",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№18: Дисплей з однією цифрою",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/18.jpg",
+        "link": "https://www.tinkercad.com/things/3IydaE47eV8",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№19: Управління двома семисегментними індикаторами",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/19.jpg",
+        "link": "https://www.tinkercad.com/things/5hN5ZHKUfEI",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№20: Цифровий термометр",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/20.jpg",
+        "link": "https://www.tinkercad.com/things/7qUCvq6U1eA",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№21: Створення світлодіодної матриці",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/21.jpg",
+        "link": "https://www.tinkercad.com/things/fgL2czIt7AD",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№22: Створення образів на світлодіодній матриці",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/22.jpg",
+        "link": "https://www.tinkercad.com/things/4yxTSHyOgpc",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№23: Відображення образу на світлодіодній матриці",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/23.jpg",
+        "link": "https://www.tinkercad.com/things/4y2sXtpq2bt",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№ 24: Анімація на світлодіодній матриці",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/24.jpg",
+        "link": "https://www.tinkercad.com/things/iyhVWAD9je6",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№25: Визначення власних символів",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/25.jpg",
+        "link": "https://www.tinkercad.com/things/6xkRmTwpkYQ",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№31: Секундомір",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/31.jpg",
+        "link": "https://www.tinkercad.com/things/96r4DnOJfZW",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№ 32: Використання преривання",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/32.jpg",
+        "link": "https://www.tinkercad.com/things/ehwqAIbTIEa",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "№38: Аналоговий термометр",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/38.jpg",
+        "link": "https://www.tinkercad.com/things/3Yg0m5JIx80",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+    {
+        "name":  "39: Управління електродвигуном",
+        "color": "#316E99",
+        "srcImg": "img/methodical_material/arduino/39.jpg",
+        "link": "https://www.tinkercad.com/things/bohTkG3bxYq",
+        "tegs": [
+            "Arduino",
+            "Tinkercad",
+            "Інформатика",
+        ],
+        "content": [
+            "",
+        ],
+        "source": "",
+    },
+        
+    // {
+    //     "name":  "text",
+    //     "color": "#316E99",
+    //     "srcImg": "img/methodical_material/arduino/0.jpg",
+    //     "link": "link",
+    //     "tegs": [
+    //         "Arduino",
+    //         "Tinkercad",
+    //         "Інформатика",
+    //     ],
+    //     "content": [
+    //         "",
+    //     ],
+    //     "source": "",
+    // },
+    // ************************** //
+    // AR *********************** //
+    // ************************** //
     {
         "name":  "Винаходи Леонардо да Вінчі",
         "color": "#EA7600",
@@ -694,7 +1029,7 @@ material = [
         "link": "https://drive.google.com/file/d/15XmaQIMCOxvpj6qJyZ0Z3okky0gKFpiG/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -710,7 +1045,7 @@ material = [
         "link": "https://drive.google.com/file/d/1t8PUjD2Emms9tt-S2kynRb0BaN6K-eE4/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -726,7 +1061,7 @@ material = [
         "link": "https://drive.google.com/file/d/1lPCFVGxSj4Gfscv7gHT1hy6ORsT46c7-/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -742,7 +1077,7 @@ material = [
         "link": "https://drive.google.com/file/d/1YglR0SfB6xCDRlC8BesyFUHAgTG4wQL2/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -758,7 +1093,7 @@ material = [
         "link": "https://drive.google.com/file/d/1xBujvKDYYjwgJTRjBcLXBb_3r2Dr3k8O/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -774,7 +1109,7 @@ material = [
         "link": "https://drive.google.com/file/d/1iLOZHZNW82K_gJyX81ONkDdfl2B9i5om/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -790,7 +1125,7 @@ material = [
         "link": "https://drive.google.com/file/d/1hbsOHeDvzhyyFJ8ANIis5VQQKiR9vLSw/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -806,7 +1141,7 @@ material = [
         "link": "https://drive.google.com/file/d/1w5_5cy65dhl9VT4fIMdFUV7RGg8gne01/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -822,7 +1157,7 @@ material = [
         "link": "https://drive.google.com/file/d/1e-55-M29ZU4qqkR7S5olq0zma2HbM8kX/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -838,7 +1173,7 @@ material = [
         "link": "https://drive.google.com/file/d/1LsXeGOaCZIfTtLCGmhx_dvZLLsPtzyxi/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -854,7 +1189,7 @@ material = [
         "link": "https://drive.google.com/file/d/1oV0gZ-YUQpPFrCtT4xohwn663zsPzAoM/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -870,7 +1205,7 @@ material = [
         "link": "https://drive.google.com/file/d/1iUpG0xoq4xAywo-ON2qEuuJbpNwvuBGB/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -886,7 +1221,7 @@ material = [
         "link": "https://drive.google.com/file/d/1x3u7tT8rgZ5FIJ9mOOxItl12PV_wkD4W/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -902,7 +1237,7 @@ material = [
         "link": "https://drive.google.com/file/d/1ZUg3XseogHCDJhPyFWB-Hx3pFMLaDRB2/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -918,7 +1253,7 @@ material = [
         "link": "https://drive.google.com/file/d/1PJYSdw8poUK0eWerO2wCS8igd857o7r1/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -934,7 +1269,7 @@ material = [
         "link": "https://drive.google.com/file/d/1mO2IBNwH2h7UoOq6pzBrrAH6FcPcZDou/view?usp=sharing",
         "tegs": [
             "Spike",
-            "Роботехніка",
+            "Робототехніка",
             "Інформатика",
         ],
         "content": [
@@ -944,366 +1279,56 @@ material = [
         "source": "https://education.lego.com/ru-ru/lessons/prime-life-hacks/veggie-love#%D0%BF%D0%BB%D0%B0%D0%BD-%D1%83%D1%80%D0%BE%D0%BA%D0%B0"
     },
 
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/32.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "teht",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/1.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
-    // {
-    //     "name":  "",
-    //     "color": "#316E99",
-    //     "srcImg": "img/methodical_material/.jpg",
-    //     "link": "",
-    //     "tegs": [
-    //         "Arduino",
-    //         "Tinkercad",
-    //         "Інформатика",
-    //     ],
-    //     "content": [
-    //         "",
-    //     ],
-    //     "source": "",
-    // },
+    // end SPIKE
 
-    // Arduino end
+    // ***********
+    // stert OTHER
+    // ***********
+    {
+        "name":  "Chrome Music Lab",
+        "color": "#F19200",
+        "srcImg": "img/methodical_material/other/1.png",
+        "link": "https://musiclab.chromeexperiments.com/",
+        "tegs": [
+            "Інформатика",
+            "Музика",
+        ],
+        "content": [
+            "Це веб-сайт, який робить вивчення музики доступнішим за допомогою веселих практичних експериментів.",
+            "Багато вчителів використовують Chrome Music Lab як інструмент у своїх класах для вивчення музики та її зв’язків із природознавством , математикою , мистецтвом тощо. Вони поєднували це з танцями та живими інструментами.",
+            "Ви можете використовувати його для створення власних пісень. Створювати акаунт не потрібно",
+            "Ви можете працювати з цими експериментами на різних пристроях – телефонах, планшетах, ноутбуках – просто відкриваючи сайт у веб-переглядачі, наприклад Chrome.",
+        ],
+    },
+    {
+        "name":  "Songsmith",
+        "color": "#85ff00",
+        "srcImg": "img/methodical_material/other/2.gif",
+        "link": "https://education.microsoft.com/en-us/resource/3f31e641",
+        "tegs": [
+            "Інформатика",
+            "Музика",
+        ],
+        "content": [
+            "Це чудовий спосіб заохотити учнів до творчості: багато музичних педагогів знають, що іноді просто допомогти дітям «знайти свою іскру» — це найважча частина стимулювання музичної творчості.",
+            "Крім того, Songsmith може допомогти вам вивчити музичні поняття, які іноді є складними, зокрема, як акорди використовуються в поп-музиці та як мелодії та акорди поєднуються між собою. Використання таких інструментів, як Songsmith, для вивчення цих понять може допомогти поєднати те, що учні вивчають на уроці музики, з музикою, яку вони слухають вдома, незалежно від того, чи навчаються вони в третьому класі чи в старшій школі.",
+            "Навіть поза музичними заняттями Songsmith – це чудовий спосіб заохочувати творчі підходи до навчання."
+        ],
+    },
+
 
     // {
-    //     "name":  "",
-    //     "color": "#212B35",
-    //     "srcImg": "img/methodical_material/6.png",
-    //     "link": "",
+    //     "name":  "text",
+    //     "color": "#85ff00",
+    //     "srcImg": "img/methodical_material/",
+    //     "link": "link",
     //     "tegs": [
-    //         "Unity",
     //         "Інформатика",
     //     ],
     //     "content": [
-    //         "",
+    //         "text",
     //     ],
-    //     "source": "",
+    //     "source": "link"
     // },
+    
 ]

@@ -36,6 +36,14 @@ filter_tags = [
         "value": "woofJS",
     },
     {
+        "text": "Робототехніка",
+        "value": "Робототехніка"
+    },
+    {
+        "text": "Spike",
+        "value": "Spike"
+    },
+    {
         "text": "Англійська",
         "value": "Англ",
     },
